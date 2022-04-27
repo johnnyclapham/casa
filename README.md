@@ -4,7 +4,7 @@ CASA is an end-to-end pipeline for comparing Android static analysis tools. This
 
 # Running CASA
 
-python2 casa.py -1 -1 -1
+python2 casa.py -cg 0 -qk 0 -fd 0
 
 # Running Individual Tools
 
@@ -17,6 +17,7 @@ Requires Java 8 JDK installation
 NOTE: Ensure that $JAVA_HOME $ANDROID_HOME are set! CryptoGuard will not run unless config is proper.
 
 Usage:
+
 `java -jar src/cryptoguard/cryptoguard.jar -in apk -s apks/air.pokemonquiz.apk`
 
 [//]: # (`java -jar cryptoguard.jar -in apk -s ../../apks/air.pokemonquiz.apk -java /Users/Johnny/Library/Java/JavaVirtualMachines/corretto-1.8.0_332/Contents/Home`)

@@ -3,7 +3,7 @@ INFO - Identified Android SDK installation from a previous run.
 INFO - Initializing QARK
 
 INFO - Unpacking /Users/Johnny/Desktop/casa/apks/air.pokemonquiz.apk
-INFO - Zipfile: <zipfile.ZipFile object at 0x1032537d0>
+INFO - Zipfile: <zipfile.ZipFile object at 0x10438d7d0>
 INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/
 INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/air.pokemonquiz
 INFO - AndroidManifest.xml found
