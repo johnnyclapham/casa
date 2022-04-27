@@ -2,10 +2,10 @@ INFO - Initializing...
 INFO - Identified Android SDK installation from a previous run.
 INFO - Initializing QARK
 
-INFO - Unpacking /Users/Johnny/Desktop/project/apks/air.pokemonquiz.apk
-INFO - Zipfile: <zipfile.ZipFile object at 0x1088e8fd0>
-INFO - Extracted APK to /Users/Johnny/Desktop/project/apks/air.pokemonquiz/
-INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/project/apks/air.pokemonquiz
+INFO - Unpacking /Users/Johnny/Desktop/casa/apks/air.pokemonquiz.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x1032537d0>
+INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/
+INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/air.pokemonquiz
 INFO - AndroidManifest.xml found
 INFO - <?xml version="1.0" ?><manifest android:versionCode="1002000" android:versionName="1.2.0" package="air.pokemonquiz" xmlns:android="http://schemas.android.com/apk/res/android">
 <application android:hardwareAccelerated="false" android:icon="@7F020000" android:label="@7F040000">
@@ -56,13 +56,13 @@ INFO - Checking receivers
 INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
 INFO - Trying to improve accuracy of the decompiled files
 INFO - Restored 4 file(s) out of 5 corrupt file(s)
-INFO - Decompiled code found at:/Users/Johnny/Desktop/project/apks/air.pokemonquiz/
+INFO - Decompiled code found at:/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/
 INFO - Finding all java files
 INFO - Running Static Code Analysis...
 INFO - Looking for private key files in project
 INFO - This class is exported from a manifest item: AppEntry
 ERROR - Unable to create tree for parsing
-ERROR - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/air/pokemonquiz/AppEntry.java could not be parsed properly, which will negatively impact results
+ERROR - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/air/pokemonquiz/AppEntry.java could not be parsed properly, which will negatively impact results
 ISSUES - CRYPTO ISSUES
 INFO -  No issues to report
 ISSUES - BROADCAST ISSUES
@@ -75,18 +75,18 @@ ISSUES - FILE PERMISSION ISSUES
 INFO -  No issues to report
 ISSUES - WEB-VIEW ISSUES
 INFO - FOUND 10 WEBVIEWS:
-INFO - ['AdWebView d', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/AdVideoView.java']
-INFO - ['WebView b', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
-INFO - ['WebView c', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
-INFO - ['WebView d', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
-INFO - ['adWebView', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java']
-INFO - ['f', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java']
-INFO - ['h', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java']
-INFO - ['i', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
-INFO - ['localAdWebView', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java']
-INFO - ['localAdWebView', '/Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/ac.java']
+INFO - ['AdWebView d', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/AdVideoView.java']
+INFO - ['WebView b', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
+INFO - ['WebView c', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
+INFO - ['WebView d', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
+INFO - ['adWebView', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java']
+INFO - ['f', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java']
+INFO - ['h', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java']
+INFO - ['i', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
+INFO - ['localAdWebView', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java']
+INFO - ['localAdWebView', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/ac.java']
 INFO - WebView: AdWebView d
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/AdVideoView.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/AdVideoView.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -100,7 +100,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: WebView b
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -114,7 +114,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: WebView c
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -128,7 +128,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: WebView d
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -142,7 +142,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: adWebView
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -156,7 +156,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: f
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -170,7 +170,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: h
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -184,7 +184,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: i
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -198,7 +198,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: localAdWebView
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -212,7 +212,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: localAdWebView
-INFO - File: /Users/Johnny/Desktop/project/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/ac.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/ac.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
