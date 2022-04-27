@@ -1,0 +1,16 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+  <id>so.cuo.ane.Admob</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>admob.jar</nativeLibrary>
+				<initializer>so.cuo.anes.admob.AdMobExtension</initializer>
+				<finalizer>so.cuo.anes.admob.AdMobExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+<platform name="default"> 
+            <applicationDeployment/> 
+        </platform>
+  </platforms>
+</extension>
