@@ -1,0 +1,1144 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 2.3.3
+
+Name: res/drawable/window.png
+SHA1-Digest: CrQpWjDOm4tbrSwJcJSFk5DYt4Y=
+
+Name: res/layout-port/upb6loaddim.xml
+SHA1-Digest: n0mOnvH4dVrza79r5Bm5is8I0RM=
+
+Name: res/drawable/graph_24_hours.png
+SHA1-Digest: +NtS/DGu3/5UEfJwr4znsczSBI4=
+
+Name: res/drawable/video_off.png
+SHA1-Digest: QybP5xxffGobbnVBvSx0IK2XF/U=
+
+Name: res/drawable/motion_sensor_on.png
+SHA1-Digest: Sy2goMpig3R27zYp49dYejH/+kY=
+
+Name: res/layout-port/zs24load.xml
+SHA1-Digest: 7eh06ftzVjtSFqQ0px/jd3W2YwI=
+
+Name: res/drawable/spinner_black_48.png
+SHA1-Digest: Y704XXv2lE9/4oQsw9pBCSCwDDo=
+
+Name: res/layout-port-v17/upb7.xml
+SHA1-Digest: 9HHC0PlZ2HhFatSY0EcTx8sBPng=
+
+Name: res/layout-land/zs23load.xml
+SHA1-Digest: /YnpCkm6KX+6DFv/7Lc/qZl9Eq4=
+
+Name: res/drawable/bookshelf_lights_off.png
+SHA1-Digest: 6uMKKR7PXvTGb0MsNvdPR5X3Tgw=
+
+Name: res/drawable/room_office.png
+SHA1-Digest: sXvsH9vO+BDcz6BRoEDxv3yA0do=
+
+Name: res/drawable/hcaglove2.png
+SHA1-Digest: sKvlt4tEQQFU8AlNJEMnAblw3+M=
+
+Name: res/layout-land/upb6.xml
+SHA1-Digest: dE8wnrfTSTN4aHs4NnD/gKqSiu0=
+
+Name: res/layout-port/programstartstop.xml
+SHA1-Digest: 1PSzsVxKteskzxYjXsDaP9wP7OA=
+
+Name: res/drawable/utilities_icon.png
+SHA1-Digest: wOoq5l0HNOYhlx667yjU091JsxY=
+
+Name: res/layout-land/keypad2.xml
+SHA1-Digest: n45aFheDAYV80giP2zexs+Dt5EY=
+
+Name: res/menu/objectsmenu.xml
+SHA1-Digest: wzym1+I+dM8SQeuBwJIofFf9ioc=
+
+Name: res/drawable/relay_a_on.png
+SHA1-Digest: ZZqE2Gl9dAQuH8aKAw9aR2H3yNA=
+
+Name: res/layout-land/zs25loaddim.xml
+SHA1-Digest: u0cgMvDLaYur+nZWiNWZI5PHiXc=
+
+Name: res/layout-land/zs26.xml
+SHA1-Digest: iPNnG6avTfcZGVIX/eyOnj4IWxc=
+
+Name: res/drawable/audio_video_on.png
+SHA1-Digest: rkY02lN6RkFlriGQBSNjzXmcOtk=
+
+Name: res/drawable/recessed_light_off.png
+SHA1-Digest: Kc+xT+jk3CdgMtJ7jKxJLnH+i5g=
+
+Name: res/layout-land/zs24xloaddim.xml
+SHA1-Digest: hWOpYS88roAw0WY4PRy5LgzCeoU=
+
+Name: res/drawable/room_window.png
+SHA1-Digest: 4cFt74VxbJPd84K9cGJMXGcaZWc=
+
+Name: res/layout-land/programonoff.xml
+SHA1-Digest: URG0ULN09U0BOrujzv9xP6SVbcE=
+
+Name: res/drawable/utility.png
+SHA1-Digest: 3SuYG6pjzTflR6Sv0Lz6J+pQMnE=
+
+Name: res/layout-port-v17/upb7load.xml
+SHA1-Digest: JsN96TnIsN4fgVa5KXQz1RHjJ9M=
+
+Name: res/layout-port/zs11.xml
+SHA1-Digest: gP0QsrnabW3rV+3Qszo18x5PUbk=
+
+Name: res/drawable/ceiling_light_off.png
+SHA1-Digest: 6ZKwxpYPlsbHvNwNMHgYbyxO/Bw=
+
+Name: res/drawable/fountain_off.png
+SHA1-Digest: SNvUrNSv+YETurPDfv7voAAYlog=
+
+Name: res/layout-land-v17/upb7a.xml
+SHA1-Digest: ps4PsIkmy7xLkm6QUMaMZ2ExHPM=
+
+Name: res/drawable/office.png
+SHA1-Digest: 0UNhxwaC4NZpAk1LIhWDg7QgZ1Q=
+
+Name: res/drawable/shade_a_on.png
+SHA1-Digest: RqoywWcxtdlKjRACD3QPwWaIrFE=
+
+Name: res/drawable/door_a_on.png
+SHA1-Digest: vJMHZ55Vf9XIiLezR+R5m3rCBMU=
+
+Name: res/layout-land/upb6loaddim.xml
+SHA1-Digest: rn3+53aVXizTbo4a5AAv+1iEwf4=
+
+Name: res/drawable/heater_on.png
+SHA1-Digest: GdtULyUkCqg9g3LyPQQplwl5G1I=
+
+Name: res/drawable/graph_7_days.png
+SHA1-Digest: B4338eAkUan6MQW6PpU/DtJaHG8=
+
+Name: res/layout-port/zs25loaddim.xml
+SHA1-Digest: 8cR4N2p1Q3orzYjbHbMICgWLn9s=
+
+Name: res/layout-port/zs23.xml
+SHA1-Digest: jvConQ9v430eJACgB2JpLt0kXaE=
+
+Name: res/anim/screenrightfadeout.xml
+SHA1-Digest: Y6EBN1CjIYmoZPnREhEcRPV4X3o=
+
+Name: res/drawable/bookshelf_lights_on.png
+SHA1-Digest: wToIfrLwTjT8/u7nJ8TIzycnr+c=
+
+Name: resources.arsc
+SHA1-Digest: ex561zN+CO2XujGyWf5J3btQG/k=
+
+Name: res/drawable/flag_red.png
+SHA1-Digest: zyUBEQ0YwAPJxabHJ56k8BeOxYE=
+
+Name: res/drawable/group2_off.png
+SHA1-Digest: SK42Dx9jDI69JgqaVE50teyr5uM=
+
+Name: res/drawable/led_bulb_on.png
+SHA1-Digest: clTtlIcoguX4A0oCMoqp14/VGig=
+
+Name: res/layout-land/upb7loaddim.xml
+SHA1-Digest: Cqe+qEFSjcuNqv+Fo+9m6tvZQNM=
+
+Name: res/layout-land/zs11.xml
+SHA1-Digest: 1nqwd4yuNms79QKk22aMdhEV/WU=
+
+Name: res/drawable/meter.png
+SHA1-Digest: T1U/i1VoAPmIesqfBcG6v7x2dsk=
+
+Name: res/drawable/graph_current.png
+SHA1-Digest: poo9ld65iD8bRP4Lbo07eauz/4c=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 1jzkCYceyOBqy7vzku4gszN+85c=
+
+Name: res/anim/timeoutspinner.xml
+SHA1-Digest: qStD4gGZWO63c09W1qBZaEj7RPs=
+
+Name: res/layout-port/grid_1.xml
+SHA1-Digest: avRsV1yBQwuzcT/JAabcDuAaKhA=
+
+Name: res/layout-land/onoff.xml
+SHA1-Digest: rwTJ4/C/CEhAYywreXkwOl9S2gw=
+
+Name: res/layout-port/zs12load.xml
+SHA1-Digest: eiE4ua6MjYEe71bEr/hQv61MZlM=
+
+Name: res/drawable/room_library.png
+SHA1-Digest: R7dHSlxB6UBgG5jCuuqeCPK/RLQ=
+
+Name: res/layout-land/zs23.xml
+SHA1-Digest: RB480tlvUpNh3ILd809noIssfw8=
+
+Name: res/layout-port/keypad1.xml
+SHA1-Digest: fTdQ0HcNWH8vOICDBULQp5l60vM=
+
+Name: res/drawable/dining.png
+SHA1-Digest: Mh0xxb2moYbAsuvJHlTPr8QfwP0=
+
+Name: res/drawable/relay_b_off.png
+SHA1-Digest: 3nXsG8QSnCDqxo5mY1Neyd33cT4=
+
+Name: res/drawable/appliance_on.png
+SHA1-Digest: XpyRrtODKboNLzA0GWZ07zSFEcE=
+
+Name: res/drawable/program2_on.png
+SHA1-Digest: NN0G+Wu5QjmeNzxe5EfPeQQYsQY=
+
+Name: res/drawable/graph_14_days.png
+SHA1-Digest: Z1C/N3LTXNrz8Ou+bEQR45h3Sy4=
+
+Name: res/layout-port/upb7load.xml
+SHA1-Digest: +s5+GPP8dXO0uYLRr1hYZyTVFQA=
+
+Name: res/drawable/keypadupb7_off.png
+SHA1-Digest: v9i3IPE24gGqOphUZFrVui5P1EE=
+
+Name: res/drawable/counter_lights_on.png
+SHA1-Digest: 5NbEfVT2/Es2pvMVHRwcrFkZlHI=
+
+Name: res/drawable/camera.png
+SHA1-Digest: JqYxs4rcWbSERPoII+gSBUuxE2Y=
+
+Name: res/drawable/outside_wall_light_off.png
+SHA1-Digest: WJNm2wVaMmfIN/KLnJTTVwUKsiE=
+
+Name: res/drawable/garage_door_a_on.png
+SHA1-Digest: b/aB3JIIf7unyvZUJgy55xSXPtk=
+
+Name: res/drawable/pool_filter_on.png
+SHA1-Digest: 98Phft93AFpKXtPsfYIPbhn59vQ=
+
+Name: res/drawable/keypadupb6_on.png
+SHA1-Digest: 4yqnwHWbqj5AaACRnw5pUahYquY=
+
+Name: res/layout-port/upb7.xml
+SHA1-Digest: PpmrbMKxiuc9Djg/xImxP//ETYQ=
+
+Name: res/drawable/outside_wall_light_on.png
+SHA1-Digest: 76uAHDrzA6EMxibaL4Av3wRQc78=
+
+Name: res/layout-land/thermostatthcmf.xml
+SHA1-Digest: mlmzmkjqGTEU14JxviE4OM+l5Q4=
+
+Name: res/drawable/outside_flood_light_on.png
+SHA1-Digest: udzOew7zCr1XLok8hX/PozbDbms=
+
+Name: res/drawable/room_garage.png
+SHA1-Digest: IsJ3hvrju5oOO2tEpA5jLUd7qoE=
+
+Name: res/drawable/track_lights_on.png
+SHA1-Digest: vzlY224BKE0jndAh08PnEk+PXx0=
+
+Name: res/drawable/door_a_off.png
+SHA1-Digest: qzUzetVzmbbf+eSy3sDJYKU+sbM=
+
+Name: res/drawable/room_unoccupied_on.png
+SHA1-Digest: hBWvgqQjFoIZK5XqXD9xJyb/Xuo=
+
+Name: res/drawable/humidifier_on.png
+SHA1-Digest: Ukyhy74gJw6hQXCq8bpMRZNvqUQ=
+
+Name: res/drawable/sprinkler_on.png
+SHA1-Digest: S1+X7H2XOtEpJOf7IFtAvcO4OVM=
+
+Name: res/drawable/room_bedroom.png
+SHA1-Digest: 0mz6hBNk4OVqFTrItW+sRWPeSl8=
+
+Name: res/drawable/door_on.png
+SHA1-Digest: qzUzetVzmbbf+eSy3sDJYKU+sbM=
+
+Name: res/layout-port/keypad5.xml
+SHA1-Digest: NjwT+K4MPEpRQCW1TKQMJzxOM/U=
+
+Name: res/layout-land/thermostatthmf.xml
+SHA1-Digest: EBwy2ntPZkn1VRJLZQvAOXMCSeU=
+
+Name: res/layout-port-v17/upb7a.xml
+SHA1-Digest: oLVAafhYfwhLEyEDTrjrggaWz3w=
+
+Name: res/layout-land-v17/upb7aload.xml
+SHA1-Digest: bgMFJfghl9yNqz+1r8EZ2zVvvc8=
+
+Name: res/drawable/keypad4_on.png
+SHA1-Digest: QlilI+ofqrOkZQ6v4giwKEfn3og=
+
+Name: res/drawable/room_program.png
+SHA1-Digest: fJtlKiE1QHJaNkew4HN6LRZBPy8=
+
+Name: res/layout-port/thermostatt.xml
+SHA1-Digest: d76TuJMCkB3dURajOViRpXBIZUc=
+
+Name: res/drawable/hanging_light_off.png
+SHA1-Digest: +Dic8pdrLfrm8+9Vlg/3KmiM3Bo=
+
+Name: res/layout-port/zs26.xml
+SHA1-Digest: KSfx9bJIMBCu/Wp35CpXFZUyNXA=
+
+Name: res/drawable/keypad8_on.png
+SHA1-Digest: K1DSG5ja0UT5V1LWruPNGcRZrBw=
+
+Name: res/menu/objectdisplaymenu.xml
+SHA1-Digest: HrHMmE+SwC5kDDFn+Tw+yIjj7RE=
+
+Name: res/layout/objectmain.xml
+SHA1-Digest: PniUHnke6LFKgJj5uwe7elDfidg=
+
+Name: res/layout-land/zs28load.xml
+SHA1-Digest: 7ZV79aNJnX/OyiQnWWFpilAicCc=
+
+Name: res/drawable/room_stairway.png
+SHA1-Digest: X1tSIKCXByaMoCMDDNVik7NfVmA=
+
+Name: res/layout-land/zs12load.xml
+SHA1-Digest: YXCkgdIZezlBA7ZFbrncOSaJPpc=
+
+Name: res/layout/missing.xml
+SHA1-Digest: WCsQQJnnssgtpNoP5xaE2kpg9FU=
+
+Name: res/drawable/house_type.png
+SHA1-Digest: pDnfENcYHthqLcwhhCUW4ZMJdf0=
+
+Name: res/drawable/heater_off.png
+SHA1-Digest: HXfP8zf/6iwfT4mYLpq/6iHcfts=
+
+Name: res/layout-port/irdevice.xml
+SHA1-Digest: kqJH0tystw87nDWDOXtiaFCR6jc=
+
+Name: res/layout-port/onoffdim.xml
+SHA1-Digest: mIRhY9lYNNSrRyLv48lHNu1T90w=
+
+Name: res/drawable/lock_on.png
+SHA1-Digest: AsmJgQHMmnO40uLJcLMiZCtpSB0=
+
+Name: res/drawable/room_video.png
+SHA1-Digest: kqdvmBZ0tF4XmeHGR4TTWtsLHvo=
+
+Name: res/layout-land/keypad3.xml
+SHA1-Digest: UwteHnGsURyjlY4TDJPhFmV2e/8=
+
+Name: res/drawable/holiday_lights_off.png
+SHA1-Digest: 4iDHPrdue08+GHwfuNixqQMQLhw=
+
+Name: res/drawable/globe_light_off.png
+SHA1-Digest: dv9/6VsTcbka2e6NpnCoV0/71vY=
+
+Name: res/layout/foldercell.xml
+SHA1-Digest: 9OH81fGuFuEFyGit82s+Dlxp8k8=
+
+Name: res/layout/thermostatv13.xml
+SHA1-Digest: ufSFkRTNnnvCkfjcBytxIh9whPs=
+
+Name: res/layout-land/upb8loaddim.xml
+SHA1-Digest: TxxdmkJHjwuxFCCsbAnlKd8QU/M=
+
+Name: res/layout-land/zs24loaddim.xml
+SHA1-Digest: /fgieKC9HyzzJVh1LQjseLQJJrI=
+
+Name: res/layout-port/upb6load.xml
+SHA1-Digest: xJ7YDwf2M25bnqhLbt9PXQd++Hc=
+
+Name: res/drawable/table_lamp_on.png
+SHA1-Digest: +Vh+6VULTCXdNF0lmZvBEaeycGQ=
+
+Name: res/drawable/light_bulb_on.png
+SHA1-Digest: XB7EKdpR7HBVgi4m6Amg/nVBsSw=
+
+Name: res/layout-land/programonoffstop.xml
+SHA1-Digest: 19CoW65pZWjndmL7su3MV7k+n0Y=
+
+Name: res/layout-port-v17/upb7loaddim.xml
+SHA1-Digest: P5dQFXZgJGY6+NnYxSaAlmnR2kw=
+
+Name: res/drawable/graph_12_hours.png
+SHA1-Digest: wFzgSKsnuSB6xeTkHa+kBoAceQ8=
+
+Name: res/drawable/air_conditioner_on.png
+SHA1-Digest: PYWUVmLlDQrzetxsVN9KwNndB+k=
+
+Name: res/drawable/room_energy.png
+SHA1-Digest: pFJYiZACq78ycvOLRsxg0Wb8doM=
+
+Name: res/layout-land/zs11loaddim.xml
+SHA1-Digest: 2iS05pan22fr1s65ODMwT8QPPts=
+
+Name: res/drawable/garage_door_off.png
+SHA1-Digest: b/aB3JIIf7unyvZUJgy55xSXPtk=
+
+Name: res/drawable/coffee_pot_off.png
+SHA1-Digest: 0yL2Y+uU2Jb5/LgOnHHXW+14UvM=
+
+Name: res/drawable/shade_off.png
+SHA1-Digest: RqoywWcxtdlKjRACD3QPwWaIrFE=
+
+Name: res/drawable/clock_on.png
+SHA1-Digest: JDTDRPKmqCa70WI4j1FsfR5LzUw=
+
+Name: res/drawable/audio_off.png
+SHA1-Digest: xELbR21944ID6QkN4cQTINAgZ6g=
+
+Name: res/drawable/lock_a_on.png
+SHA1-Digest: k5XeLb5jBWZ5/d40mLx/VQ1ZaW4=
+
+Name: res/drawable/program1_off.png
+SHA1-Digest: m0IIr8jZZfg+TELtRlClni52Vf8=
+
+Name: res/drawable/closet_lights_off.png
+SHA1-Digest: JwQjbiXgK76C4WuFZBGbTQo6n9Y=
+
+Name: res/layout-port-v17/upb7aload.xml
+SHA1-Digest: rI2g8Rf5UOcs8yS9/1HLfM4/FDo=
+
+Name: res/drawable/hallway.png
+SHA1-Digest: z61kOruJA7edfuxyymOWpSVWRqk=
+
+Name: res/layout-port/zs24.xml
+SHA1-Digest: AhDhE1TnvwRU20GTaJ1LieRD/mA=
+
+Name: res/drawable/menu_home.png
+SHA1-Digest: 8sRHb0sm8gN6Ndb5F/R5AXZFgUs=
+
+Name: res/layout-land/zs25.xml
+SHA1-Digest: VtFt6j8Gjx1AmybWHlgZepdi08c=
+
+Name: res/drawable/rocker.9.png
+SHA1-Digest: LzLuqLZcYQSlXrkVQ2yDQI2ObC4=
+
+Name: res/layout-port/kl6.xml
+SHA1-Digest: xJ7YDwf2M25bnqhLbt9PXQd++Hc=
+
+Name: res/drawable/entry.png
+SHA1-Digest: A/QCHNboyl/PM9YwpxbFxfUfi4Y=
+
+Name: res/drawable/ceiling_light_on.png
+SHA1-Digest: dJHV37gZG1KEZvmSPoPC2WUy6+o=
+
+Name: res/layout-port/keypad8s.xml
+SHA1-Digest: drS+PK5S1XxGwl8BfjXvq0Qt9+4=
+
+Name: res/drawable/audio_video_off.png
+SHA1-Digest: Al9kkriCwFG0JpfUN6O87/H8gvc=
+
+Name: res/drawable/graph.png
+SHA1-Digest: oAVmJpgD1NcBX+PgEnqxkD90kTU=
+
+Name: res/drawable/group1_on.png
+SHA1-Digest: 7LhBX02aEunkLglzuO01fVeL9UY=
+
+Name: res/drawable/graph_year.png
+SHA1-Digest: KxBewdDCbYm/RbqohG34HWK9UWs=
+
+Name: res/layout-land/programstartstop.xml
+SHA1-Digest: K+GCS71BzCGfXlZ5VnqL9CIl8hE=
+
+Name: res/layout-land/zs26load.xml
+SHA1-Digest: zXZRI53riFeahb+KyD4d7Cu9l8I=
+
+Name: res/layout-port/zs25load.xml
+SHA1-Digest: Bsi125rTjPhb7HZwnDPRT0dIg0U=
+
+Name: res/layout-land/zs11load.xml
+SHA1-Digest: 13TDth5erur/cneEENFnRLetb04=
+
+Name: res/layout-port/thermostat.xml
+SHA1-Digest: CdbdgETbRPWo9KUKZqj+5MbV/Kk=
+
+Name: res/layout-port/upb7a.xml
+SHA1-Digest: 3/cnV1cfMNglFi7Imolhh6CiqkY=
+
+Name: res/drawable/keypadhca.png
+SHA1-Digest: 0UxZur8qKT19Nq1XEPHLnv34mWM=
+
+Name: res/drawable/room_sprinkler.png
+SHA1-Digest: m37jyPd8TozxFjNtfFLFD/OhOGo=
+
+Name: res/layout/fanselect.xml
+SHA1-Digest: s+yIYoVnqxGKXmvPAZu2PLjEdqA=
+
+Name: res/layout-land-v17/upb7.xml
+SHA1-Digest: orQKlsLU/MftPJGnTQgBFjFGhvo=
+
+Name: res/layout-land/zs26loaddim.xml
+SHA1-Digest: kl4GsU+Sw9xxPDSIc5jsLauhGPA=
+
+Name: res/layout-port/thermostatthmf.xml
+SHA1-Digest: Ghzq7KoB37zmRkTA6MelmIqkJ9s=
+
+Name: res/drawable/program.png
+SHA1-Digest: TdMvrbe5qDzsBpKwkCS7m8FTMSo=
+
+Name: res/drawable/keypad8_off.png
+SHA1-Digest: s6Ep5PGck0dH9eLIJsF/SRUQVFA=
+
+Name: res/drawable/graph_30_days.png
+SHA1-Digest: ZbekcBfDLum56pRg4Lnul5AsQ0E=
+
+Name: res/drawable/humidifier_off.png
+SHA1-Digest: dph8U149ffPY8VJZ+CdHx8WpouY=
+
+Name: res/drawable/window_on.png
+SHA1-Digest: msqhK/Ie2EhYoOJATRMpzSkKCLU=
+
+Name: res/layout-port/upb7loaddim.xml
+SHA1-Digest: MQPj/aLsxbrkeF2AM6OgehaOWbU=
+
+Name: res/layout-port/folderobject.xml
+SHA1-Digest: 8fhw+H1aUsz/xC6nLgT+VFd5eCo=
+
+Name: res/layout-land/upb8load.xml
+SHA1-Digest: QNaip7qUvZrLpDg+WRAFHscQQck=
+
+Name: res/drawable/program1_on.png
+SHA1-Digest: j4z0L9/WF3T75cZm0kgYy45pBEw=
+
+Name: res/layout-port/zs25.xml
+SHA1-Digest: BxfVudgxNTeqIWXTTdYqonFQFk4=
+
+Name: res/layout-land/grid_1.xml
+SHA1-Digest: 7UZ4BmsH2FNlemy0eJNKmlr+vM0=
+
+Name: res/drawable/window_off.png
+SHA1-Digest: OlQghdsMx9axr1QgkSH9fH3NVBs=
+
+Name: res/layout-land-v17/upb7loaddim.xml
+SHA1-Digest: hQrAba5PN4yMmNfUgUHi8UncABg=
+
+Name: res/drawable/graph_month.png
+SHA1-Digest: whVhh8koOyNpYn6zDLcNbLVgDqA=
+
+Name: res/layout-port/keypad2.xml
+SHA1-Digest: kTl7EBv3qey+5aBGf/NzrF11+oQ=
+
+Name: res/drawable/sprinkler_off.png
+SHA1-Digest: mM5nKg2V0gWB5aI5bDvd2sLL8Zw=
+
+Name: res/drawable/pool_filter_off.png
+SHA1-Digest: S9aG2WVidWk26HN4ubo2AKy7h4s=
+
+Name: res/drawable/house_type_wide.png
+SHA1-Digest: p+n1E7la65p4wnvPVEVxO3rS3sg=
+
+Name: res/drawable/picture_light_on.png
+SHA1-Digest: mtn4WnEsDp2sLnKHgT+FW6RZWug=
+
+Name: res/drawable/bath.png
+SHA1-Digest: sZmJDz2qVWoXLrB6P678aY0cL0k=
+
+Name: res/drawable/water_heater_off.png
+SHA1-Digest: MB8wqSEEahTBylrfvUSZuO1aTpI=
+
+Name: res/layout-land/kl8.xml
+SHA1-Digest: dpATf1BXzZuCDrcejEhl96VtutM=
+
+Name: res/drawable/outlet_off.png
+SHA1-Digest: fV2zMhw58TxH8MKovKczShDTooY=
+
+Name: res/layout-port/onoff.xml
+SHA1-Digest: g83lCUm+K0o9fhYtYpLGYQ7Xh0w=
+
+Name: res/layout-port/zs23loaddim.xml
+SHA1-Digest: +Qv9GbeuiKfP/qelkX4vyVGxkwg=
+
+Name: res/layout-land/zs28loaddim.xml
+SHA1-Digest: i+sKrw/yRtXAwQv5m8OTNPWj7RU=
+
+Name: res/drawable/library.png
+SHA1-Digest: c2I/qVJVy4NpfUspu9a3gDVg3Ic=
+
+Name: res/layout-port/kl8loaddim.xml
+SHA1-Digest: uUAC+Bvy8+C1fcuqj4irMAgHYMA=
+
+Name: res/drawable/room_dining.png
+SHA1-Digest: P7z3hgP9Zdf9NgpDcrD0iqgsSkM=
+
+Name: res/layout-land/hkey6.xml
+SHA1-Digest: 5bR6Jv143sxkSW+d39/XCoqDXbY=
+
+Name: res/drawable/keypad6_on.png
+SHA1-Digest: RKgEQggGgmeGVfuATUbHsjt4MKY=
+
+Name: res/drawable/shade_a_off.png
+SHA1-Digest: qrfnERb/5jQ6H1MwT0gOE+FfboU=
+
+Name: res/layout-port/upb7aloaddim.xml
+SHA1-Digest: JG7nMcFpN08zU7as/DLI++e58nA=
+
+Name: res/layout-port/zs22load.xml
+SHA1-Digest: 75kSq7Oi2pImEUXNnWC4e+UCHJU=
+
+Name: res/drawable/fish_tank_off.png
+SHA1-Digest: MKFuPYnRhwHheb3S5R8j3AYZnp0=
+
+Name: res/drawable/pool_heater_on.png
+SHA1-Digest: 0KGWLJcSElcuDjHzwH6XDThtIo4=
+
+Name: res/layout-land/upb8.xml
+SHA1-Digest: bra6vtulCvANiHLzHp0PH7aEkp4=
+
+Name: res/drawable/room_living_room.png
+SHA1-Digest: 8kBjKQuc5dCV4HwSwSvS3YkEhXM=
+
+Name: res/layout-port/zs12loaddim.xml
+SHA1-Digest: Xg8C1FXDKd5O0i8H7DpDfIdZloQ=
+
+Name: res/drawable/outside.png
+SHA1-Digest: tE4kDtn6mYBFPMQEh6baH2G8EJw=
+
+Name: res/drawable/lock_off.png
+SHA1-Digest: M/VN56g1pNKhOOkrcLSWaRRKNAY=
+
+Name: res/drawable/window_a_off.png
+SHA1-Digest: LcI3dPJi1+JnQV8tdHH7R7PljY0=
+
+Name: res/drawable/picture_light_off.png
+SHA1-Digest: FY9F18hMHxP5vjC+GA7nebU4mwU=
+
+Name: res/drawable/room_occupied_on.png
+SHA1-Digest: UjEhpjdJJutjnyz9Wql+bhwKJw8=
+
+Name: res/drawable/room_entry.png
+SHA1-Digest: ruu295plWIWrAKlg5kJTiOSnvKU=
+
+Name: res/drawable/clock_off.png
+SHA1-Digest: NM99CKgb6nPNqTYKWanXB58MZoA=
+
+Name: res/layout-port/zs28loaddim.xml
+SHA1-Digest: gLw5en1pU+9VqgYjG6Uy+C/4gfg=
+
+Name: res/layout-land/keypad4.xml
+SHA1-Digest: CHHHHKeV4DrDNZP9NqTGBqp7Dy0=
+
+Name: res/layout-port/upb8load.xml
+SHA1-Digest: 4pSfVw4kpXhbW7Sbq8XXttRuexQ=
+
+Name: res/layout-port/zs11load.xml
+SHA1-Digest: Fing7/KQNN81IWeyGBTRNWp9OlU=
+
+Name: res/layout-port/kl6loaddim.xml
+SHA1-Digest: mJBxJR2IfyLSFKNQu59KD7iNkaI=
+
+Name: res/drawable/battery_charger_off.png
+SHA1-Digest: Ct5l6nx05WkT3q2H0FQPsOurzuA=
+
+Name: res/drawable/spinner_white_48.png
+SHA1-Digest: Qrq/y6lfViz0cKJBUTIzgI69mSY=
+
+Name: res/layout-port/zs24xloaddim.xml
+SHA1-Digest: jGCdBwNmY+lV3q05qGdwgVHXvYY=
+
+Name: res/layout-land/upb7load.xml
+SHA1-Digest: UG0tEEXfjHPDPJK/wiD7MSII1Wo=
+
+Name: res/drawable/room_security.png
+SHA1-Digest: WQXV2pXfd/XUMu3/uk45MQVAicI=
+
+Name: res/drawable/living_room.png
+SHA1-Digest: Tz8wsTWk5BsU1Au+J0fZFcdulE8=
+
+Name: res/drawable/basement.png
+SHA1-Digest: z16AiU6Dd+w9NTSbYZ3VZdfEjdE=
+
+Name: res/layout-port-v21/upb7a.xml
+SHA1-Digest: 4zLyNUGW+0hBS/HprYDjmjFVs+Y=
+
+Name: res/layout-port/zs24x.xml
+SHA1-Digest: yr+J4IOTaMiNXTd1+42znsR8ICM=
+
+Name: res/layout-v21/thermostatv13.xml
+SHA1-Digest: I/6ptDEZxVfS90InKGjcbRP7QMw=
+
+Name: res/drawable/keypad_off.png
+SHA1-Digest: 0TicGu+13RUTh4yhOklYsKyg3iM=
+
+Name: res/drawable/florescent_light_off.png
+SHA1-Digest: Csr3WTi/lI8uXmOInUKoEWP54Eg=
+
+Name: res/drawable/globe_light_on.png
+SHA1-Digest: NmlQIp6pR2XV1qB5LixHE0cUPrY=
+
+Name: res/drawable/relay_b_on.png
+SHA1-Digest: Qr2aBCYS1KZJ4V0tfYMADgMiG5c=
+
+Name: res/layout-port/upb8.xml
+SHA1-Digest: akfWV4vEGfoVfeTXuLc8bzTf2U8=
+
+Name: res/drawable/room_unoccupied_off.png
+SHA1-Digest: u3GbOgC1j6+OVkR7IurlKWtHuDU=
+
+Name: res/layout-port/upb7aload.xml
+SHA1-Digest: 71AkMQfiZyKFshObCoOHOyL+WVc=
+
+Name: res/drawable/relay_a_off.png
+SHA1-Digest: +YT/OQrR1+LgeyrM/DgUiHR1Jkk=
+
+Name: res/drawable/keypadupb8_off.png
+SHA1-Digest: sYE/g6KE2L5Jp0iFUoWytHicKMg=
+
+Name: res/drawable/chandelier_off.png
+SHA1-Digest: D4xkUA3SQ469ZChHybG4qzP0ELE=
+
+Name: res/layout-port/zs28load.xml
+SHA1-Digest: 2RGxmxuJINwzLRjtk1DdB+JnnMg=
+
+Name: res/drawable/shade_on.png
+SHA1-Digest: qrfnERb/5jQ6H1MwT0gOE+FfboU=
+
+Name: res/drawable/fountain_on.png
+SHA1-Digest: 58bL0itQQgijTFPvV3twzE9Z370=
+
+Name: res/drawable/battery_charger_on.png
+SHA1-Digest: G+J69XRxnMiegpOJ+JRITfQ95ug=
+
+Name: res/drawable/garage_door_on.png
+SHA1-Digest: dj3TSZRE9vkJ1NNeqkgEySLeNQo=
+
+Name: res/drawable/fan_on.png
+SHA1-Digest: KoqdaqBuw2rcPGQFJ7SI0jgbB1M=
+
+Name: res/drawable/desk_light_off.png
+SHA1-Digest: DxMgw/eL7J27kVWFYOrBQTpTvCw=
+
+Name: res/drawable/room_kitchen.png
+SHA1-Digest: vkXPYZ6cqmhIuSXevnF1CcS9BoM=
+
+Name: res/drawable/ic_menu_goto.png
+SHA1-Digest: Ux6hXEFPngSyA24+KYRaRzrmo+8=
+
+Name: res/drawable/chimes_off.png
+SHA1-Digest: f6pcfneWBBIEJPY4F52IAsL1oxY=
+
+Name: res/layout-land/zs12loaddim.xml
+SHA1-Digest: oVKRitsRedl0pdNX1AYrMKLiLv8=
+
+Name: res/layout-port/zs24xload.xml
+SHA1-Digest: SEzjhKJmjHavc6+OKm0YMNJO96U=
+
+Name: res/layout-land/zs22loaddim.xml
+SHA1-Digest: V3diZbIsmv9MQcUbolT26OaDJGU=
+
+Name: res/drawable/blue_blank_icon.png
+SHA1-Digest: U0FyZQaUJGmZxhreO4K8qDAnfoI=
+
+Name: res/layout-land/upb7aloaddim.xml
+SHA1-Digest: +oilge2U/CIPRTwR2fwuT29sM+U=
+
+Name: res/layout-land/zs24.xml
+SHA1-Digest: G3OjZgDwTnJT4fw5p7GwLF+62rI=
+
+Name: res/drawable/room_bath.png
+SHA1-Digest: E/BOu1DmUD/ZZP4YivPclB5mXiM=
+
+Name: res/drawable/graph_48_hours.png
+SHA1-Digest: uKti+cKGCrUUIED0b9MgWgKA22Q=
+
+Name: res/layout-land/zs23loaddim.xml
+SHA1-Digest: QM+khVSfcSO2Kdhp7W9OHsRd8PA=
+
+Name: res/drawable/coffee_pot_on.png
+SHA1-Digest: nbEE2lcYNE81xS4mDW7WCalac9o=
+
+Name: res/drawable/blank_icon.png
+SHA1-Digest: 3H52c0GxRzCiekCrQPpD5Do1Acc=
+
+Name: res/layout-land/onoffdim.xml
+SHA1-Digest: +UzG+F4w0oSp7yE+/1hfq64ltWw=
+
+Name: res/drawable/door_off.png
+SHA1-Digest: EtoQp+frXUVg+YvzMh50JtagnB4=
+
+Name: res/drawable/room_studio.png
+SHA1-Digest: j5eDmXrvlaiTBl9kRH/SSrjiPic=
+
+Name: res/drawable/kitchen.png
+SHA1-Digest: S1I4A5d1ZW/MzvBoCSwDT3RPu/M=
+
+Name: res/drawable/room_media.png
+SHA1-Digest: gwLi2SJVP5x/j0acSL1sBX6mGkU=
+
+Name: res/layout-port/programonoff.xml
+SHA1-Digest: gJmWzaCZA7+KR2VcDUY6Z5RNaAY=
+
+Name: res/layout-land/keypad8.xml
+SHA1-Digest: XPoSyImTr3W+5v0H4DE28j7tK4I=
+
+Name: res/drawable/hanging_light_on.png
+SHA1-Digest: kdkHF314QP3bFf/IAG/rVVBbiiY=
+
+Name: res/layout-land/zs24load.xml
+SHA1-Digest: wXn095vIuF/nyfXsM96z2Fkbl1c=
+
+Name: res/anim/screenrightfadein.xml
+SHA1-Digest: V8BXaTFqIr6YTigDkt19gCVOB7A=
+
+Name: res/layout-land/kl8load.xml
+SHA1-Digest: /gch9RFvpEQMOiQLnUtjSFBwyy4=
+
+Name: res/drawable/window_a_on.png
+SHA1-Digest: OlQghdsMx9axr1QgkSH9fH3NVBs=
+
+Name: res/layout-port/keypad3.xml
+SHA1-Digest: qgvxQ01twGM0Y4zoGpqGwUvLIcA=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: nIsbY5W2u4u3FvTyAaMkXyQuANg=
+
+Name: res/layout-port/zs28.xml
+SHA1-Digest: K7Tb3wpY35t2jgmKo6QviHb/8m4=
+
+Name: res/layout-land/programstart.xml
+SHA1-Digest: rJe5vgDZxi93q8VVck7OHoW9fkA=
+
+Name: res/drawable/keypad6_off.png
+SHA1-Digest: lcL+uQTfam2xrhLdthe0ODCZzgY=
+
+Name: res/xml/default_values.xml
+SHA1-Digest: oX/k7L9+YZ4btv2CVW0sq/61t7A=
+
+Name: res/drawable/keypadupb7_on.png
+SHA1-Digest: PMEwyvqNIAVmjOK5reKMdj4B6LQ=
+
+Name: res/drawable/track_lights_off.png
+SHA1-Digest: mzUgu9/sG/U6brwGAM/v8r/Qypw=
+
+Name: res/drawable/room_outside.png
+SHA1-Digest: 0DQ6d4l83qbiqtz58vBIB8WUSmk=
+
+Name: res/menu/mainmenu.xml
+SHA1-Digest: nmHmVTN0gCHUl+g8dR9S/TfP/IA=
+
+Name: res/layout-port-v21/upb7.xml
+SHA1-Digest: vBDBI23CyPJ7fQBHBpJXpj2/5Yw=
+
+Name: res/layout-port-v17/upb7aloaddim.xml
+SHA1-Digest: DERerygmC6sS+UP5HAkttJBfSOc=
+
+Name: res/drawable/wall_sconce_on.png
+SHA1-Digest: L0tI7rPPPEjUi3A/WHZXi5cl5i0=
+
+Name: res/drawable/counter_lights_off.png
+SHA1-Digest: tGV04C1CF8Hze9Khmwts1m1tXWE=
+
+Name: res/drawable/bulb.9.png
+SHA1-Digest: ain9K7mjhsBS/K6pOQ2uLo/zv8o=
+
+Name: res/layout-port/thermostatthcmf.xml
+SHA1-Digest: eB7Lklf9pXhC02BrRemdrzKc8Oc=
+
+Name: res/drawable/appliance_off.png
+SHA1-Digest: 0n4L/+bUik4N9ZHyHUgmaBtPru0=
+
+Name: res/layout-land/upb7.xml
+SHA1-Digest: cguTxTvW/EouEFof0CSbvrf4kyg=
+
+Name: res/drawable/air_conditioner_off.png
+SHA1-Digest: FXpzxrJ2qV4ls036IshljwVFGM8=
+
+Name: res/drawable/chimes_on.png
+SHA1-Digest: i7VYDnU7QHe/59/AOjesWoZOHTA=
+
+Name: res/drawable/audio_on.png
+SHA1-Digest: ocVR9T/zafvOvzbMrdgtmH72HfU=
+
+Name: res/drawable/florescent_light_on.png
+SHA1-Digest: 6hL0YZVeinA39ZwFpAYLIlgNpXw=
+
+Name: res/layout-land/zs28.xml
+SHA1-Digest: bra6vtulCvANiHLzHp0PH7aEkp4=
+
+Name: res/drawable/room_cameras.png
+SHA1-Digest: ZV7K61oOsAK+lqJq72iORzHJjKo=
+
+Name: res/drawable/group2_on.png
+SHA1-Digest: QrZffaUdttlSmpYpxlhTd4luBrg=
+
+Name: res/drawable/fan_off.png
+SHA1-Digest: TZIk9VtHRO2ugBFitKyQI3jmYLY=
+
+Name: res/layout-port/kl8.xml
+SHA1-Digest: akfWV4vEGfoVfeTXuLc8bzTf2U8=
+
+Name: res/layout-land/zs25load.xml
+SHA1-Digest: xFTASoRuDQ1j4HNiC8Hjtg+PZVs=
+
+Name: res/layout-port/zs22.xml
+SHA1-Digest: Xx5YmH1rJ85Cj1LIOZS/Y0N2hFo=
+
+Name: res/layout-port/programstart.xml
+SHA1-Digest: 2+vD3qtBcMajnUxrYq+l4ULbSUY=
+
+Name: res/drawable/wall_sconce_off.png
+SHA1-Digest: pkpClpN0UilYfd+z4IrzcguL15g=
+
+Name: res/drawable/bg_full.png
+SHA1-Digest: 0qOw1efjSrOiV/CB7b05h/EjUoI=
+
+Name: res/drawable/bedroom.png
+SHA1-Digest: 0OrnttOaSfqIfbFwoPtopORl1Pk=
+
+Name: res/layout-port/zs26load.xml
+SHA1-Digest: gKjjmNm4QRErwUNlKlBW+tC44n0=
+
+Name: res/drawable/fish_tank_on.png
+SHA1-Digest: NMRg6abNr6KY55JDUGsZHgT9GCk=
+
+Name: res/drawable/lock_a_off.png
+SHA1-Digest: 6KxNql7py8Vp7dWlazuRT9yvncw=
+
+Name: res/drawable/graph_prev_month.png
+SHA1-Digest: pGWNu3mGM2iub2dzA7lyTZNNalQ=
+
+Name: res/layout-land/zs24xload.xml
+SHA1-Digest: pqG2UnSbfVhljZc0xwD82ibESU0=
+
+Name: res/drawable/keypadupb6_off.png
+SHA1-Digest: SUL8HC0wJmwtdEGFhIWzo6c0gFc=
+
+Name: res/layout-port/zs12.xml
+SHA1-Digest: Xx5YmH1rJ85Cj1LIOZS/Y0N2hFo=
+
+Name: res/drawable/floor_lamp_off.png
+SHA1-Digest: SSR1PfUtc6jI6X//UyoXlFglgeg=
+
+Name: res/layout-land/thermostat.xml
+SHA1-Digest: M4CrY7LtLaN9RoUohgyWxhrKFps=
+
+Name: res/layout-land/keypad8s.xml
+SHA1-Digest: XPoSyImTr3W+5v0H4DE28j7tK4I=
+
+Name: res/drawable/keypad_on.png
+SHA1-Digest: J10MfyvVuF4enjD4+xzwuBYf+yY=
+
+Name: res/layout-land/zs24x.xml
+SHA1-Digest: Zs/iE8PT8OmI8wgX9uB5PX8uQw4=
+
+Name: res/drawable/garage_door_a_off.png
+SHA1-Digest: dj3TSZRE9vkJ1NNeqkgEySLeNQo=
+
+Name: res/drawable/closet_lights_on.png
+SHA1-Digest: sOWH8BO7ynLh/rLTuQeVpigkd0A=
+
+Name: res/drawable/media.png
+SHA1-Digest: IcAbfIho193FhgKaIkSJXl0xKLU=
+
+Name: res/drawable/studio.png
+SHA1-Digest: c5hR5QnFK34NZVSPA6VBULKo+eU=
+
+Name: res/drawable/flag_blue.png
+SHA1-Digest: +EoljvD8nHYAwd8RjFav7UeSU/I=
+
+Name: res/drawable/graph_prev_week.png
+SHA1-Digest: nLPWvwUbI2H9teYP4cGnVqqXKCo=
+
+Name: res/layout-land/keypad1.xml
+SHA1-Digest: XKx1ACkqqXc0SWIalJQ8QDGpjxs=
+
+Name: res/layout-port/upb8loaddim.xml
+SHA1-Digest: uUAC+Bvy8+C1fcuqj4irMAgHYMA=
+
+Name: res/layout-port/kl8load.xml
+SHA1-Digest: A/nUlJd/yZbG7NcMKPmnOqsCRZU=
+
+Name: res/layout-port/zs26loaddim.xml
+SHA1-Digest: ZJpDewGqWMqD3VCtovBItxIR+Jc=
+
+Name: res/drawable/icon.png
+SHA1-Digest: xztIIxAd5/rhG9QZR9Id5Lzid+k=
+
+Name: res/drawable/bulbon.9.png
+SHA1-Digest: CzC2mt5qWLxyKfWnraGLFTRno30=
+
+Name: res/layout-land/folderobject.xml
+SHA1-Digest: 8jrH17+cQLUHEr0W3J96JrjaFME=
+
+Name: res/drawable/table_lamp_off.png
+SHA1-Digest: d360z4MKBu4FISi3MhoFGbgccBk=
+
+Name: res/layout-land/zs12.xml
+SHA1-Digest: 1mf4qR2im+cx0HukzvgxIdz5iCU=
+
+Name: res/drawable/room_occupied_off.png
+SHA1-Digest: OTMY/QLoVaAoC/3Bf/kPfQuLFus=
+
+Name: res/drawable/graph_billing.png
+SHA1-Digest: sUxPb2bKOwwaCHl1E+mwn8GjPbc=
+
+Name: res/drawable/light_bulb_off.png
+SHA1-Digest: pqB1foU+1ta18xUspwluQytX3ck=
+
+Name: res/layout-port/hkey6.xml
+SHA1-Digest: onknfqw3iIX/gVYV9+fS5YImlXw=
+
+Name: res/drawable/floor_lamp_on.png
+SHA1-Digest: NaA+x/tVSeV2vuoKnxBn8reKLaU=
+
+Name: res/drawable/room_weather.png
+SHA1-Digest: pboX2gipLCkBxBwZBWdurIrZgqw=
+
+Name: res/layout-land/upb6load.xml
+SHA1-Digest: dE8wnrfTSTN4aHs4NnD/gKqSiu0=
+
+Name: res/drawable/room_basement.png
+SHA1-Digest: KRFXbwMoJDRnpnzxz9uO3tD40mI=
+
+Name: res/layout-port/keypad8.xml
+SHA1-Digest: drS+PK5S1XxGwl8BfjXvq0Qt9+4=
+
+Name: res/layout-land/thermostatt.xml
+SHA1-Digest: 1oyxA4Ey4vuSTG6p5xhV/EbnR9Q=
+
+Name: res/drawable/room_utility.png
+SHA1-Digest: DfVxkwtkPFkJi8Pv3zK6Fh4f77U=
+
+Name: res/drawable/garage.png
+SHA1-Digest: EM8+sBVOR/HmvBHBkz7xuSs+1Js=
+
+Name: res/drawable/chandelier_on.png
+SHA1-Digest: J1FsemVkzgPkjFFw7jc+Wmu1+SM=
+
+Name: res/layout-land-v17/upb7aloaddim.xml
+SHA1-Digest: p3vPqe56h3E2HL3a+5SAsZ60R5M=
+
+Name: res/layout-land/upb7a.xml
+SHA1-Digest: GlAP/qVfLwoKti4PHkeAOLEqrdU=
+
+Name: res/layout-port/zs23load.xml
+SHA1-Digest: h578VmzvNqFzEwK7/KB1xadiTMc=
+
+Name: res/drawable/stairway.png
+SHA1-Digest: uIlZpZtufNpdnQujHHS9GbEr8gQ=
+
+Name: res/drawable/keypad4_off.png
+SHA1-Digest: 0bKMuHctBgDNb/xotL1l7BHml54=
+
+Name: res/layout-land/zs22.xml
+SHA1-Digest: 1mf4qR2im+cx0HukzvgxIdz5iCU=
+
+Name: res/drawable/water_heater_on.png
+SHA1-Digest: viM8q3nDS4jfHWvSwwBaO3Hi/j4=
+
+Name: res/drawable/ic_menu_home.png
+SHA1-Digest: qgBlUBFs9jtxsEvGfYR1RBUgftU=
+
+Name: res/drawable/outside_ground_light_on.png
+SHA1-Digest: VRNg7ub6NU2+rCJKlRENS4Znc/g=
+
+Name: res/drawable/room_hallway.png
+SHA1-Digest: xapzPXpHmG5yCFg6Aov/1P1j7G0=
+
+Name: res/drawable/group1_off.png
+SHA1-Digest: NweJUFocuFTZENbTVqReokbyRC8=
+
+Name: res/layout-land-v17/upb7load.xml
+SHA1-Digest: 9KGXRL7UsEwHvGlT+iS3Ma9jVFg=
+
+Name: res/drawable/motion_sensor_off.png
+SHA1-Digest: X5jd1W7xp1fS80AVetZJIw9MHdY=
+
+Name: res/layout-land/irdevice.xml
+SHA1-Digest: tok4Okjt6sTWLqyOCQCjFyh+lbo=
+
+Name: res/layout-port/zs11loaddim.xml
+SHA1-Digest: CKigB/munKLLYZEIuipKe3aorMk=
+
+Name: res/drawable/desk_light_on.png
+SHA1-Digest: V65aTv8DD4Je/cwhjXBIRPxEHNo=
+
+Name: res/drawable/pool_heater_off.png
+SHA1-Digest: AkEJHKZHaZfL/9fob8Z5rDoFPJg=
+
+Name: res/drawable/outside_flood_light_off.png
+SHA1-Digest: qEIyGfqYltDc/fGdttM0z0e4yOw=
+
+Name: res/drawable/holiday_decorations_on.png
+SHA1-Digest: u5i6jnkl4aodGKgXw1JUD8tXcSk=
+
+Name: res/layout-land/zs22load.xml
+SHA1-Digest: YXCkgdIZezlBA7ZFbrncOSaJPpc=
+
+Name: res/layout-land/kl6loaddim.xml
+SHA1-Digest: AHS9uS1AbHC67vOoCeWb9meMNoM=
+
+Name: res/layout-land/kl6.xml
+SHA1-Digest: U7/hpTX3lOYBGRZ12xgDVX9R39A=
+
+Name: res/layout-port/zs24loaddim.xml
+SHA1-Digest: Yo96fo9njFIGnUGszuZLuImBhAQ=
+
+Name: res/layout/countdownspinner.xml
+SHA1-Digest: SuDUag9jgmme/X3645qXBM4B96c=
+
+Name: res/drawable/ic_menu_refresh.png
+SHA1-Digest: +iM9058U7QtvVoiRz9Pl2V/73T0=
+
+Name: res/drawable/thermostat.png
+SHA1-Digest: Z1S2wcBOhu789u6FnJNi7W2ZwpI=
+
+Name: res/drawable/keypadupb8_on.png
+SHA1-Digest: KwHQcW8lewOWKn4fxiNR4qjX71A=
+
+Name: res/drawable/holiday_decorations_off.png
+SHA1-Digest: IgIBnxPDH6N1fL+wx2rtFfbuj3g=
+
+Name: res/layout-port/keypad4.xml
+SHA1-Digest: QVFx8pKrbywqzlBw4HSRHyNlNps=
+
+Name: res/drawable/program2_off.png
+SHA1-Digest: tfSsW7kRrASYnemJBNdC0V927p0=
+
+Name: res/drawable/graph_prev_billing.png
+SHA1-Digest: DYzelFPDTSjQ/kL2pSpEw/tm7CY=
+
+Name: res/drawable/led_bulb_off.png
+SHA1-Digest: 67ihZqTCKIPgTrIG8X186Y1nmLE=
+
+Name: res/layout/modeselect.xml
+SHA1-Digest: PG8pRl4ZrpZsYxmTgRmr4TM5s+4=
+
+Name: res/drawable/outlet_on.png
+SHA1-Digest: GE/xEq3AbJv8ZJUtKclV2fdJdL8=
+
+Name: res/drawable/outside_ground_light_off.png
+SHA1-Digest: 64LgOgBmq91Di8cwJrzK1dQwA60=
+
+Name: res/drawable/recessed_light_on.png
+SHA1-Digest: 7vDeUXk2cOK620ekwuGjZvacAmY=
+
+Name: res/layout-land/kl8loaddim.xml
+SHA1-Digest: 66LmZ8ID9ezKBJcDO9qHzHxFS4g=
+
+Name: res/layout/helpmain.xml
+SHA1-Digest: sy+/Yj2hXkRGHg84yy5NWgrjHx4=
+
+Name: res/drawable/holiday_lights_on.png
+SHA1-Digest: vExU9kJg/UKMLo5+rMaebcsRBWQ=
+
+Name: res/layout-land/upb7aload.xml
+SHA1-Digest: NkFYJseY1apN0lcplrOL/retGOg=
+
+Name: res/layout-port/zs22loaddim.xml
+SHA1-Digest: ce/5dpg8wOju8ZLBPmfimeXp//g=
+
+Name: res/layout-port/upb6.xml
+SHA1-Digest: xJ7YDwf2M25bnqhLbt9PXQd++Hc=
+
+Name: res/layout-land/keypad5.xml
+SHA1-Digest: Kb9pBqJEpzOhIBBG09cOJ7fDc2Q=
+
+Name: res/drawable/video_on.png
+SHA1-Digest: 3yWQLimB7jHOBbgGYuyDvV+Vdew=
+
+Name: res/layout/homemodes.xml
+SHA1-Digest: GgXlMVJhtwdobA3xZndQCN1qLnk=
+
+Name: res/drawable/graph_week.png
+SHA1-Digest: e4AtPxA6U1MtlA7zSw3EkLq0jnc=
+
+Name: res/layout-port/programonoffstop.xml
+SHA1-Digest: T6BRlSGC8wkpKRaFyXbC17j3L/A=
+
+Name: res/drawable/flag_green.png
+SHA1-Digest: UR4WiYJD0OtC93iCqx0uNJEzOB4=
+
+Name: classes.dex
+SHA1-Digest: 5oDP/DmK7ce+N2e/qoG6C21UjOw=
+

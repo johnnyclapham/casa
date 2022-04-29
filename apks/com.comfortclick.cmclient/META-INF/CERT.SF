@@ -1,0 +1,88 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: 7VX+G6EyDrUFfVkEccBiaLrHF5c=
+
+Name: res/layout/splash.xml
+SHA1-Digest: LrB5Y+6Smnkcn313YXTieJhU/tA=
+
+Name: res/menu/menu.xml
+SHA1-Digest: EwSiIhsy4/fNIfAtKHYuWjr0HZM=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: hpd0+MyFTbgtM7qxNP71AhsJu7U=
+
+Name: res/drawable/background.png
+SHA1-Digest: iE3hwsL/szkw70n2DMzLXXotoZY=
+
+Name: res/layout/webview.xml
+SHA1-Digest: YvTyj9O4jdI35qJ5cfvljyO+wUM=
+
+Name: res/drawable-land/splash.png
+SHA1-Digest: WXV6kner0cT3f8u0qxzULczXwus=
+
+Name: res/drawable-xlarge/splash.png
+SHA1-Digest: z00tIcAW6fIetgOf9Tr5Crfn0wE=
+
+Name: res/menu/menu2.xml
+SHA1-Digest: PkaB8fUCq8PsysAqVqMRg7GO59E=
+
+Name: res/xml/non_localizable_strings.xml
+SHA1-Digest: Q19Qsf2D6A4KdIKoqbXcI2B6dJU=
+
+Name: res/xml/plugins.xml
+SHA1-Digest: +Z28ViGI+kQzUVK9LJv4JiZ+BqQ=
+
+Name: res/drawable-xlarge/background.png
+SHA1-Digest: 3s9g1KORYNEzF4adX9kjRPvs73g=
+
+Name: assets/www/master.css
+SHA1-Digest: i56Vz9CHOc1xHTxOwvAx+8YvnJk=
+
+Name: resources.arsc
+SHA1-Digest: yMXrxUjy5nPa5yvya1K67k2OYlc=
+
+Name: classes.dex
+SHA1-Digest: rnqB23CJkhiyDwishvUwqWVWoi0=
+
+Name: assets/www/phonegap-1.3.0.js
+SHA1-Digest: u7zBpXdGqXgfTpRMyvtUhZtmiFM=
+
+Name: res/layout/shade.xml
+SHA1-Digest: fceOzUt7W9pW9caucIm7PQF/KXk=
+
+Name: res/layout/listitems.xml
+SHA1-Digest: gW9b/c7TUnlbE4s5VxECmfNtj9o=
+
+Name: res/layout/main.xml
+SHA1-Digest: jFRLyauRo35k/WOGs1uQtJYnRnc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: iiG4NPa6E3U5nwkP6Li7C9iabBw=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: T1qbwFebCgusU9KZ1BV8D4voeqA=
+
+Name: assets/www/main.js
+SHA1-Digest: +mxWUfpKaDa0tLJ+UdnVnFtmNTQ=
+
+Name: res/drawable-land/background.png
+SHA1-Digest: hljas255sE7vyu+IwGTo9qUiV7o=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: xn8e9hyc2P4Nk5jO4y2YwAMk0qs=
+
+Name: res/drawable-ldpi/splash.png
+SHA1-Digest: akcqzmmwO2g81lUIeKj++1XKECg=
+
+Name: res/drawable/splash.png
+SHA1-Digest: gurqtiIzQbEOub12XMKPJmwLpIg=
+
+Name: res/layout/profile.xml
+SHA1-Digest: hSldtWf2CrWhoPNbCwMb5hFyvl0=
+
+Name: assets/www/index.html
+SHA1-Digest: VM2Euha6r0QwJtuKVHAxWOige/Q=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: MccyngiDvAGtC/R48/APjCNyu6g=
+
