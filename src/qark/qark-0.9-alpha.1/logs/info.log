@@ -3,7 +3,7 @@ INFO - Identified Android SDK installation from a previous run.
 INFO - Initializing QARK
 
 INFO - Unpacking /Users/Johnny/Desktop/casa/apks/air.pokemonquiz.apk
-INFO - Zipfile: <zipfile.ZipFile object at 0x10a1b3f90>
+INFO - Zipfile: <zipfile.ZipFile object at 0x10126f3d0>
 INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/
 INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/air.pokemonquiz
 INFO - AndroidManifest.xml found
@@ -229,4 +229,3 @@ WARNING - Please use the exploit APK to manually test for TapJacking until we ha
 ISSUES - ADB EXPLOIT COMMANDS
 INFO - Until we perfect this, for manually testing, run the following command to see all the options and their meanings: adb shell am. Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here: http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
 INFO - Support for other component types and dynamically adding extras is in the works, please check for updates
-ERROR - Problem with reporting; No html report generated. Please see the readme file for possible solutions.
