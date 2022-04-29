@@ -16,8 +16,8 @@ def main(cryptoguard_flag, flowdroid_flag, qark_flag):
     # ----------------------------------
 
     if (cryptoguard_flag == "1"):
-        print "@@@@@@@@@@@@@@@@@@@@@@"
-        print "@@@@@@@@@@@@@@@@@@@@@@"
+        # print "@@@@@@@@@@@@@@@@@@@@@@"
+        # print "@@@@@@@@@@@@@@@@@@@@@@"
         print "cryptoguard is running"
         # java -jar src/cryptoguard/cryptoguard.jar -in apk -s apks/air.pokemonquiz.apk
         os.system('java -jar src/cryptoguard/cryptoguard.jar '
@@ -29,16 +29,16 @@ def main(cryptoguard_flag, flowdroid_flag, qark_flag):
     # ----------------------------------
 
     if (qark_flag == "1"):
-        print "@@@@@@@@@@@@@@@@@@@@@@"
-        print "@@@@@@@@@@@@@@@@@@@@@@"
+        # print "@@@@@@@@@@@@@@@@@@@@@@"
+        # print "@@@@@@@@@@@@@@@@@@@@@@"
         print "qark is running"
         os.system(
             'python2 src/qark/qark-0.9-alpha.1/qark.py '
             '-p apks/air.pokemonquiz.apk '
             '--source=1 '
             '--exploit=0 ')
-            # '-t acceptterms | -b src/flowdroid/android-sdk-macosx')
-            # '-t acceptterms | -b android-sdk_r24.0.2-macosx/android-sdk-macosx/platforms')
+        # '-t acceptterms | -b src/flowdroid/android-sdk-macosx')
+        # '-t acceptterms | -b android-sdk_r24.0.2-macosx/android-sdk-macosx/platforms')
 
         # time.sleep(5)
         # print "yam"
@@ -51,8 +51,8 @@ def main(cryptoguard_flag, flowdroid_flag, qark_flag):
     # ----------------------------------
 
     if (flowdroid_flag == "1"):
-        print "@@@@@@@@@@@@@@@@@@@@@@"
-        print "@@@@@@@@@@@@@@@@@@@@@@"
+        # print "@@@@@@@@@@@@@@@@@@@@@@"
+        # print "@@@@@@@@@@@@@@@@@@@@@@"
         print "flowdroid is running"
         os.system(
             'java -jar src/flowdroid/soot-infoflow-cmd-2.9.0-jar-with-dependencies.jar '
@@ -85,7 +85,4 @@ if __name__ == '__main__':
         args.quark
     ))
 
-    # cryptoguard_flag = int(sys.argv[1])
-    # flowdroid_flag = int(sys.argv[2])
-    # qark_flag = int(sys.argv[3])
     main(args.cryptoguard, args.flowdroid, args.quark)
