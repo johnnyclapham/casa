@@ -19,7 +19,6 @@ def printToolSelection(cryptoguard_flag, quark_flag, flowdroid_flag,apk_name):
         quark_flag,
         flowdroid_flag,
         apk_name
-        # quark_flag
     ))
 
 
@@ -74,19 +73,15 @@ def runToolsOnAPK(cryptoguard_flag, quark_flag, flowdroid_flag, apk_name):
 
 
 def clean_directory(apk_name):
-    # tool_name = 'cryptoguard'
-    # apk_name = 'test'
     for fileName in os.listdir("./"):
         if fileName.startswith("_C"):
             tool_name = 'cryptoguard'
-            # print(fileName)
             new_file_name = tool_name + "-" + apk_name + '.xml'
             new_path = 'output/' + tool_name + '/reports/'
             print(new_file_name)
             os.rename(fileName, new_file_name)
             try:
                 shutil.move(new_file_name, new_path)
-                # os.remove(new_file_name)
             except:
                 print("-> WARNING: APK: " + apk_name + " already has a CryptoGuard report. " +
                       "\n-> INFO: Please delete report in output/qark/reports/report-" +
@@ -99,8 +94,6 @@ def move_qark_report(apk_name):
     source_dir = 'src/qark/qark-0.9-alpha.1/report'
     target_dir = 'output/qark/reports/report-' + apk_name
     try:
-        # source_dir = 'src/qark/qark-0.9-alpha.1/report'
-        # target_dir = 'output/qark/reports/report-' + apk_name
         file_names = os.listdir(source_dir)
         for file_name in file_names:
             shutil.move(os.path.join(source_dir, file_name), target_dir)
@@ -111,12 +104,6 @@ def move_qark_report(apk_name):
               apk_name +
               " folder if you would like to repeat.")
         shutil.rmtree(source_dir)
-        # os.rmdir(source_dir)
-    # Note: Delete qark report folder so it is ready for next execution
-    # os.rmdir(source_dir)
-
-    # new_file_name = 'qark' + apk_name + '.xml'
-    # shutil.move(new_file_name, new_path)
 
 
 def main():
@@ -125,15 +112,15 @@ def main():
     parser.add_argument("-cg", "--cryptoguard", help="cryptoguard flag")
     parser.add_argument("-qk", "--quark", help="quark flag")
     parser.add_argument("-fd", "--flowdroid", help="flowdroid flag")
-    # parser.add_argument("-qk", "--quark", help="quark flag")
-    # parser.add_argument("-fd", "--flowdroid", help="flowdroid flag")
     args = parser.parse_args()
+
     # Note: Give the name of the single APK we want to process
     apk_name = 'air.pokemonquiz.apk'
     # Note: Perform analysis on APK using our set T of tools
     runToolsOnAPK(args.cryptoguard, args.quark, args.flowdroid, apk_name)
-    # # Note: Move report files into output directory
-    # clean_directory(apk_name)
+    # Note: After tools have run, directories are cleaned for next execution
+    # TODO: Repeat processfor all applications in Set A
+
     # Note: End CASA
     print "CASA has finished. Goodbye!"
     return 0
