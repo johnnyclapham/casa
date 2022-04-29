@@ -1,0 +1,6 @@
+APK: air.pokemonquiz.apk
+
+Tool: CryptoGuard
+{'count': '3', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
+{'count': '4', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
+{'count': '1', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}

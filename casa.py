@@ -79,16 +79,18 @@ def main():
 
     # Note: For each application in Set A, scan using tools in Set T
     # Note: Using tqdm for progress bar -> github.com/tqdm/tqdm
+    # TODO: Uncomment below when we want to re-enable tool execution
     for file_name in tqdm(os.listdir("./apks/")):
         if file_name.endswith('apk'):
             # Note: We scan each APK
             apk_name = file_name
             # Note: Perform analysis on APK using our set T of tools
-            runToolsOnAPK(args.cryptoguard, args.quark, args.flowdroid, apk_name)
+            # runToolsOnAPK(args.cryptoguard, args.quark, args.flowdroid, apk_name)
             # Note: After tools have run, directories are cleaned for next execution
 
     # TODO: Parse the reports from tool output
-    parse_reports()
+    tool_name = "CryptoGuard"
+    parse_output_by_apk_and_tool(apk_name,tool_name)
 
     # Note: End CASA
     print "CASA has finished. Goodbye!"
