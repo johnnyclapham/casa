@@ -1,6 +1,8 @@
 # Note: This is the runner for our comparison
 # Please see README.md for individual execution
 from casaUtilities import *
+import argparse
+from tqdm import tqdm
 
 
 def print_tool_selection(cryptoguard_flag, quark_flag, flowdroid_flag, apk_name):
@@ -45,7 +47,7 @@ def runToolsOnAPK(cryptoguard_flag, quark_flag, flowdroid_flag, apk_name):
             os.system(
                 'python2 src/qark/qark-0.9-alpha.1/qark.py '
                 '-p apks/' + apk_name + ' ' +
-                '--source=1 ' + '--exploit=0 '
+                '--source=1 ' + '--exploit=0 ' + ' -report-type=json'
                 + '&> output/qark/terminal/qark-terminal-output-' + apk_name + '.txt')
         except:
             print('qark failed to run')
@@ -79,18 +81,33 @@ def main():
 
     # Note: For each application in Set A, scan using tools in Set T
     # Note: Using tqdm for progress bar -> github.com/tqdm/tqdm
-    # TODO: Uncomment below when we want to re-enable tool execution
     for file_name in tqdm(os.listdir("./apks/")):
         if file_name.endswith('apk'):
             # Note: We scan each APK
             apk_name = file_name
             # Note: Perform analysis on APK using our set T of tools
+            # TODO: Uncomment below when we want to re-enable tool execution
             # runToolsOnAPK(args.cryptoguard, args.quark, args.flowdroid, apk_name)
             # Note: After tools have run, directories are cleaned for next execution
 
     # TODO: Parse the reports from tool output
-    tool_name = "CryptoGuard"
-    parse_output_by_apk_and_tool(apk_name,tool_name)
+    casa_output_file = 'casa_output.txt'
+
+    # Note: erase casa_output_file for a fresh output log
+    with open(casa_output_file, 'w') as filetowrite:
+        filetowrite.write('CASA has extracted outputs.\n\n')
+
+    # Note: For each apk in 'apks/'
+    for file_name in tqdm(os.listdir("./apks/")):
+        if file_name.endswith('apk'):
+            # Note: We parse the output of each apk on each specified tool
+            apk_name = file_name
+            tool_name = "CryptoGuard"
+            parse_output_by_apk_and_tool(apk_name, tool_name, casa_output_file)
+            tool_name = "QARK"
+            parse_output_by_apk_and_tool(apk_name, tool_name, casa_output_file)
+            tool_name = "FlowDroid"
+            parse_output_by_apk_and_tool(apk_name, tool_name, casa_output_file)
 
     # Note: End CASA
     print "CASA has finished. Goodbye!"

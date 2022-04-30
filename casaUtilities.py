@@ -36,20 +36,39 @@ def move_qark_report(apk_name):
               " folder if you would like to repeat.")
         shutil.rmtree(source_dir)
 
-def parse_output_by_apk_and_tool(apk_name,tool_name):
-    print("parsing outputs")
 
-    if tool_name== 'CryptoGuard':
+def parse_output_by_apk_and_tool(apk_name, tool_name,casa_output_file):
+    print("parsing outputs for apk: "+apk_name)
+
+    if tool_name == 'CryptoGuard':
+
         target_directory = 'output/cryptoguard/reports'
-        folder_to_parse = os.listdir(target_directory)
-        for file_name in folder_to_parse:
-            print(file_name)
-            tree = ET.parse(target_directory+'/'+file_name)
-            root = tree.getroot()
-            casa_output_file ='casa_output.txt'
-            with open(casa_output_file, 'w') as filetowrite:
-                filetowrite.write('APK: '+apk_name+'\n\n')
-                filetowrite.write('Tool: '+tool_name+'\n')
-                for BugCategory in root.iter('BugCategory'):
-                    filetowrite.write(str(BugCategory.attrib)+'\n')
+        target_xml = target_directory + '/' + 'cryptoguard-' + apk_name + '.xml'
+        tree = ET.parse(target_xml)
+        root = tree.getroot()
+        with open(casa_output_file, 'a') as filetowrite:
+            filetowrite.write('\n\n\n\n======================')
+            filetowrite.write('\n======================\n')
+            filetowrite.write('APK: ' + apk_name + '\n\n')
+            filetowrite.write('Tool: ' + tool_name + '\n')
+            for BugCategory in root.iter('BugCategory'):
+                filetowrite.write('-> '+str(BugCategory.attrib) + '\n')
+            # filetowrite.write('\n--------------------------\n')
+        print("-> CryptoGuard output parsed")
 
+    if tool_name == 'QARK':
+        target_directory = 'output/qark/reports'
+        # TODO: parse qark output and add to casa_output_file
+        # Idea: add any text line that begins with WARNING to the casa_output
+        with open(casa_output_file, 'a') as filetowrite:
+            # filetowrite.write('\nQARK!\n')
+            filetowrite.write('Tool: ' + tool_name + '\n')
+        print("-> qark output parsed")
+
+    if tool_name == 'FlowDroid':
+        target_directory = 'output/flowdroid/reports'
+        # print("parsing FlowDroid")
+        # TODO: parse FlowDroid output and add to casa_output_file
+        with open(casa_output_file, 'a') as filetowrite:
+            filetowrite.write('Tool: ' + tool_name + '\n')
+        print("-> FlowDroid output parsed")
