@@ -86,7 +86,7 @@ def main():
             # Note: We scan each APK
             apk_name = file_name
             # Note: Perform analysis on APK using our set T of tools
-            # TODO: Uncomment below when we want to re-enable tool execution
+            # TODO: Uncomment below when we want to re-enable tool execution!
             # runToolsOnAPK(args.cryptoguard, args.quark, args.flowdroid, apk_name)
             # Note: After tools have run, directories are cleaned for next execution
 
