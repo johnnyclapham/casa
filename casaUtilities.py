@@ -57,7 +57,7 @@ def parse_output_by_apk_and_tool(apk_name, tool_name,casa_output_file):
         print("-> CryptoGuard output parsed")
 
     if tool_name == 'QARK':
-        target_directory = 'output/qark/reports'
+        # target_directory = 'output/qark/reports'
         # TODO: parse qark output and add to casa_output_file
         # Idea: add any text line that begins with WARNING to the casa_output
         with open(casa_output_file, 'a') as filetowrite:
