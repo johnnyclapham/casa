@@ -1,7 +1,8 @@
 import os
 import shutil
 import xml.etree.ElementTree as ET
-
+from bs4 import BeautifulSoup
+import codecs
 
 def clean_directory(apk_name):
     for fileName in os.listdir("./"):
@@ -57,12 +58,29 @@ def parse_output_by_apk_and_tool(apk_name, tool_name,casa_output_file):
         print("-> CryptoGuard output parsed")
 
     if tool_name == 'QARK':
+        # report_location = "output/qark/reports/report-"+apk_name+"/report.html"
+        terminal_location = "output/qark/terminal/qark-terminal-output-"+apk_name+".txt"
         # target_directory = 'output/qark/reports'
         # TODO: parse qark output and add to casa_output_file
         # Idea: add any text line that begins with WARNING to the casa_output
         with open(casa_output_file, 'a') as filetowrite:
-            # filetowrite.write('\nQARK!\n')
             filetowrite.write('Tool: ' + tool_name + '\n')
+            # filetowrite.write('-> '+ 'example finding 1' + '\n')
+            with open(terminal_location) as file:
+                for line in file:
+                    # Note: Scan log for warnings
+                    if (line.rstrip().startswith("WARNING")):
+                        finding = line.rstrip()
+                        character_length_desired = 100
+                        filetowrite.write('-> ' + finding[0:character_length_desired] + '\n')
+                    # Note: Scan log for vulnerabilities
+                    if (line.rstrip().startswith("POTENTIAL VULNERABILITY")):
+                        finding = line.rstrip()
+                        character_length_desired = 200
+                        filetowrite.write('-> ' + finding[0:character_length_desired] + '\n')
+                    else:
+                        # filetowrite.write('-> ' + "skipped trash" + '\n')
+                        pass
         print("-> qark output parsed")
 
     if tool_name == 'FlowDroid':
@@ -71,4 +89,5 @@ def parse_output_by_apk_and_tool(apk_name, tool_name,casa_output_file):
         # TODO: parse FlowDroid output and add to casa_output_file
         with open(casa_output_file, 'a') as filetowrite:
             filetowrite.write('Tool: ' + tool_name + '\n')
+            filetowrite.write('-> '+ 'example finding 1' + '\n')
         print("-> FlowDroid output parsed")
