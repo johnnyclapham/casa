@@ -4,253 +4,182 @@ CASA has extracted outputs.
 
 
 
-======================
-======================
-APK: com.iotwear.wear.apk
-
-Tool: CryptoGuard
--> {'count': '2', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
--> {'count': '6', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
--> {'count': '8', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
--> {'count': '3', 'group': 'Used Predictable KeyStore Password', 'code': '14', 'bytes': '0'}
-Tool: QARK
--> WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sen
--> WARNING - Backups enabled: Potential for data theft via local attacks via adb backup, if the device 
--> WARNING - The following activity are exported, but not protected by any permissions. Failing to prot
--> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
--> WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to compl
-Tool: FlowDroid
--> example finding 1
 
 
 
-
-======================
-======================
-APK: com.advancedquonsettechnology.hcaapp.apk
-
-Tool: CryptoGuard
-Tool: QARK
--> WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sen
--> WARNING - Backups enabled: Potential for data theft via local attacks via adb backup, if the device 
--> WARNING - The following activity are exported, but not protected by any permissions. Failing to prot
--> WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this We
--> WARNING - File system access is enabled in this WebView._webview If untrusted data is used to specif
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this We
--> WARNING - File system access is enabled in this WebView._webview If untrusted data is used to specif
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - File system access is enabled in this WebView._webview If untrusted data is used to specif
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this We
--> WARNING - File system access is enabled in this WebView.this._webview If untrusted data is used to s
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this We
--> WARNING - File system access is enabled in this WebView.this._webview If untrusted data is used to s
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - File system access is enabled in this WebView.this._webview If untrusted data is used to s
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to compl
-Tool: FlowDroid
--> example finding 1
+========================
+========================
+========================
+Input APK: com.hackajoelabs.hook.apk
+------------------------
+-> Tool: CryptoGuard
+    -> {'count': '2', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
+    -> {'count': '6', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
+    -> {'count': '8', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    -> {'count': '3', 'group': 'Used Predictable KeyStore Password', 'code': '14', 'bytes': '0'}
+------------------------
+-> Tool: QARK
+    -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+------------------------
+-> Tool: FlowDroid
+    -> N/A FlowDroid failed
+------------------------
 
 
 
 
-======================
-======================
-APK: com.cognitial.directvremote.apk
 
-Tool: CryptoGuard
--> {'count': '1', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
--> {'count': '7', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
--> {'count': '6', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
--> {'count': '7', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
--> {'count': '23', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
--> {'count': '2', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
--> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
-Tool: QARK
--> WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sen
--> WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Pot
--> WARNING - The following activity are exported, but not protected by any permissions. Failing to prot
--> WARNING - ALLOW_ALL_HOSTNAME_VERIFIER invoked : org.apache.http.conn.ssl.SSLSocketFactory.ALLOW_ALL_
--> WARNING - Instance of checkServerTrusted, with no body found in: /Users/Johnny/Desktop/casa/apks/com
--> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
--> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
--> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
--> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
--> WARNING - File system access is enabled in this WebView.localWebView If untrusted data is used to sp
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - File system access is enabled in this WebView.localWebView If untrusted data is used to sp
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - File system access is enabled in this WebView.localWebView If untrusted data is used to sp
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to compl
-Tool: FlowDroid
--> example finding 1
+
+
+========================
+========================
+========================
+Input APK: com.iotwear.wear.apk
+------------------------
+-> Tool: CryptoGuard
+------------------------
+-> Tool: QARK
+------------------------
+-> Tool: FlowDroid
+    -> N/A FlowDroid failed
+------------------------
 
 
 
 
-======================
-======================
-APK: appinventor.ai_digitalartsmind.SmartHome.apk
 
-Tool: CryptoGuard
--> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
--> {'count': '1', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
-Tool: QARK
--> WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sen
--> WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Pot
--> WARNING - The following activity are exported, but not protected by any permissions. Failing to prot
--> WARNING - It appears the Activity defined in this class : /Users/Johnny/Desktop/casa/apks/appinvento
--> WARNING - It appears the Activity defined in this class : /Users/Johnny/Desktop/casa/apks/appinvento
--> WARNING - It appears the Activity defined in this class : /Users/Johnny/Desktop/casa/apks/appinvento
--> WARNING - Instance of checkServerTrusted, with no body found in: /Users/Johnny/Desktop/casa/apks/app
--> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
--> WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. Yo
--> WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the UR
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this We
--> WARNING - File system access is enabled in this WebView.localWebView If untrusted data is used to sp
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this We
--> WARNING - File system access is enabled in this WebView.this.webview If untrusted data is used to sp
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this We
--> WARNING - File system access is enabled in this WebView.this.webview If untrusted data is used to sp
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to compl
-Tool: FlowDroid
--> example finding 1
+
+
+========================
+========================
+========================
+Input APK: com.advancedquonsettechnology.hcaapp.apk
+------------------------
+-> Tool: CryptoGuard
+    -> {'count': '1', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
+    -> {'count': '7', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
+    -> {'count': '6', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
+    -> {'count': '7', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
+    -> {'count': '23', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
+    -> {'count': '2', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
+    -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+------------------------
+-> Tool: QARK
+    -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+------------------------
+-> Tool: FlowDroid
+    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
+
+------------------------
 
 
 
 
-======================
-======================
-APK: com.comfortclick.cmclient.apk
-
-Tool: CryptoGuard
-Tool: QARK
--> WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sen
--> WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Pot
--> WARNING - The following activity are exported, but not protected by any permissions. Failing to prot
--> WARNING - File system access is enabled in this WebView.webView If untrusted data is used to specify
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to compl
-Tool: FlowDroid
--> example finding 1
 
 
 
-
-======================
-======================
-APK: com.activehomevista.apk
-
-Tool: CryptoGuard
-Tool: QARK
--> WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sen
--> WARNING - Backups enabled: Potential for data theft via local attacks via adb backup, if the device 
--> WARNING - The following activity are exported, but not protected by any permissions. Failing to prot
--> WARNING - The following receiver are exported, but not protected by any permissions. Failing to prot
--> WARNING - It appears the Activity defined in this class : /Users/Johnny/Desktop/casa/apks/com.active
--> WARNING - It appears the Activity defined in this class : /Users/Johnny/Desktop/casa/apks/com.active
--> WARNING - It appears the Activity defined in this class : /Users/Johnny/Desktop/casa/apks/com.active
--> WARNING - It appears the Activity defined in this class : /Users/Johnny/Desktop/casa/apks/com.active
--> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
--> WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to compl
-Tool: FlowDroid
--> example finding 1
+========================
+========================
+========================
+Input APK: com.cognitial.directvremote.apk
+------------------------
+-> Tool: CryptoGuard
+    -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
+    -> {'count': '1', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+------------------------
+-> Tool: QARK
+    -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+------------------------
+-> Tool: FlowDroid
+    -> N/A FlowDroid failed
+------------------------
 
 
 
 
-======================
-======================
-APK: com.kaon.android.lepton.hitachi.apk
 
-Tool: CryptoGuard
--> {'count': '2', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
--> {'count': '2', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
-Tool: QARK
--> WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Pot
--> WARNING - The following activity are exported, but not protected by any permissions. Failing to prot
--> WARNING - A broadcast is sent from this class: /Users/Johnny/Desktop/casa/apks/com.kaon.android.lept
--> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
--> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
--> WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the UR
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to compl
--> WARNING - Permission can be granted to any of the Content Provider android.support.v4.content.FilePr
-Tool: FlowDroid
--> example finding 1
+
+
+========================
+========================
+========================
+Input APK: appinventor.ai_digitalartsmind.SmartHome.apk
+------------------------
+-> Tool: CryptoGuard
+------------------------
+-> Tool: QARK
+------------------------
+-> Tool: FlowDroid
+    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
+
+------------------------
 
 
 
 
-======================
-======================
-APK: com.hackajoelabs.hook.apk
 
-Tool: CryptoGuard
--> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
--> {'count': '1', 'group': 'Used untrusted HostNameVerifier', 'code': '6', 'bytes': '0'}
-Tool: QARK
--> WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sen
--> WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Pot
--> WARNING - The following activity are exported, but not protected by any permissions. Failing to prot
--> WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. Yo
--> WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the UR
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. Yo
--> WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the UR
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. Yo
--> WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the UR
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. Yo
--> WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the UR
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. Yo
--> WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the UR
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. Yo
--> WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the UR
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. Yo
--> WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the UR
--> WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Conte
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - JavaScript running in a file scheme context can access content from any origin. This is an
--> WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to compl
-Tool: FlowDroid
--> example finding 1
+
+
+========================
+========================
+========================
+Input APK: com.comfortclick.cmclient.apk
+------------------------
+-> Tool: CryptoGuard
+------------------------
+-> Tool: QARK
+    -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+------------------------
+-> Tool: FlowDroid
+    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
+
+------------------------
+
+
+
+
+
+
+
+========================
+========================
+========================
+Input APK: com.activehomevista.apk
+------------------------
+-> Tool: CryptoGuard
+    -> {'count': '2', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
+    -> {'count': '2', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+------------------------
+-> Tool: QARK
+    -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+------------------------
+-> Tool: FlowDroid
+    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 2 leaks
+
+------------------------
+
+
+
+
+
+
+
+========================
+========================
+========================
+Input APK: com.kaon.android.lepton.hitachi.apk
+------------------------
+-> Tool: CryptoGuard
+    -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
+    -> {'count': '1', 'group': 'Used untrusted HostNameVerifier', 'code': '6', 'bytes': '0'}
+------------------------
+-> Tool: QARK
+------------------------
+-> Tool: FlowDroid
+    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
+
+------------------------

@@ -1,8 +1,6 @@
 import os
 import shutil
 import xml.etree.ElementTree as ET
-from bs4 import BeautifulSoup
-import codecs
 
 def clean_directory(apk_name):
     for fileName in os.listdir("./"):
@@ -10,7 +8,6 @@ def clean_directory(apk_name):
             tool_name = 'cryptoguard'
             new_file_name = tool_name + "-" + apk_name + '.xml'
             new_path = 'output/' + tool_name + '/reports/'
-            # print(new_file_name)
             os.rename(fileName, new_file_name)
             try:
                 shutil.move(new_file_name, new_path)
@@ -48,46 +45,45 @@ def parse_output_by_apk_and_tool(apk_name, tool_name,casa_output_file):
         tree = ET.parse(target_xml)
         root = tree.getroot()
         with open(casa_output_file, 'a') as filetowrite:
-            filetowrite.write('\n\n\n\n======================')
-            filetowrite.write('\n======================\n')
-            filetowrite.write('APK: ' + apk_name + '\n\n')
-            filetowrite.write('Tool: ' + tool_name + '\n')
+            filetowrite.write('-> Tool: ' + tool_name + '\n')
             for BugCategory in root.iter('BugCategory'):
-                filetowrite.write('-> '+str(BugCategory.attrib) + '\n')
-            # filetowrite.write('\n--------------------------\n')
+                filetowrite.write('    -> '+str(BugCategory.attrib) + '\n')
         print("-> CryptoGuard output parsed")
 
     if tool_name == 'QARK':
-        # report_location = "output/qark/reports/report-"+apk_name+"/report.html"
         terminal_location = "output/qark/terminal/qark-terminal-output-"+apk_name+".txt"
-        # target_directory = 'output/qark/reports'
-        # TODO: parse qark output and add to casa_output_file
-        # Idea: add any text line that begins with WARNING to the casa_output
         with open(casa_output_file, 'a') as filetowrite:
-            filetowrite.write('Tool: ' + tool_name + '\n')
-            # filetowrite.write('-> '+ 'example finding 1' + '\n')
+            filetowrite.write('-> Tool: ' + tool_name + '\n')
             with open(terminal_location) as file:
                 for line in file:
                     # Note: Scan log for warnings
-                    if (line.rstrip().startswith("WARNING")):
-                        finding = line.rstrip()
-                        character_length_desired = 100
-                        filetowrite.write('-> ' + finding[0:character_length_desired] + '\n')
+                    # TODO: Uncomment if we want to include warnings
+                    # if (line.rstrip().startswith("WARNING")):
+                    #     finding = line.rstrip()
+                    #     character_length_desired = 100
+                    #     filetowrite.write('-> ' + finding[0:character_length_desired] + '\n')
+
                     # Note: Scan log for vulnerabilities
                     if (line.rstrip().startswith("POTENTIAL VULNERABILITY")):
                         finding = line.rstrip()
-                        character_length_desired = 200
-                        filetowrite.write('-> ' + finding[0:character_length_desired] + '\n')
-                    else:
-                        # filetowrite.write('-> ' + "skipped trash" + '\n')
-                        pass
+                        character_length_desired = 100
+                        filetowrite.write('    -> ' + finding[0:character_length_desired] + '\n')
+
         print("-> qark output parsed")
 
     if tool_name == 'FlowDroid':
-        target_directory = 'output/flowdroid/reports'
-        # print("parsing FlowDroid")
-        # TODO: parse FlowDroid output and add to casa_output_file
+        terminal_location = "output/flowdroid/terminal/flowdroid-terminal-output-"+apk_name+".txt"
         with open(casa_output_file, 'a') as filetowrite:
-            filetowrite.write('Tool: ' + tool_name + '\n')
-            filetowrite.write('-> '+ 'example finding 1' + '\n')
+            filetowrite.write('-> Tool: ' + tool_name + '\n')
+            with open(terminal_location) as file:
+                for line in file:
+                    pass
+                last_line = line
+                # Note: In FlowDroid, the last line of the terminal output
+                #       provides the summary of "leaks found"
+                if last_line.startswith("[main] INFO soot.jimple.infoflow.android.SetupApplication - Found"):
+                    filetowrite.write('    -> ' + last_line + '\n')
+                else:
+                    error_message = "N/A FlowDroid failed"
+                    filetowrite.write('    -> ' + error_message + '\n')
         print("-> FlowDroid output parsed")

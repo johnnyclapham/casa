@@ -97,18 +97,33 @@ def main():
     with open(casa_output_file, 'w') as filetowrite:
         filetowrite.write('CASA has extracted outputs.\n\n')
 
+
     # Note: For each apk in 'apks/'
     for file_name in tqdm(os.listdir("./apks/")):
         if file_name.endswith('apk'):
-            # Note: We parse the output of each apk on each specified tool
+            with open(casa_output_file, 'a') as filetowrite:
+                filetowrite.write('\n\n\n\n\n\n')
+                filetowrite.write('\n========================')
+                filetowrite.write('\n========================')
+                filetowrite.write('\n========================\n')
+                filetowrite.write('Input APK: ' + apk_name + '\n')
+                filetowrite.write('------------------------\n')
+
+        # Note: We parse the output of each apk on each specified tool
             apk_name = file_name
             tool_name = "CryptoGuard"
             parse_output_by_apk_and_tool(apk_name, tool_name, casa_output_file)
+            with open(casa_output_file, 'a') as filetowrite:
+                filetowrite.write('------------------------\n')
             tool_name = "QARK"
             parse_output_by_apk_and_tool(apk_name, tool_name, casa_output_file)
+            with open(casa_output_file, 'a') as filetowrite:
+                filetowrite.write('------------------------\n')
             tool_name = "FlowDroid"
             parse_output_by_apk_and_tool(apk_name, tool_name, casa_output_file)
 
+            with open(casa_output_file, 'a') as filetowrite:
+                filetowrite.write('------------------------\n')
     # Note: End CASA
     print "CASA has finished. Goodbye!"
     return 0
