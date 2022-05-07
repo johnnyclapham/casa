@@ -1,0 +1,227 @@
+[H[2J[3J .d88888b.           d8888   8888888b.    888    d8P  
+d88P" "Y88b         d88888   888   Y88b   888   d8P   
+888     888        d88P888   888    888   888  d8P    
+888     888       d88P 888   888   d88P   888d88K     
+888     888      d88P  888   8888888P"    8888888b    
+888 Y8b 888     d88P   888   888 T88b     888  Y88b   
+Y88b.Y8b88P    d8888888888   888  T88b    888   Y88b  
+ "Y888888"    d88P     888   888   T88b   888    Y88b 
+       Y8b                                            
+                                                      
+                                                      
+
+INFO - Initializing...
+INFO - Identified Android SDK installation from a previous run.
+INFO - Initializing QARK
+
+INFO - Unpacking /Users/Johnny/Desktop/casa/apks/com.mysmartblinds2.android.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x10c0fd3d0>
+INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/com.mysmartblinds2.android/
+INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/com.mysmartblinds2.android
+INFO - AndroidManifest.xml found
+INFO - <?xml version="1.0" ?><manifest android:versionCode="2010005" android:versionName="2.1.0" package="com.mysmartblinds2.android" xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27">
+</uses-sdk>
+<uses-permission android:name="android.permission.BLUETOOTH">
+</uses-permission>
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN">
+</uses-permission>
+<uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION">
+</uses-permission>
+<uses-permission android:name="android.permission.INTERNET">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+</uses-permission>
+<uses-feature android:name="android.hardware.screen.portrait">
+</uses-feature>
+<uses-feature android:name="android.hardware.bluetooth_le" android:required="true">
+</uses-feature>
+<application android:allowBackup="false" android:icon="@7F0D0000" android:label="@7F100038" android:largeHeap="true" android:name="com.mysmartblinds2.android.MySmartBlinds2Application" android:supportsRtl="true" android:theme="@7F110007">
+<activity android:name="com.mysmartblinds2.android.SplashActivity" android:screenOrientation="1" android:theme="@7F110129">
+<intent-filter>
+<action android:name="android.intent.action.MAIN">
+</action>
+<category android:name="android.intent.category.LAUNCHER">
+</category>
+</intent-filter>
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.main.MainActivity" android:screenOrientation="1">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.room.RoomActivity" android:screenOrientation="1">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.blinddetail.BlindDetailActivity" android:screenOrientation="1">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.event.EventActivity" android:screenOrientation="1">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.login.LoginActivity" android:screenOrientation="1">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.addroom.AddRoomActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.addblind.AddBlindActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.calibration.CalibrationActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.settings.SettingsActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+<activity android:name="com.mysmartblinds2.android.LocationActivity" android:screenOrientation="1" android:theme="@7F110191" android:windowSoftInputMode="0x00000010">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.firmware.FirmwareUpdatesActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.energysavings.EnergySavingsActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.switches.SwitchesActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+<activity android:name="com.mysmartblinds2.android.presentation.hub.HubActivity" android:screenOrientation="1" android:windowSoftInputMode="0x00000010">
+</activity>
+<activity android:excludeFromRecents="true" android:name="com.mysmartblinds2.android.presentation.modal.ModalActivity" android:screenOrientation="1" android:theme="@7F110177">
+</activity>
+<activity android:label="@7F100038" android:launchMode="2" android:name="com.auth0.android.lock.LockActivity" android:screenOrientation="1" android:theme="@7F11001B">
+<intent-filter>
+<action android:name="android.intent.action.VIEW">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+<category android:name="android.intent.category.BROWSABLE">
+</category>
+<data android:host="@7F100043" android:pathPrefix="/android/com.mysmartblinds.mysmartblinds/callback" android:scheme="https">
+</data>
+</intent-filter>
+</activity>
+<service android:name="com.mysmartblinds2.android.iot.bluetooth.DfuService">
+</service>
+<service android:exported="true" android:label="DFU Service Title" android:name="com.mysmartblinds2.android.presentation.hub.DfuService">
+<intent-filter>
+<action android:name="no.nordicsemi.android.action.DFU_UPLOAD">
+</action>
+<category android:name="android.intent.category.DEFAULT">
+</category>
+</intent-filter>
+</service>
+<activity android:name="com.mysmartblinds2.android.presentation.hub.HubNewFirmwareUpdate">
+</activity>
+<activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:01030010">
+</activity>
+<meta-data android:name="com.google.android.gms.version" android:value="@7F0A0007">
+</meta-data>
+<meta-data android:name="com.android.vending.derived.apk.id" android:value="1">
+</meta-data>
+</application>
+</manifest>
+INFO - Determined minimum SDK version to be:21
+ISSUES - APP COMPONENT ATTACK SURFACE
+INFO - Backups not enabled.
+INFO - Checking provider
+INFO - Checking activity
+WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
+com.auth0.android.lock.LockActivity
+com.mysmartblinds2.android.SplashActivity
+INFO - Checking activity-alias
+INFO - Checking services
+WARNING - The following service are exported, but not protected by any permissions. Failing to protect service could leave them vulnerable to attack by malicious apps. The service should be reviewed for vulnerabilities, such as injection and information leakage.
+com.mysmartblinds2.android.presentation.hub.DfuService
+INFO - Checking receivers
+INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
+
+
+
+
+
+
+
+
+
+
+
+
+JD CORE   0%|                                                                 |
+Procyon   0%|                                                                 |
+CFR   0%|                                                                     |
+CFR 100%|#####################################################################|
+JD CORE 100%|#################################################################|
+Procyon 100%|#################################################################|
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+
+INFO - Trying to improve accuracy of the decompiled files
+INFO - Restored 0 file(s) out of 0 corrupt file(s)
+INFO - Decompiled code found at:/Users/Johnny/Desktop/casa/apks/com.mysmartblinds2.android/
+INFO - Finding all java files
+INFO - Running Static Code Analysis...
+INFO - Looking for private key files in project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+X.509 Validation   0%|                                                        |
+Pending Intents   0%|                                                         |
+File Permissions (check 1)   0%|                                              |
+File Permissions (check 2)   0%|                                              |
+Webview checks   0%|                                                          |
+Broadcast issues   0%|                                                        |
+Crypto issues   0%|                                                           |
+X.509 Validation 100%|########################################################|
+Pending Intents 100%|#########################################################|
+File Permissions (check 1) 100%|##############################################|
+Webview checks 100%|##########################################################|
+Broadcast issues 100%|########################################################|
+File Permissions (check 2) 100%|##############################################|
+Crypto issues 100%|###########################################################|
+
+
+
+
+
+
+ISSUES - CRYPTO ISSUES
+INFO -  No issues to report
+ISSUES - BROADCAST ISSUES
+INFO -  No issues to report
+ISSUES - CERTIFICATE VALIDATION ISSUES
+INFO -  No issues to report
+ISSUES - PENDING INTENT ISSUES
+INFO -  No issues to report
+ISSUES - FILE PERMISSION ISSUES
+INFO -  No issues to report
+ISSUES - WEB-VIEW ISSUES
+INFO - FOUND 0 WEBVIEWS:
+WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to complete this module. The impact should be verified manually anyway, so have fun...
+ISSUES - ADB EXPLOIT COMMANDS
+INFO - Until we perfect this, for manually testing, run the following command to see all the options and their meanings: adb shell am. Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here: http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
+==>EXPORTED ACTIVITIES: 
+1com.auth0.android.lock.LockActivity
+ERROR - Sorry, we could not find a filename while looking for extras
+
+adb shell am start -a "android.intent.action.VIEW" -n "com.mysmartblinds2.android/com.auth0.android.lock.LockActivity"
+2com.mysmartblinds2.android.SplashActivity
+ERROR - Sorry, we could not find a filename while looking for extras
+
+adb shell am start -a "android.intent.action.MAIN" -n "com.mysmartblinds2.android/com.mysmartblinds2.android.SplashActivity"
+==>EXPORTED SERVICES: 
+1com.mysmartblinds2.android.presentation.hub.DfuService
+ERROR - Sorry, we could not find a filename while looking for extras
+
+adb shell am startservice com.mysmartblinds2.android/com.mysmartblinds2.android.presentation.hub.DfuService
+
+To view any sticky broadcasts on the device:
+adb shell dumpsys activity| grep sticky
+
+INFO - Support for other component types and dynamically adding extras is in the works, please check for updates
+An html report of the findings is located in : /Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/report/report.html
+Goodbye!

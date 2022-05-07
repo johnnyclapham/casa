@@ -1,0 +1,22 @@
+ .d88888b.           d8888   8888888b.    888    d8P  
+d88P" "Y88b         d88888   888   Y88b   888   d8P   
+888     888        d88P888   888    888   888  d8P    
+888     888       d88P 888   888   d88P   888d88K     
+888     888      d88P  888   8888888P"    8888888b    
+888 Y8b 888     d88P   888   888 T88b     888  Y88b   
+Y88b.Y8b88P    d8888888888   888  T88b    888   Y88b  
+ "Y888888"    d88P     888   888   T88b   888    Y88b 
+       Y8b                                            
+                                                      
+                                                      
+
+Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 172, in <module>
+    common.writeKey("rootDir", common.rootDir)
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/modules/common.py", line 260, in writeKey
+    for line in fileinput.input([rootDir +"/settings.properties"], inplace=True):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/fileinput.py", line 243, in next
+    self.nextfile()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/fileinput.py", line 264, in nextfile
+    output.close()
+IOError: [Errno 28] No space left on device

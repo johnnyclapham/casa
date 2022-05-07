@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 24, in <module>
+    from modules import common,intents,webviews, report, unpackAPK
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/modules/webviews.py", line 18, in <module>
+    import report
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/modules/report.py", line 15, in <module>
+    from bs4 import BeautifulSoup
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/bs4/__init__.py", line 30, in <module>
+    from .builder import builder_registry, ParserRejectedMarkup
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/bs4/builder/__init__.py", line 4, in <module>
+    from bs4.element import (
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/bs4/element.py", line 5, in <module>
+    from bs4.dammit import EntitySubstitution
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/bs4/dammit.py", line 18, in <module>
+    try:
+KeyboardInterrupt

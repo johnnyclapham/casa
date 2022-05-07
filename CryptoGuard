@@ -1,0 +1,10 @@
+-> Tool: CryptoGuard
+    -> {'count': '10', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
+    -> {'count': '6', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    -> {'count': '1', 'group': 'Used Predictable KeyStore Password', 'code': '14', 'bytes': '0'}
+-> Tool: CryptoGuard
+    -> {'count': '4', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
+    -> {'count': '32', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
+    -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
+    -> {'count': '1', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
+    -> {'count': '32', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}

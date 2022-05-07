@@ -1,7 +1,7 @@
 [main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /Users/Johnny/Desktop/casa/apks/com.kaon.android.lepton.hitachi.apk (1 of 1)...
 [main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
 [main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
-[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.008883087 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.01001031 seconds
 [main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 2,457.9 MiB
 [main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 3 components...
 [main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
@@ -74,7 +74,7 @@
 [main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NFC:
 [main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NO_CATEGORY:
 [main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 68 sources, 194 sinks, and 16 callback methods.
-[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 4 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 5 seconds
 [main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /Users/Johnny/Desktop/casa/apks/com.kaon.android.lepton.hitachi.apk with 68 sources and 194 sinks...
 [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
 [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
@@ -86,7 +86,7 @@
 [main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 2,457.9 MiB
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
 [main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.225622466 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.320427918 seconds
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 3635 edges
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
@@ -94,10 +94,10 @@
 [main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 2 sources and 289 sinks.
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 44777
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 44064
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 145091 forward and 80408 backward edges solved in 3 seconds, processing 12 results...
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 436 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 44722
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 44010
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 144551 forward and 80400 backward edges solved in 4 seconds, processing 12 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 456 MB
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 104 MB
 [main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 1 with 5 elements
 [main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
@@ -118,11 +118,13 @@
 [main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
 [main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
 [main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 128 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 111 MB
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 1 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke r10.<java.io.FileOutputStream: void write(byte[])>($r1) in method <com.kaon.android.lepton.ContentManagerQS: int write(java.lang.String,byte[],java.io.InputStream,com.kaon.android.lepton.ContentManagerFile,boolean)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r27 = interfaceinvoke $r24.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() in method <com.kaon.android.lepton.ContentManagerQS: byte[] loadURL(java.lang.String,java.lang.String,java.lang.String,int,com.kaon.android.lepton.ContentManagerFile,boolean)>
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke r10.<java.io.FileOutputStream: void write(byte[],int,int)>(r4, 0, $i0) in method <com.kaon.android.lepton.ContentManagerQS: int write(java.lang.String,byte[],java.io.InputStream,com.kaon.android.lepton.ContentManagerFile,boolean)> was called with values from the following sources:
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r27 = interfaceinvoke $r24.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() in method <com.kaon.android.lepton.ContentManagerQS: byte[] loadURL(java.lang.String,java.lang.String,java.lang.String,int,com.kaon.android.lepton.ContentManagerFile,boolean)>
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int w(java.lang.String,java.lang.String)>($r1, $r8) in method <com.kaon.android.lepton.ContentManagerQS: void update()> was called with values from the following sources:
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r27 = interfaceinvoke $r24.<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()>() in method <com.kaon.android.lepton.ContentManagerQS: byte[] loadURL(java.lang.String,java.lang.String,java.lang.String,int,com.kaon.android.lepton.ContentManagerFile,boolean)>
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 4 seconds. Maximum memory consumption: 436 MB
-[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 2 leaks
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 6 seconds. Maximum memory consumption: 456 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks

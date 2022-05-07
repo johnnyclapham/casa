@@ -1,0 +1,253 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /Users/Johnny/Desktop/casa/apks/com.orvibo.rf.activitys.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.02079829 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 2,457.9 MiB
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 29 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method back not found in class com.orvibo.rf.activitys.CrontabAddActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method selectRoom not found in class com.orvibo.rf.activitys.SceneActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method back not found in class com.orvibo.rf.activitys.CrontabModifyActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method showHideDeviceType not found in class com.orvibo.rf.activitys.DeviceModifyActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method autoTcpLogin not found in class com.orvibo.rf.activitys.LoginActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method tcpLogin not found in class com.orvibo.rf.activitys.LoginActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method rememberPassword not found in class com.orvibo.rf.activitys.LoginActivity
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 29 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 29 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method back not found in class com.orvibo.rf.activitys.CrontabAddActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method selectRoom not found in class com.orvibo.rf.activitys.SceneActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method back not found in class com.orvibo.rf.activitys.CrontabModifyActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method showHideDeviceType not found in class com.orvibo.rf.activitys.DeviceModifyActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method autoTcpLogin not found in class com.orvibo.rf.activitys.LoginActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method tcpLogin not found in class com.orvibo.rf.activitys.LoginActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method rememberPassword not found in class com.orvibo.rf.activitys.LoginActivity
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 29 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 5 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method back not found in class com.orvibo.rf.activitys.CrontabAddActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method selectRoom not found in class com.orvibo.rf.activitys.SceneActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method back not found in class com.orvibo.rf.activitys.CrontabModifyActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method showHideDeviceType not found in class com.orvibo.rf.activitys.DeviceModifyActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method autoTcpLogin not found in class com.orvibo.rf.activitys.LoginActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method tcpLogin not found in class com.orvibo.rf.activitys.LoginActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method rememberPassword not found in class com.orvibo.rf.activitys.LoginActivity
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 29 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 0 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method back not found in class com.orvibo.rf.activitys.CrontabAddActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method selectRoom not found in class com.orvibo.rf.activitys.SceneActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method back not found in class com.orvibo.rf.activitys.CrontabModifyActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method showHideDeviceType not found in class com.orvibo.rf.activitys.DeviceModifyActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method autoTcpLogin not found in class com.orvibo.rf.activitys.LoginActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method tcpLogin not found in class com.orvibo.rf.activitys.LoginActivity
+[main] ERROR soot.jimple.infoflow.android.SetupApplication - Callback method rememberPassword not found in class com.orvibo.rf.activitys.LoginActivity
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.UrlTag: java.lang.String createUrl)> -> _SINK_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.orm.hibernate3.support.ClobStringType: int[] sqlTypes)> -> _SINK_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.CsrfBeanDefinitionParser: org.springframework.beans.factory.config.BeanDefinition getCsrfLogoutHandler)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <java.io.File: java.io.File getAbsoluteFile)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginPage)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <com.google.auth.oauth2.UserCredentials: java.lang.String getClientSecret)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.UrlTag: java.lang.String createUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <java.io.File: java.io.File getCanonicalFile)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getMethod)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.dmfs.oauth2.client.http.requests.ResourceOwnerPasswordTokenRequest: org.dmfs.httpclient.HttpRequestEntity requestEntity)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.concurrent.DelegatingSecurityContextExecutorService: java.util.concurrent.ExecutorService getDelegate)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.builders.HttpSecurity: org.springframework.security.config.'annotation'.web.configurers.HeadersConfigurer headers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.EscapeBodyTag: java.lang.String readBodyContent)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginProcessingUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.configurers.LogoutConfigurer: java.util.List getLogoutHandlers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getHttpVersion)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <com.google.auth.oauth2.DefaultCredentialsProvider: java.io.File getWellKnownCredentialsFile)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.HttpServletRequestImpl: void parseParameters)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match:     
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: LOCATION_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: PHONE_CONNECTION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: VOIP:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: PHONE_STATE:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: EMAIL:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: BLUETOOTH:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: ACCOUNT_SETTINGS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: AUDIO:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SYNCHRONIZATION_DATA:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NETWORK:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: FILE:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: LOG:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SMS_MMS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: CONTACT_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: CALENDAR_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SYSTEM_SETTINGS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: BROWSER_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NFC:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NO_CATEGORY:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: UNIQUE_IDENTIFIER:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: LOCATION_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NETWORK_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: ACCOUNT_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: FILE_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: BLUETOOTH_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: DATABASE_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: EMAIL:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SYNCHRONIZATION_DATA:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SMS_MMS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: CONTACT_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: CALENDAR_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SYSTEM_SETTINGS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: IMAGE:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: BROWSER_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NFC:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NO_CATEGORY:
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 68 sources, 194 sinks, and 242 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 8 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /Users/Johnny/Desktop/casa/apks/com.orvibo.rf.activitys.apk with 68 sources and 194 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 2,457.9 MiB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.461545383 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 8510 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 93 sources and 500 sinks.
+[Low memory monitor] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Triggering memory warning at 3066 MB (2863 MB max, 2610 in watched memory pool)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 3719786
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 3694293
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 12562508 forward and 9376770 backward edges solved in 198 seconds, processing 30 results...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 3076 MB
+[Low memory monitor] WARN soot.jimple.infoflow.memory.FlowDroidMemoryWatcher - Running out of memory, solvers terminated
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 251 MB
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 1 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 2 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 3 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 4 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 5 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.BatchPathBuilder - Running path reconstruction batch 6 with 5 elements
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 2...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 3...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 4...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 5...
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 665 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 13 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("RegisterRemoteUserActivity", $r6) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity$4: void onFocusChange(android.view.View,boolean)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.RegisterRemoteUserActivity: android.view.View findViewById(int)>(2131361964) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity: void initView()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r4) in method <com.orvibo.rf.application.UserStorage: void saveGatewayId(android.content.Context,java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("ModifyRemotePasswordActivity", $r14) in method <com.orvibo.rf.activitys.ModifyRemotePasswordActivity: void confirmModifyRemotePwd(android.view.View)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.ModifyRemotePasswordActivity: android.view.View findViewById(int)>(2131361951) in method <com.orvibo.rf.activitys.ModifyRemotePasswordActivity: void confirmModifyRemotePwd(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.ModifyRemotePasswordActivity: android.view.View findViewById(int)>(2131361950) in method <com.orvibo.rf.activitys.ModifyRemotePasswordActivity: void confirmModifyRemotePwd(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.ModifyRemotePasswordActivity: android.view.View findViewById(int)>(2131361952) in method <com.orvibo.rf.activitys.ModifyRemotePasswordActivity: void confirmModifyRemotePwd(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("LoginActivity", $r6) in method <com.orvibo.rf.activitys.LoginActivity: void getUser(int,boolean)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("RegisterRemoteUserActivity", $r7) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity$3: void onFocusChange(android.view.View,boolean)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.RegisterRemoteUserActivity: android.view.View findViewById(int)>(2131361962) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity: void initView()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink virtualinvoke r0.<com.orvibo.rf.activitys.LoginActivity: android.content.ComponentName startService(android.content.Intent)>($r18) in method <com.orvibo.rf.activitys.LoginActivity: void onCreate(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r10, $r11) in method <com.orvibo.rf.activitys.CrontabModifyActivity: void modifyCrontab()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r6 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.DeviceInfoDao: com.orvibo.rf.bo.DeviceInfo queryDeviceInfoByDeviceInfoNo(int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r9 = interfaceinvoke $r10.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.SceneDao: com.orvibo.rf.bo.Scene selSceneBySceneNo(int)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("checkInvalidChars()", r2) in method <com.orvibo.rf.utils.StringUtil: int checkInvalidChars(java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.RegisterRemoteUserActivity: android.view.View findViewById(int)>(2131361962) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity: void initView()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.ModifyRemotePasswordActivity: android.view.View findViewById(int)>(2131361951) in method <com.orvibo.rf.activitys.ModifyRemotePasswordActivity: void confirmModifyRemotePwd(android.view.View)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("RegisterRemoteUserActivity", $r6) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity: byte judageInput()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.RegisterRemoteUserActivity: android.view.View findViewById(int)>(2131361964) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity: void initView()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("RegisterRemoteUserActivity", $r6) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity: byte judageInput()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.RegisterRemoteUserActivity: android.view.View findViewById(int)>(2131361962) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity: void initView()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("RegisterRemoteUserActivity", $r3) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity$8: void run()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.RegisterRemoteUserActivity: android.view.View findViewById(int)>(2131361962) in method <com.orvibo.rf.activitys.RegisterRemoteUserActivity: void initView()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r2, $r4) in method <com.orvibo.rf.application.UserStorage: void saveUdpIp(android.content.Context,java.lang.String)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("LoginActivity", $r3) in method <com.orvibo.rf.activitys.LoginActivity: void onCreate(android.os.Bundle)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("LoginActivity", $r7) in method <com.orvibo.rf.activitys.LoginActivity$10: void run()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("LoginActivity", $r3) in method <com.orvibo.rf.activitys.LoginActivity: void tcpLogin()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.LoginActivity: android.view.View findViewById(int)>(2131362007) in method <com.orvibo.rf.activitys.LoginActivity: void initLoginView()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selGatewayByUserName(java.lang.String)>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r8 = interfaceinvoke $r7.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: com.orvibo.rf.bo.Gateway selLastLoginUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("LoginActivity", $r6) in method <com.orvibo.rf.activitys.LoginActivity: void getUser(int,boolean)> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r1 = virtualinvoke r0.<com.orvibo.rf.activitys.LoginActivity: android.view.View findViewById(int)>(2131362007) in method <com.orvibo.rf.activitys.LoginActivity: void initLoginView()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>($r11, $r13) in method <com.orvibo.rf.dao.GatewayDao: java.util.List selAllTcpUser()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r11 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: java.util.List selAllTcpUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - - $r11 = interfaceinvoke $r9.<android.database.Cursor: java.lang.String getString(int)>($i0) in method <com.orvibo.rf.dao.GatewayDao: java.util.List selAllTcpUser()>
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 214 seconds. Maximum memory consumption: 3076 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 17 leaks

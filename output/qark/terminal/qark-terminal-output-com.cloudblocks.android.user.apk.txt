@@ -1,0 +1,33 @@
+[H[2J[3J .d88888b.           d8888   8888888b.    888    d8P  
+d88P" "Y88b         d88888   888   Y88b   888   d8P   
+888     888        d88P888   888    888   888  d8P    
+888     888       d88P 888   888   d88P   888d88K     
+888     888      d88P  888   8888888P"    8888888b    
+888 Y8b 888     d88P   888   888 T88b     888  Y88b   
+Y88b.Y8b88P    d8888888888   888  T88b    888   Y88b  
+ "Y888888"    d88P     888   888   T88b   888    Y88b 
+       Y8b                                            
+                                                      
+                                                      
+
+INFO - Initializing...
+INFO - Identified Android SDK installation from a previous run.
+INFO - Initializing QARK
+
+INFO - Unpacking /Users/Johnny/Desktop/casa/apks/com.cloudblocks.android.user.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x10828d3d0>
+INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/com.cloudblocks.android.user/
+INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/com.cloudblocks.android.user
+INFO - AndroidManifest.xml found
+Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 504, in <module>
+    ap = axmlprinter.AXMLPrinter(open(mf, 'rb').read())
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/axmlparserpy/axmlprinter.py", line 43, in __init__
+    self.buff += "<%s%s\n" % (self.getPrefix(self.axml.getPrefix()), self.axml.getName())
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/axmlparserpy/axmlparser.py", line 185, in getName
+    return self.sb.getRaw(self.m_name)
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/axmlparserpy/stringblock.py", line 89, in getRaw
+    data += unichr(self.getShort(self.m_strings, offset))
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/axmlparserpy/stringblock.py", line 100, in getShort
+    value = array[offset / 4].get_value()
+IndexError: list index out of range

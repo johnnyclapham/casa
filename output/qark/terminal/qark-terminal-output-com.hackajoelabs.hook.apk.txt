@@ -15,7 +15,7 @@ INFO - Identified Android SDK installation from a previous run.
 INFO - Initializing QARK
 
 INFO - Unpacking /Users/Johnny/Desktop/casa/apks/com.hackajoelabs.hook.apk
-INFO - Zipfile: <zipfile.ZipFile object at 0x10eeb33d0>
+INFO - Zipfile: <zipfile.ZipFile object at 0x1066753d0>
 INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/com.hackajoelabs.hook/
 INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/com.hackajoelabs.hook
 INFO - AndroidManifest.xml found
@@ -287,6 +287,26 @@ Decompilation may hang/take too long (usually happens when the source is obfusca
 At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
 Decompilation may hang/take too long (usually happens when the source is obfuscated).
 At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
 
 INFO - Trying to improve accuracy of the decompiled files
 INFO - Restored 6 file(s) out of 7 corrupt file(s)
@@ -321,437 +341,437 @@ Pending Intents   1%|                                                         |
 File Permissions (check 1)   1%|                                              |
 Webview checks   1%|                                                          |
 Broadcast issues   1%|                                                        |
-Crypto issues   1%|                                                           |
 X.509 Validation   3%|#                                                       |
+Crypto issues   1%|                                                           |
+Pending Intents   3%|#                                                        |
 Webview checks   3%|#                                                         |
 File Permissions (check 1)   3%|#                                             |
+Pending Intents   4%|##                                                       |
 X.509 Validation   4%|##                                                      |
-Webview checks   4%|##                                                        |
-Crypto issues   3%|#                                                          |
-Pending Intents   3%|#                                                        |
 Broadcast issues   3%|#                                                       |
 File Permissions (check 1)   4%|#                                             |
-X.509 Validation   6%|###                                                     |
-Webview checks   6%|###                                                       |
-Pending Intents   4%|##                                                       |
-Webview checks   7%|####                                                      |
-Broadcast issues   4%|##                                                      |
-X.509 Validation   7%|###                                                     |
-Webview checks   9%|#####                                                     |
+Crypto issues   3%|#                                                          |
+Webview checks   4%|##                                                        |
 File Permissions (check 1)   6%|##                                            |
-Crypto issues   4%|##                                                         |
-X.509 Validation   9%|#####                                                   |
-Broadcast issues   6%|###                                                     |
-Webview checks  10%|#####                                                     |
 File Permissions (check 1)   7%|###                                           |
-X.509 Validation  10%|#####                                                   |
-Broadcast issues   7%|###                                                     |
+Crypto issues   4%|##                                                         |
+Webview checks   6%|###                                                       |
 File Permissions (check 1)   9%|####                                          |
-Webview checks  12%|######                                                    |
-Crypto issues   6%|###                                                        |
-Broadcast issues   9%|#####                                                   |
-X.509 Validation  12%|######                                                  |
 File Permissions (check 1)  10%|####                                          |
-Webview checks  13%|#######                                                   |
-Crypto issues   7%|####                                                       |
-Broadcast issues  10%|#####                                                   |
-X.509 Validation  13%|#######                                                 |
 File Permissions (check 1)  12%|#####                                         |
-Webview checks  15%|########                                                  |
-Pending Intents   6%|###                                                      |
-Crypto issues   9%|#####                                                      |
-Webview checks  16%|#########                                                 |
 File Permissions (check 1)  13%|#####                                         |
-Pending Intents   7%|###                                                      |
-Webview checks  18%|##########                                                |
-Crypto issues  10%|#####                                                      |
-Broadcast issues  12%|######                                                  |
-Crypto issues  12%|#######                                                    |
-Pending Intents   9%|#####                                                    |
 File Permissions (check 1)  15%|######                                        |
-Webview checks  20%|###########                                               |
-X.509 Validation  15%|########                                                |
-Webview checks  21%|############                                              |
-Broadcast issues  13%|#######                                                 |
-Crypto issues  13%|#######                                                    |
 File Permissions (check 1)  16%|#######                                       |
-X.509 Validation  16%|########                                                |
-Webview checks  23%|#############                                             |
 File Permissions (check 1)  18%|########                                      |
-X.509 Validation  18%|##########                                              |
-Webview checks  24%|#############                                             |
 File Permissions (check 1)  20%|#########                                     |
 File Permissions (check 1)  21%|#########                                     |
-Webview checks  26%|###############                                           |
-Broadcast issues  15%|########                                                |
 File Permissions (check 1)  23%|##########                                    |
-Webview checks  27%|###############                                           |
-Pending Intents  10%|#####                                                    |
-Crypto issues  15%|########                                                   |
-X.509 Validation  20%|###########                                             |
+X.509 Validation   6%|###                                                     |
+Webview checks   7%|####                                                      |
+Crypto issues   6%|###                                                        |
 File Permissions (check 1)  24%|###########                                   |
-Webview checks  29%|################                                          |
-Broadcast issues  16%|########                                                |
-Pending Intents  12%|######                                                   |
-Crypto issues  16%|#########                                                  |
-X.509 Validation  21%|###########                                             |
+X.509 Validation   7%|###                                                     |
+Webview checks   9%|#####                                                     |
+Crypto issues   7%|####                                                       |
+Broadcast issues   4%|##                                                      |
+X.509 Validation   9%|#####                                                   |
 File Permissions (check 1)  26%|###########                                   |
-Broadcast issues  18%|##########                                              |
-Webview checks  30%|#################                                         |
-Crypto issues  18%|##########                                                 |
-Pending Intents  13%|#######                                                  |
+Webview checks  10%|#####                                                     |
+X.509 Validation  10%|#####                                                   |
+Crypto issues   9%|#####                                                      |
 File Permissions (check 1)  27%|############                                  |
+Broadcast issues   6%|###                                                     |
+Webview checks  12%|######                                                    |
+Crypto issues  10%|#####                                                      |
 File Permissions (check 1)  29%|#############                                 |
-Crypto issues  20%|###########                                                |
-X.509 Validation  23%|############                                            |
-Pending Intents  15%|########                                                 |
-Webview checks  32%|##################                                        |
+Webview checks  13%|#######                                                   |
+Broadcast issues   7%|###                                                     |
 File Permissions (check 1)  30%|#############                                 |
-Broadcast issues  20%|###########                                             |
-Crypto issues  21%|############                                               |
-Pending Intents  16%|#########                                                |
-Webview checks  33%|###################                                       |
 File Permissions (check 1)  32%|##############                                |
-X.509 Validation  24%|#############                                           |
-Crypto issues  23%|#############                                              |
-Broadcast issues  21%|###########                                             |
-Pending Intents  18%|##########                                               |
-Webview checks  35%|####################                                      |
+Broadcast issues   9%|#####                                                   |
+X.509 Validation  12%|######                                                  |
+Webview checks  15%|########                                                  |
 File Permissions (check 1)  33%|###############                               |
-X.509 Validation  26%|##############                                          |
-Broadcast issues  23%|############                                            |
+Broadcast issues  10%|#####                                                   |
+Webview checks  16%|#########                                                 |
+X.509 Validation  13%|#######                                                 |
 File Permissions (check 1)  35%|################                              |
-Webview checks  36%|####################                                      |
-Pending Intents  20%|###########                                              |
-X.509 Validation  27%|###############                                         |
 File Permissions (check 1)  36%|################                              |
-Webview checks  38%|######################                                    |
-X.509 Validation  29%|################                                        |
-Pending Intents  21%|###########                                              |
-Broadcast issues  24%|#############                                           |
-Crypto issues  24%|##############                                             |
-Webview checks  40%|#######################                                   |
+Webview checks  18%|##########                                                |
+Crypto issues  12%|#######                                                    |
 File Permissions (check 1)  38%|#################                             |
-Webview checks  41%|#######################                                   |
-Broadcast issues  26%|##############                                          |
+Webview checks  20%|###########                                               |
+Crypto issues  13%|#######                                                    |
+Broadcast issues  12%|######                                                  |
 File Permissions (check 1)  40%|##################                            |
-Pending Intents  23%|#############                                            |
-X.509 Validation  30%|################                                        |
-Webview checks  43%|########################                                  |
-Broadcast issues  27%|###############                                         |
-Crypto issues  26%|###############                                            |
+Pending Intents   6%|###                                                      |
+Webview checks  21%|############                                              |
 File Permissions (check 1)  41%|##################                            |
-Webview checks  44%|#########################                                 |
-X.509 Validation  32%|#################                                       |
-Broadcast issues  29%|################                                        |
+Webview checks  23%|#############                                             |
+Pending Intents   7%|###                                                      |
+Broadcast issues  13%|#######                                                 |
 File Permissions (check 1)  43%|###################                           |
-Crypto issues  27%|###############                                            |
-Webview checks  46%|##########################                                |
 File Permissions (check 1)  44%|####################                          |
-Crypto issues  29%|#################                                          |
-X.509 Validation  33%|##################                                      |
-Broadcast issues  30%|################                                        |
-Webview checks  47%|###########################                               |
+Pending Intents   9%|#####                                                    |
+Webview checks  24%|#############                                             |
 File Permissions (check 1)  46%|#####################                         |
-Crypto issues  30%|#################                                          |
-Webview checks  49%|############################                              |
-X.509 Validation  35%|###################                                     |
+Webview checks  26%|###############                                           |
 File Permissions (check 1)  47%|#####################                         |
-Webview checks  50%|#############################                             |
-Broadcast issues  32%|#################                                       |
-X.509 Validation  36%|####################                                    |
+Webview checks  27%|###############                                           |
+Crypto issues  15%|########                                                   |
 File Permissions (check 1)  49%|######################                        |
-Webview checks  52%|##############################                            |
-Pending Intents  24%|#############                                            |
-Crypto issues  32%|##################                                         |
-Broadcast issues  33%|##################                                      |
+Webview checks  29%|################                                          |
 File Permissions (check 1)  50%|#######################                       |
-X.509 Validation  38%|#####################                                   |
-Webview checks  53%|##############################                            |
-Pending Intents  26%|##############                                           |
+X.509 Validation  15%|########                                                |
+Webview checks  30%|#################                                         |
+Crypto issues  16%|#########                                                  |
+X.509 Validation  16%|########                                                |
 File Permissions (check 1)  52%|#######################                       |
+Webview checks  32%|##################                                        |
+Crypto issues  18%|##########                                                 |
+X.509 Validation  18%|##########                                              |
 File Permissions (check 1)  53%|########################                      |
-Webview checks  55%|###############################                           |
-Crypto issues  33%|###################                                        |
-Pending Intents  27%|###############                                          |
+Webview checks  33%|###################                                       |
 File Permissions (check 1)  55%|#########################                     |
-Broadcast issues  35%|###################                                     |
-Pending Intents  29%|################                                         |
+Webview checks  35%|####################                                      |
 File Permissions (check 1)  56%|#########################                     |
-Broadcast issues  36%|####################                                    |
-Webview checks  56%|################################                          |
-X.509 Validation  40%|######################                                  |
-Crypto issues  35%|####################                                       |
-Broadcast issues  38%|#####################                                   |
+Webview checks  36%|####################                                      |
+X.509 Validation  20%|###########                                             |
+Webview checks  38%|######################                                    |
+Crypto issues  20%|###########                                                |
+X.509 Validation  21%|###########                                             |
 File Permissions (check 1)  58%|##########################                    |
+Broadcast issues  15%|########                                                |
+Crypto issues  21%|############                                               |
+Webview checks  40%|#######################                                   |
 File Permissions (check 1)  60%|###########################                   |
-Broadcast issues  40%|######################                                  |
+Pending Intents  10%|#####                                                    |
 File Permissions (check 1)  61%|############################                  |
-Webview checks  58%|#################################                         |
-X.509 Validation  41%|######################                                  |
-Broadcast issues  41%|######################                                  |
-Crypto issues  36%|#####################                                      |
-Webview checks  60%|##################################                        |
+Broadcast issues  16%|########                                                |
+Webview checks  41%|#######################                                   |
+Crypto issues  23%|#############                                              |
+X.509 Validation  23%|############                                            |
 File Permissions (check 1)  63%|############################                  |
-Crypto issues  38%|######################                                     |
+Webview checks  43%|########################                                  |
+Broadcast issues  18%|##########                                              |
 File Permissions (check 1)  64%|#############################                 |
-Webview checks  61%|###################################                       |
-X.509 Validation  43%|########################                                |
-Broadcast issues  43%|########################                                |
 File Permissions (check 1)  66%|##############################                |
-Webview checks  63%|####################################                      |
-Crypto issues  40%|#######################                                    |
-X.509 Validation  44%|########################                                |
-Pending Intents  30%|#################                                        |
+Webview checks  44%|#########################                                 |
+Webview checks  46%|##########################                                |
+Pending Intents  12%|######                                                   |
 File Permissions (check 1)  67%|##############################                |
-Broadcast issues  44%|########################                                |
-Webview checks  64%|#####################################                     |
-X.509 Validation  46%|#########################                               |
-Pending Intents  32%|##################                                       |
-Broadcast issues  46%|#########################                               |
-Webview checks  66%|######################################                    |
-X.509 Validation  47%|##########################                              |
-Crypto issues  41%|########################                                   |
-Broadcast issues  47%|##########################                              |
-Crypto issues  43%|#########################                                  |
-Webview checks  67%|######################################                    |
+Webview checks  47%|###########################                               |
 File Permissions (check 1)  69%|###############################               |
-Crypto issues  44%|#########################                                  |
 File Permissions (check 1)  70%|################################              |
-Crypto issues  46%|###########################                                |
 File Permissions (check 1)  72%|#################################             |
-Broadcast issues  49%|###########################                             |
-X.509 Validation  49%|###########################                             |
-Webview checks  69%|########################################                  |
-Pending Intents  33%|##################                                       |
 File Permissions (check 1)  73%|#################################             |
-X.509 Validation  50%|############################                            |
-Webview checks  70%|########################################                  |
-Crypto issues  47%|###########################                                |
-Broadcast issues  50%|############################                            |
 File Permissions (check 1)  75%|##################################            |
-Pending Intents  35%|###################                                      |
-X.509 Validation  52%|#############################                           |
-Webview checks  72%|#########################################                 |
 File Permissions (check 1)  76%|##################################            |
-X.509 Validation  53%|#############################                           |
-Crypto issues  49%|############################                               |
+Pending Intents  13%|#######                                                  |
+Crypto issues  24%|##############                                             |
+Webview checks  49%|############################                              |
 File Permissions (check 1)  78%|###################################           |
-Broadcast issues  52%|#############################                           |
-Webview checks  73%|##########################################                |
-Pending Intents  36%|####################                                     |
-X.509 Validation  55%|##############################                          |
-Crypto issues  50%|#############################                              |
 File Permissions (check 1)  80%|####################################          |
-Webview checks  75%|###########################################               |
-Broadcast issues  53%|#############################                           |
-Pending Intents  38%|#####################                                    |
-X.509 Validation  56%|###############################                         |
-Crypto issues  52%|##############################                             |
+Webview checks  50%|#############################                             |
+Crypto issues  26%|###############                                            |
+Broadcast issues  20%|###########                                             |
 File Permissions (check 1)  81%|#####################################         |
-Webview checks  76%|############################################              |
-Webview checks  78%|#############################################             |
-Broadcast issues  55%|##############################                          |
-Webview checks  80%|##############################################            |
-Webview checks  81%|##############################################            |
-Crypto issues  53%|###############################                            |
-Crypto issues  55%|################################                           |
-Webview checks  83%|################################################          |
-Webview checks  84%|################################################          |
-Webview checks  86%|#################################################         |
-Pending Intents  40%|######################                                   |
-Crypto issues  56%|#################################                          |
-Broadcast issues  56%|###############################                         |
-Webview checks  87%|##################################################        |
-X.509 Validation  58%|################################                        |
-Pending Intents  41%|#######################                                  |
-Webview checks  89%|###################################################       |
-Crypto issues  58%|##################################                         |
-X.509 Validation  60%|#################################                       |
+Crypto issues  27%|###############                                            |
+Webview checks  52%|##############################                            |
+Broadcast issues  21%|###########                                             |
+Crypto issues  29%|#################                                          |
+Webview checks  53%|##############################                            |
+Webview checks  55%|###############################                           |
+Webview checks  56%|################################                          |
+Webview checks  58%|#################################                         |
+Webview checks  60%|##################################                        |
+Broadcast issues  23%|############                                            |
+Webview checks  61%|###################################                       |
+X.509 Validation  24%|#############                                           |
+X.509 Validation  26%|##############                                          |
+X.509 Validation  27%|###############                                         |
+Webview checks  63%|####################################                      |
+X.509 Validation  29%|################                                        |
+Webview checks  64%|#####################################                     |
+Webview checks  66%|######################################                    |
+Webview checks  67%|######################################                    |
+Crypto issues  30%|#################                                          |
+Broadcast issues  24%|#############                                           |
 File Permissions (check 1)  83%|######################################        |
-Broadcast issues  58%|################################                        |
-Pending Intents  43%|########################                                 |
-Crypto issues  60%|###################################                        |
-Webview checks  90%|####################################################      |
+X.509 Validation  30%|################                                        |
 File Permissions (check 1)  84%|######################################        |
-X.509 Validation  61%|##################################                      |
-Broadcast issues  60%|#################################                       |
-Pending Intents  44%|#########################                                |
-Webview checks  92%|#####################################################     |
-Crypto issues  61%|###################################                        |
+Webview checks  69%|########################################                  |
 File Permissions (check 1)  86%|#######################################       |
-X.509 Validation  63%|###################################                     |
-Broadcast issues  61%|##################################                      |
-Webview checks  93%|#####################################################     |
+Broadcast issues  26%|##############                                          |
+Pending Intents  15%|########                                                 |
+Webview checks  70%|########################################                  |
 File Permissions (check 1)  87%|########################################      |
-Crypto issues  63%|#####################################                      |
-Broadcast issues  63%|###################################                     |
-Webview checks  95%|#######################################################   |
-X.509 Validation  64%|###################################                     |
+Broadcast issues  27%|###############                                         |
+Webview checks  72%|#########################################                 |
+Webview checks  73%|##########################################                |
+Broadcast issues  29%|################                                        |
 File Permissions (check 1)  89%|########################################      |
-Broadcast issues  64%|###################################                     |
-Webview checks  96%|#######################################################   |
-Crypto issues  64%|#####################################                      |
-Crypto issues  66%|######################################                     |
-X.509 Validation  66%|####################################                    |
-Broadcast issues  66%|####################################                    |
-Webview checks  98%|########################################################  |
-Pending Intents  46%|##########################                               |
+Pending Intents  16%|#########                                                |
+Webview checks  75%|###########################################               |
+Pending Intents  18%|##########                                               |
+Webview checks  76%|############################################              |
 File Permissions (check 1)  90%|#########################################     |
+Webview checks  78%|#############################################             |
 File Permissions (check 1)  92%|##########################################    |
-Webview checks 100%|##########################################################|
-X.509 Validation  67%|#####################################                   |
+Webview checks  80%|##############################################            |
+Crypto issues  32%|##################                                         |
+Webview checks  81%|##############################################            |
+X.509 Validation  32%|#################                                       |
 File Permissions (check 1)  93%|##########################################    |
-Broadcast issues  67%|#####################################                   |
-Crypto issues  67%|#######################################                    |
 File Permissions (check 1)  95%|###########################################   |
+Pending Intents  20%|###########                                              |
+Broadcast issues  30%|################                                        |
 File Permissions (check 1)  96%|############################################  |
+Pending Intents  21%|###########                                              |
+Crypto issues  33%|###################                                        |
 File Permissions (check 1)  98%|############################################# |
-Pending Intents  47%|##########################                               |
+X.509 Validation  33%|##################                                      |
 File Permissions (check 1) 100%|##############################################|
 File Permissions (check 2)   1%|                                              |
+Pending Intents  23%|#############                                            |
 File Permissions (check 2)   3%|#                                             |
-X.509 Validation  69%|######################################                  |
+Webview checks  83%|################################################          |
+Broadcast issues  32%|#################                                       |
 File Permissions (check 2)   4%|#                                             |
-Crypto issues  69%|########################################                   |
+Webview checks  84%|################################################          |
+Webview checks  86%|#################################################         |
+Crypto issues  35%|####################                                       |
 File Permissions (check 2)   6%|##                                            |
-Crypto issues  70%|#########################################                  |
-X.509 Validation  70%|#######################################                 |
 File Permissions (check 2)   7%|###                                           |
-Crypto issues  72%|##########################################                 |
-Broadcast issues  69%|######################################                  |
-Crypto issues  73%|###########################################                |
+Webview checks  87%|##################################################        |
+X.509 Validation  35%|###################                                     |
+Crypto issues  36%|#####################                                      |
 File Permissions (check 2)   9%|####                                          |
-X.509 Validation  72%|########################################                |
-Broadcast issues  70%|#######################################                 |
-Crypto issues  75%|############################################               |
+Webview checks  89%|###################################################       |
+Webview checks  90%|####################################################      |
+Crypto issues  38%|######################                                     |
 File Permissions (check 2)  10%|####                                          |
-X.509 Validation  73%|########################################                |
-Crypto issues  76%|############################################               |
-Pending Intents  49%|###########################                              |
-Broadcast issues  72%|########################################                |
-Pending Intents  50%|############################                             |
+X.509 Validation  36%|####################                                    |
 File Permissions (check 2)  12%|#####                                         |
-Crypto issues  78%|##############################################             |
 File Permissions (check 2)  13%|#####                                         |
-Broadcast issues  73%|########################################                |
-X.509 Validation  75%|##########################################              |
-Crypto issues  80%|###############################################            |
-X.509 Validation  76%|##########################################              |
 File Permissions (check 2)  15%|######                                        |
-X.509 Validation  78%|###########################################             |
 File Permissions (check 2)  16%|#######                                       |
-Broadcast issues  75%|##########################################              |
-Crypto issues  81%|###############################################            |
 File Permissions (check 2)  18%|########                                      |
-X.509 Validation  80%|############################################            |
-Broadcast issues  76%|##########################################              |
-Pending Intents  52%|#############################                            |
-Pending Intents  53%|##############################                           |
-Broadcast issues  78%|###########################################             |
-Crypto issues  83%|################################################           |
 File Permissions (check 2)  20%|#########                                     |
-X.509 Validation  81%|#############################################           |
-Broadcast issues  80%|############################################            |
 File Permissions (check 2)  21%|#########                                     |
-Pending Intents  55%|###############################                          |
-X.509 Validation  83%|##############################################          |
 File Permissions (check 2)  23%|##########                                    |
-Crypto issues  84%|#################################################          |
-Broadcast issues  81%|#############################################           |
-Crypto issues  86%|##################################################         |
-X.509 Validation  84%|###############################################         |
+Broadcast issues  33%|##################                                      |
 File Permissions (check 2)  24%|###########                                   |
-Crypto issues  87%|###################################################        |
+Webview checks  92%|#####################################################     |
+X.509 Validation  38%|#####################                                   |
+Webview checks  93%|#####################################################     |
 File Permissions (check 2)  26%|###########                                   |
-Crypto issues  89%|####################################################       |
-X.509 Validation  86%|################################################        |
+Webview checks  95%|#######################################################   |
 File Permissions (check 2)  27%|############                                  |
-Broadcast issues  83%|##############################################          |
-X.509 Validation  87%|################################################        |
+Webview checks  96%|#######################################################   |
 File Permissions (check 2)  29%|#############                                 |
-Crypto issues  90%|#####################################################      |
-Pending Intents  56%|###############################                          |
-Crypto issues  92%|######################################################     |
+Webview checks  98%|########################################################  |
+Broadcast issues  35%|###################                                     |
+Crypto issues  40%|#######################                                    |
+Webview checks 100%|##########################################################|
+Broadcast issues  36%|####################                                    |
 File Permissions (check 2)  30%|#############                                 |
 File Permissions (check 2)  32%|##############                                |
+Broadcast issues  38%|#####################                                   |
 File Permissions (check 2)  33%|###############                               |
-Broadcast issues  84%|###############################################         |
-Crypto issues  93%|######################################################     |
-X.509 Validation  89%|#################################################       |
+Crypto issues  41%|########################                                   |
 File Permissions (check 2)  35%|################                              |
-Crypto issues  95%|########################################################   |
+X.509 Validation  40%|######################                                  |
 File Permissions (check 2)  36%|################                              |
-X.509 Validation  90%|##################################################      |
-Broadcast issues  86%|################################################        |
+Crypto issues  43%|#########################                                  |
+Pending Intents  24%|#############                                            |
 File Permissions (check 2)  38%|#################                             |
-X.509 Validation  92%|###################################################     |
-Crypto issues  96%|########################################################   |
-Crypto issues  98%|#########################################################  |
-Broadcast issues  87%|################################################        |
-Crypto issues 100%|###########################################################|
+Crypto issues  44%|#########################                                  |
 File Permissions (check 2)  40%|##################                            |
-Pending Intents  58%|#################################                        |
+Pending Intents  26%|##############                                           |
+Crypto issues  46%|###########################                                |
+Pending Intents  27%|###############                                          |
+Pending Intents  29%|################                                         |
+X.509 Validation  41%|######################                                  |
 File Permissions (check 2)  41%|##################                            |
-Pending Intents  60%|##################################                       |
 File Permissions (check 2)  43%|###################                           |
-Broadcast issues  89%|#################################################       |
-Pending Intents  61%|##################################                       |
-X.509 Validation  93%|####################################################    |
 File Permissions (check 2)  44%|####################                          |
-Broadcast issues  90%|##################################################      |
 File Permissions (check 2)  46%|#####################                         |
+Crypto issues  47%|###########################                                |
+X.509 Validation  43%|########################                                |
+X.509 Validation  44%|########################                                |
 File Permissions (check 2)  47%|#####################                         |
+Broadcast issues  40%|######################                                  |
+X.509 Validation  46%|#########################                               |
 File Permissions (check 2)  49%|######################                        |
-Broadcast issues  92%|###################################################     |
 File Permissions (check 2)  50%|#######################                       |
-X.509 Validation  95%|#####################################################   |
-X.509 Validation  96%|#####################################################   |
-Broadcast issues  93%|####################################################    |
+X.509 Validation  47%|##########################                              |
+Crypto issues  49%|############################                               |
 File Permissions (check 2)  52%|#######################                       |
-X.509 Validation  98%|######################################################  |
 File Permissions (check 2)  53%|########################                      |
-Broadcast issues  95%|#####################################################   |
-Pending Intents  63%|###################################                      |
+Crypto issues  50%|#############################                              |
+Broadcast issues  41%|######################                                  |
 File Permissions (check 2)  55%|#########################                     |
-X.509 Validation 100%|########################################################|
-Broadcast issues  96%|#####################################################   |
-Pending Intents  64%|####################################                     |
 File Permissions (check 2)  56%|#########################                     |
-Broadcast issues  98%|######################################################  |
+Broadcast issues  43%|########################                                |
+Broadcast issues  44%|########################                                |
 File Permissions (check 2)  58%|##########################                    |
-Pending Intents  66%|#####################################                    |
-Broadcast issues 100%|########################################################|
+Broadcast issues  46%|#########################                               |
 File Permissions (check 2)  60%|###########################                   |
+X.509 Validation  49%|###########################                             |
 File Permissions (check 2)  61%|############################                  |
+X.509 Validation  50%|############################                            |
 File Permissions (check 2)  63%|############################                  |
+Crypto issues  52%|##############################                             |
 File Permissions (check 2)  64%|#############################                 |
+Crypto issues  53%|###############################                            |
 File Permissions (check 2)  66%|##############################                |
+Broadcast issues  47%|##########################                              |
+X.509 Validation  52%|#############################                           |
+Pending Intents  30%|#################                                        |
+Crypto issues  55%|################################                           |
+X.509 Validation  53%|#############################                           |
 File Permissions (check 2)  67%|##############################                |
-Pending Intents  67%|######################################                   |
+X.509 Validation  55%|##############################                          |
+Broadcast issues  49%|###########################                             |
+Broadcast issues  50%|############################                            |
 File Permissions (check 2)  69%|###############################               |
+Crypto issues  56%|#################################                          |
+Pending Intents  32%|##################                                       |
 File Permissions (check 2)  70%|################################              |
 File Permissions (check 2)  72%|#################################             |
+X.509 Validation  56%|###############################                         |
 File Permissions (check 2)  73%|#################################             |
 File Permissions (check 2)  75%|##################################            |
+Pending Intents  33%|##################                                       |
 File Permissions (check 2)  76%|##################################            |
 File Permissions (check 2)  78%|###################################           |
+Broadcast issues  52%|#############################                           |
 File Permissions (check 2)  80%|####################################          |
 File Permissions (check 2)  81%|#####################################         |
+Crypto issues  58%|##################################                         |
+Crypto issues  60%|###################################                        |
+Broadcast issues  53%|#############################                           |
+Pending Intents  35%|###################                                      |
+Pending Intents  36%|####################                                     |
+Broadcast issues  55%|##############################                          |
+X.509 Validation  58%|################################                        |
+Crypto issues  61%|###################################                        |
+Pending Intents  38%|#####################                                    |
+X.509 Validation  60%|#################################                       |
 File Permissions (check 2)  83%|######################################        |
 File Permissions (check 2)  84%|######################################        |
+Broadcast issues  56%|###############################                         |
+X.509 Validation  61%|##################################                      |
 File Permissions (check 2)  86%|#######################################       |
+Crypto issues  63%|#####################################                      |
+Crypto issues  64%|#####################################                      |
 File Permissions (check 2)  87%|########################################      |
+Crypto issues  66%|######################################                     |
 File Permissions (check 2)  89%|########################################      |
+Pending Intents  40%|######################                                   |
+Broadcast issues  58%|################################                        |
+Crypto issues  67%|#######################################                    |
+Broadcast issues  60%|#################################                       |
 File Permissions (check 2)  90%|#########################################     |
+X.509 Validation  63%|###################################                     |
+Pending Intents  41%|#######################                                  |
 File Permissions (check 2)  92%|##########################################    |
-Pending Intents  69%|#######################################                  |
+X.509 Validation  64%|###################################                     |
+Broadcast issues  61%|##################################                      |
 File Permissions (check 2)  93%|##########################################    |
-Pending Intents  70%|#######################################                  |
+X.509 Validation  66%|####################################                    |
 File Permissions (check 2)  95%|###########################################   |
+Pending Intents  43%|########################                                 |
+Pending Intents  44%|#########################                                |
 File Permissions (check 2)  96%|############################################  |
 File Permissions (check 2)  98%|############################################# |
 File Permissions (check 2) 100%|##############################################|
+X.509 Validation  67%|#####################################                   |
+Broadcast issues  63%|###################################                     |
+Broadcast issues  64%|###################################                     |
+Broadcast issues  66%|####################################                    |
+Pending Intents  46%|##########################                               |
+Broadcast issues  67%|#####################################                   |
+Pending Intents  47%|##########################                               |
+Crypto issues  69%|########################################                   |
+Crypto issues  70%|#########################################                  |
+Crypto issues  72%|##########################################                 |
+Crypto issues  73%|###########################################                |
+Crypto issues  75%|############################################               |
+Crypto issues  76%|############################################               |
+Crypto issues  78%|##############################################             |
+Crypto issues  80%|###############################################            |
+Crypto issues  81%|###############################################            |
+Crypto issues  83%|################################################           |
+Crypto issues  84%|#################################################          |
+Crypto issues  86%|##################################################         |
+Crypto issues  87%|###################################################        |
+Pending Intents  49%|###########################                              |
+X.509 Validation  69%|######################################                  |
+X.509 Validation  70%|#######################################                 |
+Pending Intents  50%|############################                             |
+X.509 Validation  72%|########################################                |
+X.509 Validation  73%|########################################                |
+Crypto issues  89%|####################################################       |
+X.509 Validation  75%|##########################################              |
+Crypto issues  90%|#####################################################      |
+Crypto issues  92%|######################################################     |
+Broadcast issues  69%|######################################                  |
+X.509 Validation  76%|##########################################              |
+Broadcast issues  70%|#######################################                 |
+Broadcast issues  72%|########################################                |
+Broadcast issues  73%|########################################                |
+X.509 Validation  78%|###########################################             |
+X.509 Validation  80%|############################################            |
+X.509 Validation  81%|#############################################           |
+Pending Intents  52%|#############################                            |
+Crypto issues  93%|######################################################     |
+Pending Intents  53%|##############################                           |
+Pending Intents  55%|###############################                          |
+Broadcast issues  75%|##########################################              |
+X.509 Validation  83%|##############################################          |
+Crypto issues  95%|########################################################   |
+Broadcast issues  76%|##########################################              |
+X.509 Validation  84%|###############################################         |
+Crypto issues  96%|########################################################   |
+X.509 Validation  86%|################################################        |
+Crypto issues  98%|#########################################################  |
+Crypto issues 100%|###########################################################|
+X.509 Validation  87%|################################################        |
+Broadcast issues  78%|###########################################             |
+Broadcast issues  80%|############################################            |
+Pending Intents  56%|###############################                          |
+Broadcast issues  81%|#############################################           |
+X.509 Validation  89%|#################################################       |
+X.509 Validation  90%|##################################################      |
+X.509 Validation  92%|###################################################     |
+Broadcast issues  83%|##############################################          |
+Broadcast issues  84%|###############################################         |
+Broadcast issues  86%|################################################        |
+Pending Intents  58%|#################################                        |
+Pending Intents  60%|##################################                       |
+Broadcast issues  87%|################################################        |
+X.509 Validation  93%|####################################################    |
+Pending Intents  61%|##################################                       |
+Broadcast issues  89%|#################################################       |
+X.509 Validation  95%|#####################################################   |
+X.509 Validation  96%|#####################################################   |
+X.509 Validation  98%|######################################################  |
+X.509 Validation 100%|########################################################|
+Broadcast issues  90%|##################################################      |
+Broadcast issues  92%|###################################################     |
+Pending Intents  63%|###################################                      |
+Pending Intents  64%|####################################                     |
+Pending Intents  66%|#####################################                    |
+Broadcast issues  93%|####################################################    |
+Broadcast issues  95%|#####################################################   |
+Broadcast issues  96%|#####################################################   |
+Pending Intents  67%|######################################                   |
+Broadcast issues  98%|######################################################  |
+Broadcast issues 100%|########################################################|
+Pending Intents  69%|#######################################                  |
+Pending Intents  70%|#######################################                  |
 Pending Intents  72%|#########################################                |
 Pending Intents  73%|#########################################                |
 Pending Intents  75%|##########################################               |

@@ -2,7 +2,7 @@
 [main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
 [main] WARN soot.Scene - Android API version '23' not available, using minApkVersion '7' instead
 [main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
-[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.026424849 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.040109187 seconds
 [main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 2,457.9 MiB
 [main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 5 components...
 [main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
@@ -79,7 +79,7 @@
 [main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NFC:
 [main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NO_CATEGORY:
 [main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 68 sources, 194 sinks, and 53 callback methods.
-[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 3 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 5 seconds
 [main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /Users/Johnny/Desktop/casa/apks/com.activehomevista.apk with 68 sources and 194 sinks...
 [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
 [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
@@ -91,7 +91,7 @@
 [main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 2,457.9 MiB
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
 [main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.18402706 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.259360634 seconds
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 1807 edges
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
@@ -102,11 +102,11 @@
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper hits: 6
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Taint wrapper misses: 3
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - IFDS problem with 65 forward and 0 backward edges solved in 0 seconds, processing 0 results...
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 144 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Current memory consumption: 142 MB
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after cleanup: 104 MB
 [main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Memory consumption after path building: 109 MB
 [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Path reconstruction took 0 seconds
 [main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - No results found.
-[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 1 seconds. Maximum memory consumption: 144 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 1 seconds. Maximum memory consumption: 142 MB
 [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks

@@ -1,0 +1,1447 @@
+[H[2J[3J .d88888b.           d8888   8888888b.    888    d8P  
+d88P" "Y88b         d88888   888   Y88b   888   d8P   
+888     888        d88P888   888    888   888  d8P    
+888     888       d88P 888   888   d88P   888d88K     
+888     888      d88P  888   8888888P"    8888888b    
+888 Y8b 888     d88P   888   888 T88b     888  Y88b   
+Y88b.Y8b88P    d8888888888   888  T88b    888   Y88b  
+ "Y888888"    d88P     888   888   T88b   888    Y88b 
+       Y8b                                            
+                                                      
+                                                      
+
+INFO - Initializing...
+INFO - Identified Android SDK installation from a previous run.
+INFO - Initializing QARK
+
+INFO - Unpacking /Users/Johnny/Desktop/casa/apks/com.cometa.iot.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x1045b03d0>
+INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/com.cometa.iot/
+INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/com.cometa.iot
+INFO - AndroidManifest.xml found
+INFO - <?xml version="1.0" ?><manifest android:versionCode="2" android:versionName="1.0" package="com.cometa.iot" xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="26">
+</uses-sdk>
+<uses-permission android:name="android.permission.INTERNET">
+</uses-permission>
+<uses-permission android:name="android.permission.USE_FINGERPRINT">
+</uses-permission>
+<uses-permission android:name="android.permission.VIBRATE">
+</uses-permission>
+<application android:allowBackup="true" android:icon="@7F0D0015" android:label="@7F0E0023" android:name="com.ltech.comet.CometApplication" android:roundIcon="@7F0D0017" android:supportsRtl="true">
+<activity android:name="com.ltech.comet.ui.authorization.AuthorizationActivity" android:screenOrientation="7" android:theme="@7F0F00AE">
+</activity>
+<activity android:name="com.ltech.comet.ui.base.BaseActivity" android:screenOrientation="7" android:theme="@7F0F00AE">
+</activity>
+<activity android:name="com.ltech.comet.ui.main.MainActivity" android:screenOrientation="7" android:theme="@7F0F00AE">
+</activity>
+<activity android:name="com.ltech.comet.ui.splash.SplashActivity" android:screenOrientation="7" android:theme="@7F0F00D5">
+<intent-filter>
+<action android:name="android.intent.action.MAIN">
+</action>
+<category android:name="android.intent.category.LAUNCHER">
+</category>
+</intent-filter>
+</activity>
+<meta-data android:name="com.ltech.comet.utils.okhttp3.UnsafeOkHttpGlideModule" android:value="GlideModule">
+</meta-data>
+<meta-data android:name="android.support.VERSION" android:value="26.1.0">
+</meta-data>
+<meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule">
+</meta-data>
+<meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT">
+</meta-data>
+<meta-data android:name="com.android.vending.derived.apk.id" android:value="1">
+</meta-data>
+</application>
+</manifest>
+INFO - Determined minimum SDK version to be:19
+ISSUES - APP COMPONENT ATTACK SURFACE
+WARNING - Backups enabled: Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+INFO - Checking provider
+INFO - Checking activity
+WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
+com.ltech.comet.ui.splash.SplashActivity
+INFO - Checking activity-alias
+INFO - Checking services
+INFO - Checking receivers
+INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
+
+
+
+
+
+
+
+
+
+
+
+
+JD CORE   0%|                                                                 |
+Procyon   0%|                                                                 |
+CFR   0%|                                                                     |
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatCFR   1%|                                                                     |
+JD CORE   1%|                                                                 |
+CFR   2%|#                                                                    |
+JD CORE   2%|#                                                                |
+CFR   3%|##                                                                   |
+JD CORE   3%|#                                                                |
+CFR   4%|##                                                                   |
+JD CORE   4%|##                                                               |
+CFR   5%|###                                                                  |
+JD CORE   5%|###                                                              |
+CFR   6%|####                                                                 |
+JD CORE   6%|###                                                              |
+CFR   7%|####                                                                 |
+JD CORE   7%|####                                                             |
+CFR   8%|#####                                                                |
+JD CORE   8%|#####                                                            |
+CFR   9%|######                                                               |
+JD CORE   9%|#####                                                            |
+CFR  10%|######                                                               |
+JD CORE  10%|######                                                           |
+CFR  11%|#######                                                              |
+JD CORE  11%|#######                                                          |
+CFR  12%|########                                                             |
+JD CORE  12%|#######                                                          |
+CFR  13%|########                                                             |
+JD CORE  13%|########                                                         |
+CFR  14%|#########                                                            |
+JD CORE  14%|#########                                                        |
+CFR  15%|##########                                                           |
+JD CORE  15%|#########                                                        |
+CFR  16%|###########                                                          |
+JD CORE  16%|##########                                                       |
+CFR  17%|###########                                                          |
+JD CORE  17%|###########                                                      |
+CFR  18%|############                                                         |
+JD CORE  18%|###########                                                      |
+CFR  19%|#############                                                        |
+JD CORE  19%|############                                                     |
+CFR  20%|#############                                                        |
+JD CORE  20%|#############                                                    |
+CFR  21%|##############                                                       |
+JD CORE  21%|#############                                                    |
+CFR  22%|###############                                                      |
+JD CORE  22%|##############                                                   |
+CFR  23%|###############                                                      |
+JD CORE  23%|##############                                                   |
+CFR  24%|################                                                     |
+JD CORE  24%|###############                                                  |
+CFR  25%|#################                                                    |
+JD CORE  25%|################                                                 |
+CFR  26%|#################                    ever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attem                                |
+JD CORE  26%|################                                                 |
+CFR  27%|##################                                                   |
+JD CORE  27%|#################                                                |
+CFR  28%|###################                                                  |
+JD CORE  28%|##################                                               |
+CFR  29%|####################                                                 |
+JD CORE  29%|##################                                               |
+CFR  30%|####################                                                 |
+JD CORE  30%|###################                                              |
+CFR  31%|#####################                                                |
+JD CORE  31%|####################                                             |
+CFR  32%|######################                                               |
+JD CORE  32%|####################                                             |
+CFR  33%|######################                                               |
+JD CORE  33%|#####################                                            |
+CFR  34%|#######################                                              |
+JD CORE  34%|######################                                           |
+CFR  35%|########################                                             |
+JD CORE  35%|######################                                           |
+CFR  36%|########################                                             |
+JD CORE  36%|#######################                                          |
+CFR  37%|#########################                                            |
+JD CORE  37%|########################                                         |
+CFR  38%|##########################                                           |
+JD CORE  38%|########################                                         |
+CFR  39%|##########################                                           |
+JD CORE  39%|#########################                                        |
+CFR  40%|###########################                                          |
+JD CORE  40%|##########################                                       |
+CFR  41%|############################                                         |
+JD CORE  41%|##########################                                       |
+CFR  42%|############################                                         |
+JD CORE  42%|###########################                                      |
+CFR  43%|#############################                                        |
+JD CORE  43%|###########################                                      |
+CFR  44%|##############################                                       |
+JD CORE  44%|############################                                     |
+CFR  45%|###############################                                      |
+JD CORE  45%|#############################                                    |
+CFR  46%|###############################                                      |
+JD CORE  46%|#############################                                    |
+CFR  47%|################################                                     |
+JD CORE  47%|##############################                                   |
+CFR  48%|#################################                                    |
+JD CORE  48%|###############################                                  |
+CFR  49%|#################################                                    |
+JD CORE  49%|###############################                                  |
+CFR  50%|##################################                                   |
+JD CORE  50%|################################                                 |
+CFR  51%|###################################                                  |
+JD CORE  51pt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continu%|#################################                                |
+CFR  52%|###################################                                  |
+JD CORE  52%|#################################                                |
+CFR  53%|####################################                                 |
+JD CORE  53%|##################################                               |
+CFR  54%|#####################################                                |
+JD CORE  54%|###################################                              |
+CFR  55%|#####################################                                |
+JD CORE  55%|###################################                              |
+CFR  56%|######################################                               |
+JD CORE  56%|####################################                             |
+CFR  57%|#######################################                              |
+JD CORE  57%|#####################################                            |
+CFR  58%|########################################                             |
+JD CORE  58%|#####################################                            |
+CFR  59%|########################################                             |
+JD CORE  59%|######################################                           |
+CFR  60%|#########################################                            |
+JD CORE  60%|#######################################                          |
+CFR  61%|##########################################                           |
+JD CORE  61%|#######################################                          |
+CFR  62%|##########################################                           |
+JD CORE  62%|########################################                         |
+CFR  63%|###########################################                          |
+JD CORE  63%|########################################                         |
+CFR  64%|############################################                         |
+JD CORE  64%|#########################################                        |
+CFR  65%|############################################                         |
+JD CORE  65%|##########################################                       |
+CFR  66%|#############################################                        |
+JD CORE  66%|##########################################                       |
+CFR  67%|##############################################                       |
+JD CORE  67%|###########################################                      |
+CFR  68%|##############################################                       |
+JD CORE  68%|############################################                     |
+CFR  69%|###############################################                      |
+JD CORE  69%|############################################                     |
+CFR  70%|################################################                     |
+JD CORE  70%|#############################################                    |
+CFR  71%|################################################                     |
+JD CORE  71%|##############################################                   |
+CFR  72%|#################################################                    |
+JD CORE  72%|##############################################                   |
+CFR  73%|##################################################                   |
+JD CORE  73%|###############################################                  |
+CFR  74%|###################################################                  |
+JD CORE  74%|################################################                 |
+CFR  75%|###################################################                  |
+JD CORE  75%|################################################                 |
+CFR  76%|####################################################                 |
+JD CORE  76%|############################################Procyon   1%|                                                                 |
+Procyon   2%|#                                                                |
+Procyon   3%|#                                                                |
+Procyon   4%|##                                                               |
+Procyon   5%|###                                                              |
+Procyon   6%|###                                                              |
+Procyon   7%|####                                                             |
+Procyon   8%|#####                                                            |
+Procyon   9%|#####                                                            |
+Procyon  10%|######                                                           |
+Procyon  11%|#######                                                          |
+Procyon  12%|#######                                                          |
+Procyon  13%|########                                                         |
+Procyon  14%|#########                                                        |
+Procyon  15%|#########                                                        |
+Procyon  16%|##########                                                       |
+Procyon  17%|###########                                                      |
+Procyon  18%|###########                                                      |
+Procyon  19%|############                                                     |
+Procyon  20%|#############                                                    |
+Procyon  21%|#############                                                    |
+Procyon  22%|##############                                                   |
+Procyon  23%|##############                                                   |
+Procyon  24%|###############                                                  |
+Procyon  25%|################                                                 |
+Procyon  26%|################                                                 |
+Procyon  27%|#################                                                |
+Procyon  28%|##################                                               |
+Procyon  29%|##################                                               |
+Procyon  30%|###################                                              |
+Procyon  31%|####################                                             |
+Procyon  32%|####################                                             |
+Procyon  33%|#####################                                            |
+Procyon  34%|######################                                           |
+Procyon  35%|######################                                           |
+Procyon  36%|#######################                                          |
+Procyon  37%|########################                                         |
+Procyon  38%|########################                                         |
+Procyon  39%|#########################                                        |
+Procyon  40%|##########################                                       |
+Procyon  41%|##########################                                       |
+Procyon  42%|###########################                                      |
+Procyon  43%|###########################                                      |
+Procyon  44%|############################                                     |
+Procyon  45%|#############################                                    |
+Procyon  46%|#############################                                    |
+Procyon  47%|##############################                                   |
+Procyon  48%|###############################                                  |
+Procyon  49%|###############################                                  |
+Procyon  50%|################################                                 |
+Procyon  51%|#################################e and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any ti#####                |
+CFR  77%|#####################################################                |
+JD CORE  77%|##################################################               |
+CFR  78%|#####################################################                |
+JD CORE  78%|##################################################               |
+CFR  79%|######################################################               |
+JD CORE  79%|###################################################              |
+CFR  80%|#######################################################              |
+JD CORE  80%|####################################################             |
+CFR  81%|#######################################################              |
+JD CORE  81%|####################################################             |
+CFR  82%|########################################################             |
+JD CORE  82%|#####################################################            |
+CFR  83%|#########################################################            |
+JD CORE  83%|#####################################################            |
+CFR  84%|#########################################################            |
+JD CORE  84%|######################################################           |
+CFR  85%|##########################################################           |
+JD CORE  85%|#######################################################          |
+CFR  86%|###########################################################          |
+JD CORE  86%|#######################################################          |
+CFR  87%|############################################################         |
+JD CORE  87%|########################################################         |
+CFR  88%|############################################################         |
+JD CORE  88%|#########################################################        |
+CFR  89%|#############################################################        |
+JD CORE  89%|#########################################################        |
+CFR  90%|##############################################################       |
+JD CORE  90%|##########################################################       |
+CFR  91%|##############################################################       |
+JD CORE  91%|###########################################################      |
+CFR  92%|###############################################################      |
+JD CORE  92%|###########################################################      |
+CFR  93%|################################################################     |
+JD CORE  93%|############################################################     |
+CFR  94%|################################################################     |
+JD CORE  94%|#############################################################    |
+CFR  95%|#################################################################    |
+JD CORE  95%|#############################################################    |
+CFR  96%|##################################################################   |
+JD CORE  96%|##############################################################   |
+CFR  97%|##################################################################   |
+JD CORE  97%|###############################################################  |
+CFR  98%|###################################################################  |
+JD CORE  98%|###############################################################  |
+CFR  99%|#################################################################### |
+JD CORE  99%|################################################################ |
+CFR 100%|#####################################################################|
+JD CORE 100%|#################################################################|
+me,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens                                |
+Procyon  52%|#################################                                |
+Procyon  53%|##################################                               |
+Procyon  54%|###################################                              |
+Procyon  55%|###################################                              |
+Procyon  56%|####################################                             |
+Procyon  57%|#####################################                            |
+Procyon  58%|#####################################                            |
+Procyon  59%|######################################                           |
+Procyon  60%|#######################################                          |
+Procyon  61%|#######################################                          |
+Procyon  62%|########################################                         |
+Procyon  63%|########################################                         |
+Procyon  64%|#########################################                        |
+Procyon  65%|##########################################                       |
+Procyon  66%|##########################################                       |
+Procyon  67%|###########################################                      |
+Procyon  68%|############################################                     |
+Procyon  69%|############################################                     |
+Procyon  70%|#############################################                    |
+Procyon  71%|##############################################                   |
+Procyon  72%|##############################################                   |
+Procyon  73%|###############################################                  |
+Procyon  74%|################################################                 |
+Procyon  75%|################################################                 |
+Procyon  76%|#################################################                |
+Procyon  77%|##################################################               |
+Procyon  78%|##################################################               |
+Procyon  79%|###################################################              |
+Procyon  80%|####################################################             |
+Procyon  81%|####################################################             |
+Procyon  82%|#####################################################            |
+Procyon  83%|#####################################################            |
+Procyon  84%|######################################################           |
+Procyon  85%|#######################################################          |
+Procyon  86%|#######################################################          |
+Procyon  87%|########################################################         |
+Procyon  88%|#########################################################        |
+Procyon  89%|#########################################################        |
+Procyon  90%|##########################################################       |
+Procyon  91%|###########################################################      |
+Procyon  92%|###########################################################      |
+Procyon  93%|############################################################     |
+Procyon  94%|#############################################################    |
+Procyon  95%|#############################################################    |
+Procyon  96%|##############################################################   |
+Procyon  97%|###############################################################  |
+Procyon  98%|###############################################################  |
+Procyon  99%|################################################################ |
+Procyon 100%|#################################################################|
+ when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+
+INFO - Trying to improve accuracy of the decompiled files
+INFO - Restored 63 file(s) out of 69 corrupt file(s)
+INFO - Decompiled code found at:/Users/Johnny/Desktop/casa/apks/com.cometa.iot/
+INFO - Finding all java files
+INFO - Running Static Code Analysis...
+INFO - Looking for private key files in project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+X.509 Validation   0%|                                                        |
+Pending Intents   0%|                                                         |
+File Permissions (check 1)   0%|                                              |
+File Permissions (check 2)   0%|                                              |
+Webview checks   0%|                                                          |
+Broadcast issues   0%|                                                        |
+Crypto issues   0%|                                                           |
+Webview checks   1%|                                                          |
+File Permissions (check 1)   1%|                                              |
+Webview checks   2%|#                                                         |
+File Permissions (check 1)   2%|                                              |
+Webview checks   3%|#                                                         |
+File Permissions (check 1)   3%|#                                             |
+Webview checks   4%|##                                                        |
+File Permissions (check 1)   4%|#                                             |
+Webview checks   5%|##                                                        |
+Webview checks   6%|###                                                       |
+File Permissions (check 1)   5%|##                                            |
+Webview checks   7%|####                                                      |
+File Permissions (check 1)   6%|##                                            |
+Webview checks   8%|####                                                      |
+File Permissions (check 1)   7%|###                                           |
+Webview checks   9%|#####                                                     |
+File Permissions (check 1)   8%|###                                           |
+Webview checks  10%|#####                                                     |
+File Permissions (check 1)   9%|####                                          |
+Webview checks  11%|######                                                    |
+File Permissions (check 1)  10%|####                                          |
+Webview checks  12%|######                                                    |
+Crypto issues   1%|                                                           |
+File Permissions (check 1)  11%|#####                                         |
+Broadcast issues   1%|                                                        |
+Webview checks  13%|#######                                                   |
+File Permissions (check 1)  12%|#####                                         |
+Webview checks  14%|########                                                  |
+X.509 Validation   1%|                                                        |
+File Permissions (check 1)  13%|#####                                         |
+Webview checks  15%|########                                                  |
+Webview checks  16%|#########                                                 |
+File Permissions (check 1)  14%|######                                        |
+File Permissions (check 1)  15%|######                                        |
+Webview checks  17%|#########                                                 |
+File Permissions (check 1)  16%|#######                                       |
+Webview checks  18%|##########                                                |
+Crypto issues   2%|#                                                          |
+File Permissions (check 1)  17%|#######                                       |
+Broadcast issues   2%|#                                                       |
+Webview checks  19%|###########                                               |
+X.509 Validation   2%|#                                                       |
+File Permissions (check 1)  18%|########                                      |
+Crypto issues   3%|#                                                          |
+Webview checks  20%|###########                                               |
+X.509 Validation   3%|#                                                       |
+File Permissions (check 1)  19%|########                                      |
+Pending Intents   1%|                                                         |
+Broadcast issues   3%|#                                                       |
+File Permissions (check 1)  20%|#########                                     |
+Crypto issues   4%|##                                                         |
+Webview checks  21%|############                                              |
+Webview checks  22%|############                                              |
+Broadcast issues   4%|##                                                      |
+X.509 Validation   4%|##                                                      |
+File Permissions (check 1)  21%|#########                                     |
+Webview checks  23%|#############                                             |
+Crypto issues   5%|##                                                         |
+File Permissions (check 1)  22%|##########                                    |
+Webview checks  24%|#############                                             |
+File Permissions (check 1)  23%|##########                                    |
+Broadcast issues   5%|##                                                      |
+Webview checks  25%|##############                                            |
+File Permissions (check 1)  24%|###########                                   |
+Pending Intents   2%|#                                                        |
+X.509 Validation   5%|##                                                      |
+Webview checks  26%|###############                                           |
+Crypto issues   6%|###                                                        |
+File Permissions (check 1)  25%|###########                                   |
+Webview checks  27%|###############                                           |
+Pending Intents   3%|#                                                        |
+Broadcast issues   6%|###                                                     |
+File Permissions (check 1)  26%|###########                                   |
+Webview checks  28%|################                                          |
+X.509 Validation   6%|###                                                     |
+Webview checks  29%|################                                          |
+File Permissions (check 1)  27%|############                                  |
+Pending Intents   4%|##                                                       |
+File Permissions (check 1)  28%|############                                  |
+Webview checks  30%|#################                                         |
+File Permissions (check 1)  29%|#############                                 |
+Webview checks  31%|#################                                         |
+Crypto issues   7%|####                                                       |
+File Permissions (check 1)  30%|#############                                 |
+Broadcast issues   7%|###                                                     |
+Pending Intents   5%|##                                                       |
+Webview checks  32%|##################                                        |
+Webview checks  33%|###################                                       |
+File Permissions (check 1)  31%|##############                                |
+X.509 Validation   7%|###                                                     |
+Webview checks  34%|###################                                       |
+File Permissions (check 1)  32%|##############                                |
+Webview checks  35%|####################                                      |
+Crypto issues   8%|####                                                       |
+File Permissions (check 1)  33%|###############                               |
+Webview checks  36%|####################                                      |
+File Permissions (check 1)  34%|###############                               |
+Broadcast issues   8%|####                                                    |
+Webview checks  37%|#####################                                     |
+File Permissions (check 1)  35%|################                              |
+File Permissions (check 1)  36%|################                              |
+Crypto issues   9%|#####                                                      |
+Webview checks  38%|######################                                    |
+X.509 Validation   8%|####                                                    |
+Pending Intents   6%|###                                                      |
+Webview checks  39%|######################                                    |
+File Permissions (check 1)  37%|#################                             |
+Broadcast issues   9%|#####                                                   |
+File Permissions (check 1)  38%|#################                             |
+Webview checks  40%|#######################                                   |
+File Permissions (check 1)  39%|#################                             |
+Webview checks  41%|#######################                                   |
+Crypto issues  10%|#####                                                      |
+File Permissions (check 1)  40%|##################                            |
+X.509 Validation   9%|#####                                                   |
+File Permissions (check 1)  41%|##################                            |
+Webview checks  42%|########################                                  |
+Webview checks  43%|########################                                  |
+Broadcast issues  10%|#####                                                   |
+Webview checks  44%|#########################                                 |
+Webview checks  45%|##########################                                |
+File Permissions (check 1)  42%|###################                           |
+Webview checks  46%|##########################                                |
+Webview checks  47%|###########################                               |
+File Permissions (check 1)  43%|###################                           |
+Crypto issues  11%|######                                                     |
+File Permissions (check 1)  44%|####################                          |
+Webview checks  48%|###########################                               |
+File Permissions (check 1)  45%|####################                          |
+File Permissions (check 1)  46%|#####################                         |
+Webview checks  49%|############################                              |
+Pending Intents   7%|###                                                      |
+File Permissions (check 1)  47%|#####################                         |
+File Permissions (check 1)  48%|######################                        |
+Webview checks  50%|#############################                             |
+File Permissions (check 1)  49%|######################                        |
+Broadcast issues  11%|######                                                  |
+Webview checks  51%|#############################                             |
+X.509 Validation  10%|#####                                                   |
+File Permissions (check 1)  50%|#######################                       |
+Webview checks  52%|##############################                            |
+File Permissions (check 1)  51%|#######################                       |
+Webview checks  53%|##############################                            |
+Webview checks  54%|###############################                           |
+Crypto issues  12%|#######                                                    |
+File Permissions (check 1)  52%|#######################                       |
+Webview checks  55%|###############################                           |
+File Permissions (check 1)  53%|########################                      |
+Webview checks  56%|################################                          |
+File Permissions (check 1)  54%|########################                      |
+Webview checks  57%|#################################                         |
+Webview checks  58%|#################################                         |
+File Permissions (check 1)  55%|#########################                     |
+Webview checks  59%|##################################                        |
+File Permissions (check 1)  56%|#########################                     |
+Webview checks  60%|##################################                        |
+X.509 Validation  11%|######                                                  |
+File Permissions (check 1)  57%|##########################                    |
+File Permissions (check 1)  58%|##########################                    |
+Broadcast issues  12%|######                                                  |
+Webview checks  61%|###################################                       |
+File Permissions (check 1)  59%|###########################                   |
+Crypto issues  13%|#######                                                    |
+File Permissions (check 1)  60%|###########################                   |
+Webview checks  62%|###################################                       |
+File Permissions (check 1)  61%|############################                  |
+File Permissions (check 1)  62%|############################                  |
+Webview checks  63%|####################################                      |
+File Permissions (check 1)  63%|############################                  |
+Webview checks  64%|#####################################                     |
+File Permissions (check 1)  64%|#############################                 |
+File Permissions (check 1)  65%|#############################                 |
+Webview checks  65%|#####################################                     |
+File Permissions (check 1)  66%|##############################                |
+Broadcast issues  13%|#######                                                 |
+Webview checks  66%|######################################                    |
+File Permissions (check 1)  67%|##############################                |
+File Permissions (check 1)  68%|###############################               |
+Pending Intents   8%|####                                                     |
+X.509 Validation  12%|######                                                  |
+Webview checks  67%|######################################                    |
+File Permissions (check 1)  69%|###############################               |
+File Permissions (check 1)  70%|################################              |
+Webview checks  68%|#######################################                   |
+File Permissions (check 1)  71%|################################              |
+Webview checks  69%|########################################                  |
+File Permissions (check 1)  72%|#################################             |
+Webview checks  70%|########################################                  |
+File Permissions (check 1)  73%|#################################             |
+Webview checks  71%|#########################################                 |
+File Permissions (check 1)  74%|##################################            |
+File Permissions (check 1)  75%|##################################            |
+Webview checks  72%|#########################################                 |
+File Permissions (check 1)  76%|##################################            |
+Crypto issues  14%|########                                                   |
+File Permissions (check 1)  77%|###################################           |
+Webview checks  73%|##########################################                |
+File Permissions (check 1)  78%|###################################           |
+File Permissions (check 1)  79%|####################################          |
+Webview checks  74%|##########################################                |
+File Permissions (check 1)  80%|####################################          |
+X.509 Validation  13%|#######                                                 |
+Webview checks  75%|###########################################               |
+File Permissions (check 1)  81%|#####################################         |
+Webview checks  76%|############################################              |
+Crypto issues  15%|########                                                   |
+Webview checks  77%|############################################              |
+File Permissions (check 1)  82%|#####################################         |
+Webview checks  78%|#############################################             |
+Webview checks  79%|#############################################             |
+Broadcast issues  14%|#######                                                 |
+File Permissions (check 1)  83%|######################################        |
+File Permissions (check 1)  84%|######################################        |
+Webview checks  80%|##############################################            |
+File Permissions (check 1)  85%|#######################################       |
+Webview checks  81%|##############################################            |
+File Permissions (check 1)  86%|#######################################       |
+Crypto issues  16%|#########                                                  |
+Webview checks  82%|###############################################           |
+File Permissions (check 1)  87%|########################################      |
+File Permissions (check 1)  88%|########################################      |
+Broadcast issues  15%|########                                                |
+Webview checks  83%|################################################          |
+File Permissions (check 1)  89%|########################################      |
+Webview checks  84%|################################################          |
+File Permissions (check 1)  90%|#########################################     |
+Webview checks  85%|#################################################         |
+File Permissions (check 1)  91%|#########################################     |
+File Permissions (check 1)  92%|##########################################    |
+Webview checks  86%|#################################################         |
+X.509 Validation  14%|#######                                                 |
+Webview checks  87%|##################################################        |
+File Permissions (check 1)  93%|##########################################    |
+Broadcast issues  16%|########                                                |
+File Permissions (check 1)  94%|###########################################   |
+Webview checks  88%|###################################################       |
+File Permissions (check 1)  95%|###########################################   |
+Crypto issues  17%|##########                                                 |
+Webview checks  89%|###################################################       |
+X.509 Validation  15%|########                                                |
+Pending Intents   9%|#####                                                    |
+File Permissions (check 1)  96%|############################################  |
+Webview checks  90%|####################################################      |
+File Permissions (check 1)  97%|############################################  |
+Webview checks  91%|####################################################      |
+Webview checks  92%|#####################################################     |
+File Permissions (check 1)  98%|############################################# |
+Broadcast issues  17%|#########                                               |
+X.509 Validation  16%|########                                                |
+Webview checks  93%|#####################################################     |
+File Permissions (check 1)  99%|############################################# |
+Webview checks  94%|######################################################    |
+Webview checks  95%|#######################################################   |
+File Permissions (check 1) 100%|##############################################|
+Webview checks  96%|#######################################################   |
+File Permissions (check 2)   1%|                                              |
+Webview checks  97%|########################################################  |
+Crypto issues  18%|##########                                                 |
+File Permissions (check 2)   2%|                                              |
+Webview checks  98%|########################################################  |
+File Permissions (check 2)   3%|#                                             |
+X.509 Validation  17%|#########                                               |
+File Permissions (check 2)   4%|#                                             |
+Webview checks  99%|######################################################### |
+File Permissions (check 2)   5%|##                                            |
+Webview checks 100%|##########################################################|
+File Permissions (check 2)   6%|##                                            |
+File Permissions (check 2)   7%|###                                           |
+Broadcast issues  18%|##########                                              |
+File Permissions (check 2)   8%|###                                           |
+Pending Intents  10%|#####                                                    |
+File Permissions (check 2)   9%|####                                          |
+File Permissions (check 2)  10%|####                                          |
+File Permissions (check 2)  11%|#####                                         |
+File Permissions (check 2)  12%|#####                                         |
+File Permissions (check 2)  13%|#####                                         |
+Pending Intents  11%|######                                                   |
+File Permissions (check 2)  14%|######                                        |
+X.509 Validation  18%|##########                                              |
+File Permissions (check 2)  15%|######                                        |
+File Permissions (check 2)  16%|#######                                       |
+File Permissions (check 2)  17%|#######                                       |
+File Permissions (check 2)  18%|########                                      |
+Crypto issues  19%|###########                                                |
+File Permissions (check 2)  19%|########                                      |
+Pending Intents  12%|######                                                   |
+File Permissions (check 2)  20%|#########                                     |
+Broadcast issues  19%|##########                                              |
+File Permissions (check 2)  21%|#########                                     |
+Crypto issues  20%|###########                                                |
+File Permissions (check 2)  22%|##########                                    |
+File Permissions (check 2)  23%|##########                                    |
+File Permissions (check 2)  24%|###########                                   |
+File Permissions (check 2)  25%|###########                                   |
+X.509 Validation  19%|##########                                              |
+File Permissions (check 2)  26%|###########                                   |
+File Permissions (check 2)  27%|############                                  |
+File Permissions (check 2)  28%|############                                  |
+Pending Intents  13%|#######                                                  |
+File Permissions (check 2)  29%|#############                                 |
+Broadcast issues  20%|###########                                             |
+File Permissions (check 2)  30%|#############                                 |
+File Permissions (check 2)  31%|##############                                |
+File Permissions (check 2)  32%|##############                                |
+File Permissions (check 2)  33%|###############                               |
+File Permissions (check 2)  34%|###############                               |
+File Permissions (check 2)  35%|################                              |
+File Permissions (check 2)  36%|################                              |
+X.509 Validation  20%|###########                                             |
+File Permissions (check 2)  37%|#################                             |
+File Permissions (check 2)  38%|#################                             |
+File Permissions (check 2)  39%|#################                             |
+Pending Intents  14%|#######                                                  |
+File Permissions (check 2)  40%|##################                            |
+Pending Intents  15%|########                                                 |
+File Permissions (check 2)  41%|##################                            |
+File Permissions (check 2)  42%|###################                           |
+File Permissions (check 2)  43%|###################                           |
+File Permissions (check 2)  44%|####################                          |
+File Permissions (check 2)  45%|####################                          |
+Pending Intents  16%|#########                                                |
+File Permissions (check 2)  46%|#####################                         |
+File Permissions (check 2)  47%|#####################                         |
+File Permissions (check 2)  48%|######################                        |
+File Permissions (check 2)  49%|######################                        |
+File Permissions (check 2)  50%|#######################                       |
+File Permissions (check 2)  51%|#######################                       |
+Crypto issues  21%|############                                               |
+File Permissions (check 2)  52%|#######################                       |
+Broadcast issues  21%|###########                                             |
+File Permissions (check 2)  53%|########################                      |
+X.509 Validation  21%|###########                                             |
+Crypto issues  22%|############                                               |
+File Permissions (check 2)  54%|########################                      |
+File Permissions (check 2)  55%|#########################                     |
+Broadcast issues  22%|############                                            |
+File Permissions (check 2)  56%|#########################                     |
+File Permissions (check 2)  57%|##########################                    |
+X.509 Validation  22%|############                                            |
+File Permissions (check 2)  58%|##########################                    |
+File Permissions (check 2)  59%|###########################                   |
+File Permissions (check 2)  60%|###########################                   |
+File Permissions (check 2)  61%|############################                  |
+File Permissions (check 2)  62%|############################                  |
+Crypto issues  23%|#############                                              |
+Pending Intents  17%|#########                                                |
+File Permissions (check 2)  63%|############################                  |
+Crypto issues  24%|##############                                             |
+File Permissions (check 2)  64%|#############################                 |
+Broadcast issues  23%|############                                            |
+File Permissions (check 2)  65%|#############################                 |
+File Permissions (check 2)  66%|##############################                |
+Broadcast issues  24%|#############                                           |
+X.509 Validation  23%|############                                            |
+File Permissions (check 2)  67%|##############################                |
+File Permissions (check 2)  68%|###############################               |
+X.509 Validation  24%|#############                                           |
+File Permissions (check 2)  69%|###############################               |
+File Permissions (check 2)  70%|################################              |
+File Permissions (check 2)  71%|################################              |
+Crypto issues  25%|##############                                             |
+File Permissions (check 2)  72%|#################################             |
+File Permissions (check 2)  73%|#################################             |
+Broadcast issues  25%|##############                                          |
+File Permissions (check 2)  74%|##################################            |
+File Permissions (check 2)  75%|##################################            |
+File Permissions (check 2)  76%|##################################            |
+X.509 Validation  25%|##############                                          |
+File Permissions (check 2)  77%|###################################           |
+File Permissions (check 2)  78%|###################################           |
+Pending Intents  18%|##########                                               |
+File Permissions (check 2)  79%|####################################          |
+Crypto issues  26%|###############                                            |
+File Permissions (check 2)  80%|####################################          |
+File Permissions (check 2)  81%|#####################################         |
+File Permissions (check 2)  82%|#####################################         |
+File Permissions (check 2)  83%|######################################        |
+Broadcast issues  26%|##############                                          |
+File Permissions (check 2)  84%|######################################        |
+File Permissions (check 2)  85%|#######################################       |
+File Permissions (check 2)  86%|#######################################       |
+X.509 Validation  26%|##############                                          |
+File Permissions (check 2)  87%|########################################      |
+File Permissions (check 2)  88%|########################################      |
+File Permissions (check 2)  89%|########################################      |
+Crypto issues  27%|###############                                            |
+File Permissions (check 2)  90%|#########################################     |
+File Permissions (check 2)  91%|#########################################     |
+File Permissions (check 2)  92%|##########################################    |
+File Permissions (check 2)  93%|##########################################    |
+File Permissions (check 2)  94%|###########################################   |
+File Permissions (check 2)  95%|###########################################   |
+Broadcast issues  27%|###############                                         |
+File Permissions (check 2)  96%|############################################  |
+X.509 Validation  27%|###############                                         |
+File Permissions (check 2)  97%|############################################  |
+File Permissions (check 2)  98%|############################################# |
+File Permissions (check 2)  99%|############################################# |
+File Permissions (check 2) 100%|##############################################|
+Crypto issues  28%|################                                           |
+Pending Intents  19%|##########                                               |
+Broadcast issues  28%|###############                                         |
+X.509 Validation  28%|###############                                         |
+Crypto issues  29%|#################                                          |
+Pending Intents  20%|###########                                              |
+Broadcast issues  29%|################                                        |
+X.509 Validation  29%|################                                        |
+Crypto issues  30%|#################                                          |
+Broadcast issues  30%|################                                        |
+X.509 Validation  30%|################                                        |
+Crypto issues  31%|##################                                         |
+Broadcast issues  31%|#################                                       |
+X.509 Validation  31%|#################                                       |
+Pending Intents  21%|###########                                              |
+Crypto issues  32%|##################                                         |
+Broadcast issues  32%|#################                                       |
+Crypto issues  33%|###################                                        |
+Pending Intents  22%|############                                             |
+X.509 Validation  32%|#################                                       |
+Crypto issues  34%|####################                                       |
+Broadcast issues  33%|##################                                      |
+Crypto issues  35%|####################                                       |
+Broadcast issues  34%|###################                                     |
+X.509 Validation  33%|##################                                      |
+Broadcast issues  35%|###################                                     |
+Crypto issues  36%|#####################                                      |
+X.509 Validation  34%|###################                                     |
+X.509 Validation  35%|###################                                     |
+Broadcast issues  36%|####################                                    |
+Pending Intents  23%|#############                                            |
+Pending Intents  24%|#############                                            |
+Crypto issues  37%|#####################                                      |
+X.509 Validation  36%|####################                                    |
+Broadcast issues  37%|####################                                    |
+Crypto issues  38%|######################                                     |
+X.509 Validation  37%|####################                                    |
+Pending Intents  25%|##############                                           |
+Broadcast issues  38%|#####################                                   |
+Crypto issues  39%|#######################                                    |
+X.509 Validation  38%|#####################                                   |
+Broadcast issues  39%|#####################                                   |
+X.509 Validation  39%|#####################                                   |
+Crypto issues  40%|#######################                                    |
+Pending Intents  26%|##############                                           |
+Broadcast issues  40%|######################                                  |
+Crypto issues  41%|########################                                   |
+X.509 Validation  40%|######################                                  |
+Broadcast issues  41%|######################                                  |
+Pending Intents  27%|###############                                          |
+X.509 Validation  41%|######################                                  |
+Crypto issues  42%|########################                                   |
+Broadcast issues  42%|#######################                                 |
+Crypto issues  43%|#########################                                  |
+X.509 Validation  42%|#######################                                 |
+Pending Intents  28%|###############                                          |
+Broadcast issues  43%|########################                                |
+Crypto issues  44%|#########################                                  |
+Crypto issues  45%|##########################                                 |
+Broadcast issues  44%|########################                                |
+Crypto issues  46%|###########################                                |
+X.509 Validation  43%|########################                                |
+Crypto issues  47%|###########################                                |
+Pending Intents  29%|################                                         |
+Broadcast issues  45%|#########################                               |
+Broadcast issues  46%|#########################                               |
+Broadcast issues  47%|##########################                              |
+X.509 Validation  44%|########################                                |
+Crypto issues  48%|############################                               |
+X.509 Validation  45%|#########################                               |
+X.509 Validation  46%|#########################                               |
+X.509 Validation  47%|##########################                              |
+Broadcast issues  48%|##########################                              |
+Crypto issues  49%|############################                               |
+Pending Intents  30%|#################                                        |
+Broadcast issues  49%|###########################                             |
+X.509 Validation  48%|##########################                              |
+Crypto issues  50%|#############################                              |
+X.509 Validation  49%|###########################                             |
+Broadcast issues  50%|############################                            |
+Pending Intents  31%|#################                                        |
+Crypto issues  51%|##############################                             |
+Broadcast issues  51%|############################                            |
+X.509 Validation  50%|############################                            |
+Crypto issues  52%|##############################                             |
+Crypto issues  53%|###############################                            |
+X.509 Validation  51%|############################                            |
+Pending Intents  32%|##################                                       |
+Broadcast issues  52%|#############################                           |
+Crypto issues  54%|###############################                            |
+Broadcast issues  53%|#############################                           |
+Pending Intents  33%|##################                                       |
+X.509 Validation  52%|#############################                           |
+Crypto issues  55%|################################                           |
+Broadcast issues  54%|##############################                          |
+Pending Intents  34%|###################                                      |
+Crypto issues  56%|#################################                          |
+X.509 Validation  53%|#############################                           |
+Pending Intents  35%|###################                                      |
+Broadcast issues  55%|##############################                          |
+Crypto issues  57%|#################################                          |
+X.509 Validation  54%|##############################                          |
+Broadcast issues  56%|###############################                         |
+Crypto issues  58%|##################################                         |
+Pending Intents  36%|####################                                     |
+Crypto issues  59%|##################################                         |
+Broadcast issues  57%|###############################                         |
+X.509 Validation  55%|##############################                          |
+Broadcast issues  58%|################################                        |
+X.509 Validation  56%|###############################                         |
+Crypto issues  60%|###################################                        |
+Broadcast issues  59%|#################################                       |
+Pending Intents  37%|#####################                                    |
+X.509 Validation  57%|###############################                         |
+Crypto issues  61%|###################################                        |
+X.509 Validation  58%|################################                        |
+Broadcast issues  60%|#################################                       |
+X.509 Validation  59%|#################################                       |
+Crypto issues  62%|####################################                       |
+Broadcast issues  61%|##################################                      |
+X.509 Validation  60%|#################################                       |
+Pending Intents  38%|#####################                                    |
+Crypto issues  63%|#####################################                      |
+Crypto issues  64%|#####################################                      |
+Broadcast issues  62%|##################################                      |
+X.509 Validation  61%|##################################                      |
+Pending Intents  39%|######################                                   |
+Crypto issues  65%|######################################                     |
+Broadcast issues  63%|###################################                     |
+Crypto issues  66%|######################################                     |
+Broadcast issues  64%|###################################                     |
+X.509 Validation  62%|##################################                      |
+Crypto issues  67%|#######################################                    |
+Broadcast issues  65%|####################################                    |
+X.509 Validation  63%|###################################                     |
+Crypto issues  68%|########################################                   |
+Broadcast issues  66%|####################################                    |
+X.509 Validation  64%|###################################                     |
+Pending Intents  40%|######################                                   |
+Crypto issues  69%|########################################                   |
+X.509 Validation  65%|####################################                    |
+Broadcast issues  67%|#####################################                   |
+Crypto issues  70%|#########################################                  |
+Crypto issues  71%|#########################################                  |
+Broadcast issues  68%|######################################                  |
+X.509 Validation  66%|####################################                    |
+Crypto issues  72%|##########################################                 |
+Pending Intents  41%|#######################                                  |
+Broadcast issues  69%|######################################                  |
+X.509 Validation  67%|#####################################                   |
+Broadcast issues  70%|#######################################                 |
+X.509 Validation  68%|######################################                  |
+Broadcast issues  71%|#######################################                 |
+Crypto issues  73%|###########################################                |
+Broadcast issues  72%|########################################                |
+X.509 Validation  69%|######################################                  |
+Pending Intents  42%|#######################                                  |
+Crypto issues  74%|###########################################                |
+X.509 Validation  70%|#######################################                 |
+X.509 Validation  71%|#######################################                 |
+X.509 Validation  72%|########################################                |
+Crypto issues  75%|############################################               |
+Pending Intents  43%|########################                                 |
+Crypto issues  76%|############################################               |
+Crypto issues  77%|#############################################              |
+Crypto issues  78%|##############################################             |
+Crypto issues  79%|##############################################             |
+Pending Intents  44%|#########################                                |
+X.509 Validation  73%|########################################                |
+Pending Intents  45%|#########################                                |
+Crypto issues  80%|###############################################            |
+Pending Intents  46%|##########################                               |
+Broadcast issues  73%|########################################                |
+Pending Intents  47%|##########################                               |
+Crypto issues  81%|###############################################            |
+X.509 Validation  74%|#########################################               |
+Crypto issues  82%|################################################           |
+Broadcast issues  74%|#########################################               |
+Crypto issues  83%|################################################           |
+Pending Intents  48%|###########################                              |
+Crypto issues  84%|#################################################          |
+X.509 Validation  75%|##########################################              |
+Crypto issues  85%|##################################################         |
+Broadcast issues  75%|##########################################              |
+Crypto issues  86%|##################################################         |
+X.509 Validation  76%|##########################################              |
+Crypto issues  87%|###################################################        |
+Broadcast issues  76%|##########################################              |
+Pending Intents  49%|###########################                              |
+Crypto issues  88%|###################################################        |
+X.509 Validation  77%|###########################################             |
+Broadcast issues  77%|###########################################             |
+Crypto issues  89%|####################################################       |
+Crypto issues  90%|#####################################################      |
+Broadcast issues  78%|###########################################             |
+X.509 Validation  78%|###########################################             |
+Crypto issues  91%|#####################################################      |
+Broadcast issues  79%|############################################            |
+X.509 Validation  79%|############################################            |
+Crypto issues  92%|######################################################     |
+Crypto issues  93%|######################################################     |
+Crypto issues  94%|#######################################################    |
+X.509 Validation  80%|############################################            |
+Pending Intents  50%|############################                             |
+Crypto issues  95%|########################################################   |
+Broadcast issues  80%|############################################            |
+X.509 Validation  81%|#############################################           |
+Broadcast issues  81%|#############################################           |
+Crypto issues  96%|########################################################   |
+X.509 Validation  82%|#############################################           |
+Broadcast issues  82%|#############################################           |
+Crypto issues  97%|#########################################################  |
+Crypto issues  98%|#########################################################  |
+X.509 Validation  83%|##############################################          |
+Pending Intents  51%|#############################                            |
+Broadcast issues  83%|##############################################          |
+X.509 Validation  84%|###############################################         |
+Broadcast issues  84%|###############################################         |
+X.509 Validation  85%|###############################################         |
+Broadcast issues  85%|###############################################         |
+X.509 Validation  86%|################################################        |
+Broadcast issues  86%|################################################        |
+Crypto issues  99%|########################################################## |
+X.509 Validation  87%|################################################        |
+Broadcast issues  87%|################################################        |
+X.509 Validation  88%|#################################################       |
+Pending Intents  52%|#############################                            |
+Broadcast issues  88%|#################################################       |
+Crypto issues 100%|###########################################################|
+X.509 Validation  89%|#################################################       |
+Broadcast issues  89%|#################################################       |
+X.509 Validation  90%|##################################################      |
+Broadcast issues  90%|##################################################      |
+X.509 Validation  91%|##################################################      |
+Broadcast issues  91%|##################################################      |
+X.509 Validation  92%|###################################################     |
+Broadcast issues  92%|###################################################     |
+Pending Intents  53%|##############################                           |
+X.509 Validation  93%|####################################################    |
+Broadcast issues  93%|####################################################    |
+X.509 Validation  94%|####################################################    |
+Broadcast issues  94%|####################################################    |
+Broadcast issues  95%|#####################################################   |
+X.509 Validation  95%|#####################################################   |
+Pending Intents  54%|##############################                           |
+Broadcast issues  96%|#####################################################   |
+Broadcast issues  97%|######################################################  |
+X.509 Validation  96%|#####################################################   |
+X.509 Validation  97%|######################################################  |
+Broadcast issues  98%|######################################################  |
+Pending Intents  55%|###############################                          |
+X.509 Validation  98%|######################################################  |
+Pending Intents  56%|###############################                          |
+Broadcast issues  99%|####################################################### |
+X.509 Validation  99%|####################################################### |
+Broadcast issues 100%|########################################################|
+Pending Intents  57%|################################                         |
+X.509 Validation 100%|########################################################|
+Pending Intents  58%|#################################                        |
+Pending Intents  59%|#################################                        |
+Pending Intents  60%|##################################                       |
+Pending Intents  61%|##################################                       |
+Pending Intents  62%|###################################                      |
+Pending Intents  63%|###################################                      |
+Pending Intents  64%|####################################                     |
+Pending Intents  65%|#####################################                    |
+Pending Intents  66%|#####################################                    |
+Pending Intents  67%|######################################                   |
+Pending Intents  68%|######################################                   |
+Pending Intents  69%|#######################################                  |
+Pending Intents  70%|#######################################                  |
+Pending Intents  71%|########################################                 |
+Pending Intents  72%|#########################################                |
+Pending Intents  73%|#########################################                |
+Pending Intents  74%|##########################################               |
+Pending Intents  75%|##########################################               |
+Pending Intents  76%|###########################################              |
+Pending Intents  77%|###########################################              |
+Pending Intents  78%|############################################             |
+Pending Intents  79%|#############################################            |
+Pending Intents  80%|#############################################            |
+Pending Intents  81%|##############################################           |
+Pending Intents  82%|##############################################           |
+Pending Intents  83%|###############################################          |
+Pending Intents  84%|###############################################          |
+Pending Intents  85%|################################################         |
+Pending Intents  86%|#################################################        |
+Pending Intents  87%|#################################################        |
+Pending Intents  88%|##################################################       |
+Pending Intents  89%|##################################################       |
+Pending Intents  90%|###################################################      |
+Pending Intents  91%|###################################################      |
+Pending Intents  92%|####################################################     |
+Pending Intents  93%|#####################################################    |
+Pending Intents  94%|#####################################################    |
+Pending Intents  95%|######################################################   |
+Pending Intents  96%|######################################################   |
+Pending Intents  97%|#######################################################  |
+Pending Intents  98%|#######################################################  |
+Pending Intents  99%|######################################################## |
+Pending Intents 100%|#########################################################|
+
+
+
+
+
+
+====================================================================================================
+INFO - This class is exported from a manifest item: SplashActivity
+INFO - Checking this file for vulns: /Users/Johnny/Desktop/casa/apks/com.cometa.iot/classes_dex2jar/com/ltech/comet/ui/splash/SplashActivity.java
+entries: 
+onCreate
+ISSUES - CRYPTO ISSUES
+INFO -  No issues to report
+ISSUES - BROADCAST ISSUES
+WARNING - A broadcast is sent from this class: /Users/Johnny/Desktop/casa/apks/com.cometa.iot/classes_dex2jar/android/support/v4/content/pm/ShortcutManagerCompat.java, which does not specify the receiverPermission. This means any application on the device can receive this broadcast. You should investigate this for potential data leakage.
+WARNING - An ordered broadcast, as a specific user, is sent from this class: /Users/Johnny/Desktop/casa/apks/com.cometa.iot/classes_dex2jar/android/support/v4/content/pm/ShortcutManagerCompat.java, which specifies the receiverPermission, but may still be vulnerable to interception, due to the permission squatting vulnerability in API levels before 21. This means any application, installed prior to the expected receiver(s) on the device can potentially receive this broadcast. You should investigate this for potential data leakage.
+ISSUES - CERTIFICATE VALIDATION ISSUES
+INFO -  No issues to report
+ISSUES - PENDING INTENT ISSUES
+POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A malicious application could potentially intercept, redirect and/or modify (in a limited manner) this Intent. Pending Intents retain the UID of your application and all related permissions, allowing another application to act as yours.  File: /Users/Johnny/Desktop/casa/apks/com.cometa.iot/classes_dex2jar/android/support/v4/media/session/MediaButtonReceiver.java More details: https://www.securecoding.cert.org/confluence/display/android/DRD21-J.+Always+pass+explicit+intents+to+a+PendingIntent
+ISSUES - FILE PERMISSION ISSUES
+INFO -  No issues to report
+ISSUES - WEB-VIEW ISSUES
+INFO - FOUND 0 WEBVIEWS:
+WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to complete this module. The impact should be verified manually anyway, so have fun...
+Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 871, in <module>
+    if len(common.text_scan(common.java_files,cp_imp_rex)) > 1:
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/modules/common.py", line 373, in text_scan
+    result=read_files(x,rex_n)
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/modules/common.py", line 338, in read_files
+    if re.search(rex,y):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 146, in search
+    return _compile(pattern, flags).search(string)
+KeyboardInterrupt

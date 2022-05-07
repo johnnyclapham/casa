@@ -1,0 +1,230 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /Users/Johnny/Desktop/casa/apks/com.mindgames.ak.aj.iqtestwithanswers.apk (1 of 1)...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.015605209 seconds
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 2,457.9 MiB
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 183 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 190 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.startapp.android.eula.EULAAcceptanceListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.vungle.sdk.x$g, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.searchboxsdk.android.a.b, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 149 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 190 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.startapp.android.eula.EULAAcceptanceListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.vungle.sdk.x$g, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.searchboxsdk.android.a.b, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 143 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 190 components...
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Cannot create valid constructor for com.startapp.android.eula.EULAAcceptanceListener, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.vungle.sdk.x$g, because it is abstract and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.searchboxsdk.android.a.b, because it is an interface and cannot substitute with subclass
+[main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for com.appflood.c.a$a, because it is an interface and cannot substitute with subclass
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 0 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.UrlTag: java.lang.String createUrl)> -> _SINK_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.orm.hibernate3.support.ClobStringType: int[] sqlTypes)> -> _SINK_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.CsrfBeanDefinitionParser: org.springframework.beans.factory.config.BeanDefinition getCsrfLogoutHandler)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <java.io.File: java.io.File getAbsoluteFile)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginPage)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <com.google.auth.oauth2.UserCredentials: java.lang.String getClientSecret)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.UrlTag: java.lang.String createUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <java.io.File: java.io.File getCanonicalFile)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getMethod)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.dmfs.oauth2.client.http.requests.ResourceOwnerPasswordTokenRequest: org.dmfs.httpclient.HttpRequestEntity requestEntity)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.concurrent.DelegatingSecurityContextExecutorService: java.util.concurrent.ExecutorService getDelegate)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.builders.HttpSecurity: org.springframework.security.config.'annotation'.web.configurers.HeadersConfigurer headers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.web.servlet.tags.EscapeBodyTag: java.lang.String readBodyContent)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.http.FormLoginBeanDefinitionParser: java.lang.String getLoginProcessingUrl)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.springframework.security.config.annotation.web.configurers.LogoutConfigurer: java.util.List getLogoutHandlers)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.RequestData: java.lang.String getHttpVersion)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <com.google.auth.oauth2.DefaultCredentialsProvider: java.io.File getWellKnownCredentialsFile)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: <org.apache.xmlrpc.webserver.HttpServletRequestImpl: void parseParameters)> -> _SOURCE_
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match:     
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: LOCATION_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: PHONE_CONNECTION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: VOIP:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: PHONE_STATE:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: EMAIL:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: BLUETOOTH:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: ACCOUNT_SETTINGS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: AUDIO:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SYNCHRONIZATION_DATA:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NETWORK:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: FILE:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: LOG:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SMS_MMS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: CONTACT_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: CALENDAR_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SYSTEM_SETTINGS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: BROWSER_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NFC:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NO_CATEGORY:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: UNIQUE_IDENTIFIER:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: LOCATION_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NETWORK_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: ACCOUNT_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: FILE_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: BLUETOOTH_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: DATABASE_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: EMAIL:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SYNCHRONIZATION_DATA:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SMS_MMS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: CONTACT_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: CALENDAR_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: SYSTEM_SETTINGS:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: IMAGE:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: BROWSER_INFORMATION:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NFC:
+[main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match: NO_CATEGORY:
+[main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 68 sources, 194 sinks, and 1634 callback methods.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 42 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /Users/Johnny/Desktop/casa/apks/com.mindgames.ak.aj.iqtestwithanswers.apk with 68 sources and 194 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Registered a memory warning system for 2,457.9 MiB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 2.542466991 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 51593 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver
+[main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 36 sources and 159 sinks.
+[FlowDroid] ERROR heros.solver.CountingThreadPoolExecutor - Worker thread execution failed: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at soot.jimple.infoflow.problems.InfoflowProblem$1.mapAccessPathToCallee(InfoflowProblem.java:1013)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1.access$200(InfoflowProblem.java:79)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$2.computeTargetsInternal(InfoflowProblem.java:457)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$2.computeTargets(InfoflowProblem.java:423)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallFlowFunction(InfoflowSolver.java:107)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallFlowFunction(InfoflowSolver.java:41)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$1.accept(IFDSSolver.java:297)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$1.accept(IFDSSolver.java:287)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.processCall(IFDSSolver.java:287)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.access$100(IFDSSolver.java:64)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$PathEdgeProcessingTask.run(IFDSSolver.java:751)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+Exception in thread "FlowDroid" java.lang.ArrayIndexOutOfBoundsException: 1
+	at soot.jimple.infoflow.problems.InfoflowProblem$1.mapAccessPathToCallee(InfoflowProblem.java:1013)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1.access$200(InfoflowProblem.java:79)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$2.computeTargetsInternal(InfoflowProblem.java:457)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$2.computeTargets(InfoflowProblem.java:423)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallFlowFunction(InfoflowSolver.java:107)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallFlowFunction(InfoflowSolver.java:41)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$1.accept(IFDSSolver.java:297)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$1.accept(IFDSSolver.java:287)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.processCall(IFDSSolver.java:287)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.access$100(IFDSSolver.java:64)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$PathEdgeProcessingTask.run(IFDSSolver.java:751)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[main] ERROR soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Exception during data flow analysis
+java.lang.RuntimeException: There were exceptions during IFDS analysis. Exiting.
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.runExecutorAndAwaitCompletion(IFDSSolver.java:247)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.awaitCompletionComputeValuesAndShutdown(IFDSSolver.java:214)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.solve(IFDSSolver.java:186)
+	at soot.jimple.infoflow.Infoflow.runTaintAnalysis(Infoflow.java:523)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:312)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:248)
+	at soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow.runAnalysis(SetupApplication.java:1299)
+	at soot.jimple.infoflow.android.SetupApplication.processEntryPoint(SetupApplication.java:1549)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1484)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1431)
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:351)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:245)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at soot.jimple.infoflow.problems.InfoflowProblem$1.mapAccessPathToCallee(InfoflowProblem.java:1013)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1.access$200(InfoflowProblem.java:79)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$2.computeTargetsInternal(InfoflowProblem.java:457)
+	at soot.jimple.infoflow.problems.InfoflowProblem$1$2.computeTargets(InfoflowProblem.java:423)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallFlowFunction(InfoflowSolver.java:107)
+	at soot.jimple.infoflow.solver.fastSolver.InfoflowSolver.computeCallFlowFunction(InfoflowSolver.java:41)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$1.accept(IFDSSolver.java:297)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$1.accept(IFDSSolver.java:287)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.processCall(IFDSSolver.java:287)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver.access$100(IFDSSolver.java:64)
+	at soot.jimple.infoflow.solver.fastSolver.IFDSSolver$PathEdgeProcessingTask.run(IFDSSolver.java:751)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks

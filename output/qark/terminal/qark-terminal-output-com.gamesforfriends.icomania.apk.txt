@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 16, in <module>
+    import urllib2
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 94, in <module>
+    import httplib
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 80, in <module>
+    import mimetools
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/mimetools.py", line 6, in <module>
+    import tempfile
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/tempfile.py", line 18, in <module>
+    """
+KeyboardInterrupt

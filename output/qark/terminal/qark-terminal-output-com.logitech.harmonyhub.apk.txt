@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/Johnny/Desktop/casa/venv/lib/python2.7/site.py", line 198, in <module>
+    main()
+  File "/Users/Johnny/Desktop/casa/venv/lib/python2.7/site.py", line 20, in main
+    load_host_site(here)
+  File "/Users/Johnny/Desktop/casa/venv/lib/python2.7/site.py", line 55, in load_host_site
+    for path in get_site_packages_dirs(here):
+  File "/Users/Johnny/Desktop/casa/venv/lib/python2.7/site.py", line 68, in get_site_packages_dirs
+    yield os.path.abspath(os.path.join(here, path.encode("utf-8")))
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/__init__.py", line 29, in <module>
+    """#"
+KeyboardInterrupt

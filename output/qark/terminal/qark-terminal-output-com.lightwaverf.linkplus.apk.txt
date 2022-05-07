@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 16, in <module>
+    import urllib2
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 94, in <module>
+    import httplib
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 72, in <module>
+    import socket
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 49, in <module>
+    from functools import partial
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/functools.py", line 10, in <module>
+    from _functools import partial, reduce
+KeyboardInterrupt
