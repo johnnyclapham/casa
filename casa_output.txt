@@ -25,8 +25,7 @@ Input APK: com.commandfusion.droidviewer.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
+    -> N/A FlowDroid failed
 ------------------------
 
 
@@ -48,9 +47,7 @@ Input APK: com.energeek.cytechaphone.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 5 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -75,9 +72,7 @@ Input APK: com.seoby.smarthome.thermostat.apk
     UNIQUE COUNT: 2
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -101,9 +96,7 @@ Input APK: com.ga.anyemulatorgame.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -130,9 +123,7 @@ Input APK: com.sixwaves.crosswordpop.apk
     UNIQUE COUNT: 2
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -156,9 +147,7 @@ Input APK: com.aceviral.speedboat.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -183,9 +172,7 @@ Input APK: com.navyduck.creeperdefense.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 4 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -198,32 +185,7 @@ Input APK: com.navyduck.creeperdefense.apk
 ========================
 Input APK: co.kr.medialog.swatandzombie.apk
 ------------------------
--> Tool: CryptoGuard
-    -> {'count': '18', 'group': 'Found broken crypto schemes', 'code': '1', 'bytes': '0'}
-    -> {'count': '3', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
-    -> {'count': '42', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
-    -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
-    -> {'count': '19', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
-    -> {'count': '20', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
-    -> {'count': '50', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
-    -> {'count': '2', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
-    UNIQUE COUNT: 8
-------------------------
--> Tool: QARK
-    -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
-    -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
-    -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
-    -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
-    -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
-    -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
-    -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
-    -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
-    UNIQUE COUNT: 1
-------------------------
--> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -247,9 +209,7 @@ Input APK: com.mathopen.androidmath.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -275,9 +235,7 @@ Input APK: com.voldaran.puzzle.graBLOX.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 12 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -307,9 +265,7 @@ Input APK: com.orvibo.rf.activitys.apk
     UNIQUE COUNT: 2
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 17 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -337,9 +293,7 @@ Input APK: com.nokia.dhbu.smartHome.apk
     UNIQUE COUNT: 2
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -383,9 +337,7 @@ Input APK: com.iot.engine.apk
     UNIQUE COUNT: 2
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 9 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -413,9 +365,7 @@ Input APK: com.glu.android.zombsniper.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -437,13 +387,7 @@ Input APK: com.rubicon.dev.yachty.apk
     UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
-    -> N/A: QARK cannot find vulnerabilities
-    UNIQUE COUNT: 0
-------------------------
--> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -472,9 +416,7 @@ Input APK: com.mediola.spro.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -501,9 +443,7 @@ Input APK: au.com.mobelisk.iotcommander.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -543,9 +483,7 @@ Input APK: com.oxothuk.worldpuzzle.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -570,9 +508,7 @@ Input APK: com.keeproduct.smartHome.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -596,9 +532,7 @@ Input APK: com.cometa.iot.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -624,9 +558,7 @@ Input APK: com.mysmartblinds2.android.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -650,9 +582,7 @@ Input APK: com.ezjoynetwork.jewelsmaze.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 4 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -677,9 +607,7 @@ Input APK: newmatching.mickey.mouse.fun.play.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -704,8 +632,7 @@ Input APK: com.iotwear.wear.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> N/A FlowDroid failed
-------------------------
+-> Failed to parse tools
 
 
 
@@ -733,9 +660,7 @@ Input APK: com.devolo.homecontrol.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -765,9 +690,7 @@ Input APK: com.candy.givemespirit.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -794,9 +717,7 @@ Input APK: com.sibforce.bubbleblast.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -820,9 +741,7 @@ Input APK: com.kristanix.android.dominosolitaire.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 6 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -843,9 +762,7 @@ Input APK: com.abb.domustech.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -871,9 +788,7 @@ Input APK: com.philips.hueswitcher.quickstart.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 1 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -899,9 +814,7 @@ Input APK: air.com.metagu.RewardHunterA800.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -929,9 +842,7 @@ Input APK: com.kaonmedia.iotmobileclient.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -952,8 +863,7 @@ Input APK: com.advancedquonsettechnology.hcaapp.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> N/A FlowDroid failed
-------------------------
+-> Failed to parse tools
 
 
 
@@ -979,9 +889,7 @@ Input APK: com.devicecortex.zcastle.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1009,9 +917,7 @@ Input APK: com.cognitial.directvremote.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1036,9 +942,7 @@ Input APK: whats.the.saying.quiz.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 5 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1062,9 +966,7 @@ Input APK: com.lightwaverf.linkplus.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1089,9 +991,7 @@ Input APK: me.zed_0xff.android.alchemy.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 9 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1115,9 +1015,7 @@ Input APK: com.alonsoruibal.chessdroid.lite.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 1 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1130,22 +1028,7 @@ Input APK: com.alonsoruibal.chessdroid.lite.apk
 ========================
 Input APK: com.ensenasoft.mahjongdlxf.apk
 ------------------------
--> Tool: CryptoGuard
-    -> {'count': '3', 'group': 'Found broken crypto schemes', 'code': '1', 'bytes': '0'}
-    -> {'count': '9', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
-    -> {'count': '6', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
-    -> {'count': '2', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
-    -> {'count': '14', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
-    UNIQUE COUNT: 5
-------------------------
--> Tool: QARK
-    -> N/A: QARK cannot find vulnerabilities
-    UNIQUE COUNT: 0
-------------------------
--> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1171,9 +1054,7 @@ Input APK: com.angryheroesgame.halloween.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1198,9 +1079,7 @@ Input APK: com.memory.activity.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1227,9 +1106,7 @@ Input APK: com.fgol.shark3.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 4 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1255,9 +1132,7 @@ Input APK: sts.dl.apk
     UNIQUE COUNT: 2
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1281,9 +1156,7 @@ Input APK: com.bpl.homecenter.ui.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 28 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1309,9 +1182,7 @@ Input APK: com.gamesforfriends.icomania.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 6 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1334,9 +1205,7 @@ Input APK: appinventor.ai_digitalartsmind.SmartHome.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1357,9 +1226,7 @@ Input APK: com.comfortclick.cmclient.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1386,8 +1253,7 @@ Input APK: com.synapse.android.burn.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> N/A FlowDroid failed
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1421,9 +1287,7 @@ Input APK: com.madfingergames.deadzone.apk
     UNIQUE COUNT: 2
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 9 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1450,8 +1314,7 @@ Input APK: allterco.bg.shelly.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> N/A FlowDroid failed
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1475,8 +1338,7 @@ Input APK: com.gemicates.hagway.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> N/A FlowDroid failed
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1505,9 +1367,7 @@ Input APK: com.bgames.android.bikerun.apk
     UNIQUE COUNT: 2
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 11 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1528,9 +1388,7 @@ Input APK: com.activehomevista.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1554,9 +1412,7 @@ Input APK: com.kaon.android.lepton.hitachi.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1579,9 +1435,7 @@ Input APK: com.hackajoelabs.hook.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1594,21 +1448,7 @@ Input APK: com.hackajoelabs.hook.apk
 ========================
 Input APK: com.yourislandcraft.demo.lifeincproduction.apk
 ------------------------
--> Tool: CryptoGuard
-    -> {'count': '20', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
-    -> {'count': '1', 'group': 'Used < 1000 iteration for PBE', 'code': '8', 'bytes': '0'}
-    -> {'count': '20', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
-    -> {'count': '35', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
-    UNIQUE COUNT: 4
-------------------------
--> Tool: QARK
-    -> N/A: QARK cannot find vulnerabilities
-    UNIQUE COUNT: 0
-------------------------
--> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1635,9 +1475,7 @@ Input APK: de.habanero.quizoid.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1678,9 +1516,7 @@ Input APK: com.icontrol.centurylink.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 2 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1706,9 +1542,7 @@ Input APK: com.kabam.fortress.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1735,9 +1569,7 @@ Input APK: com.innovativeGames.archery.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1764,9 +1596,7 @@ Input APK: com.mindgames.ak.aj.iqtestwithanswers.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1789,9 +1619,7 @@ Input APK: com.eezy.app.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 6 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1821,9 +1649,7 @@ Input APK: com.google.android.tv.remote.apk
     UNIQUE COUNT: 1
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1850,9 +1676,7 @@ Input APK: com.baringsprod.numbersAddict.free.gp.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1877,9 +1701,7 @@ Input APK: uk.co.aifactory.gofree.apk
     UNIQUE COUNT: 0
 ------------------------
 -> Tool: FlowDroid
-    -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
-
-------------------------
+-> Failed to parse tools
 
 
 
@@ -1892,17 +1714,4 @@ Input APK: uk.co.aifactory.gofree.apk
 ========================
 Input APK: com.distinctdev.tmtlite2.apk
 ------------------------
--> Tool: CryptoGuard
-    -> {'count': '4', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
-    -> {'count': '16', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
-    -> {'count': '3', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
-    -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
-    UNIQUE COUNT: 4
-------------------------
--> Tool: QARK
-    -> N/A: QARK cannot find vulnerabilities
-    UNIQUE COUNT: 0
-------------------------
--> Tool: FlowDroid
-    -> N/A FlowDroid failed
-------------------------
+-> Failed to parse tools
