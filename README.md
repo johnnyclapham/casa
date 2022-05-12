@@ -14,7 +14,7 @@ python2 casa.py -cg 0 -qk 0 -fd 0
 
 Requires Java 8 JDK installation
 
-NOTE: Ensure that $JAVA_HOME $ANDROID_HOME are set! CryptoGuard will not run unless config is proper.
+NOTE: Ensure that $JAVA_HOME $ANDROID_HOME are set! CryptoGuard will not run if they are not added to $PATH.
 
 Usage:
 

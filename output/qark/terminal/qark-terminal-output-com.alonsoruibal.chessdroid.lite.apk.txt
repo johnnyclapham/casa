@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 17, in <module>
+    import ast
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ast.py", line 28, in <module>
+    from _ast import *
+KeyboardInterrupt

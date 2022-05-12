@@ -1,0 +1,26 @@
+[H[2J[3J .d88888b.           d8888   8888888b.    888    d8P  
+d88P" "Y88b         d88888   888   Y88b   888   d8P   
+888     888        d88P888   888    888   888  d8P    
+888     888       d88P 888   888   d88P   888d88K     
+888     888      d88P  888   8888888P"    8888888b    
+888 Y8b 888     d88P   888   888 T88b     888  Y88b   
+Y88b.Y8b88P    d8888888888   888  T88b    888   Y88b  
+ "Y888888"    d88P     888   888   T88b   888    Y88b 
+       Y8b                                            
+                                                      
+                                                      
+
+Updated config value:: rootDir /Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1
+INFO - Initializing...
+
+Certain functionalities in QARK rely on using Android SDK. You may have an existing Android SDK on your system that you may want to use.
+If not, QARK makes it easier for you to download the required components from Android SDK, automatically. If you select "n" to the following option, you would be asked to provide a location to the Android SDK manually.
+It is recommended that you let QARK download and setup Android SDK. This will not affect any existing Android SDK setup you may have on your system.
+
+
+Do you want QARK to download and set up Android SDK?[y/n] :Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 263, in <module>
+    sdkManager.getAndroidSDKManager()
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/modules/sdkManager.py", line 41, in getAndroidSDKManager
+    choice=raw_input(common.config.get('qarkhelper','GET_ANDROID_SDK_MANAGER_PROMPT'))
+KeyboardInterrupt

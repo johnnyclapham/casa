@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 16, in <module>
+    import urllib2
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 92, in <module>
+    import base64
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/base64.py", line 10, in <module>
+    import string
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/string.py", line 530, in <module>
+    from strop import maketrans, lowercase, uppercase, whitespace
+KeyboardInterrupt

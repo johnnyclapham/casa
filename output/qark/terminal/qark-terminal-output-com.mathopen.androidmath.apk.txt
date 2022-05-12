@@ -1,0 +1,741 @@
+[H[2J[3J .d88888b.           d8888   8888888b.    888    d8P  
+d88P" "Y88b         d88888   888   Y88b   888   d8P   
+888     888        d88P888   888    888   888  d8P    
+888     888       d88P 888   888   d88P   888d88K     
+888     888      d88P  888   8888888P"    8888888b    
+888 Y8b 888     d88P   888   888 T88b     888  Y88b   
+Y88b.Y8b88P    d8888888888   888  T88b    888   Y88b  
+ "Y888888"    d88P     888   888   T88b   888    Y88b 
+       Y8b                                            
+                                                      
+                                                      
+
+INFO - Initializing...
+INFO - Identified Android SDK installation from a previous run.
+INFO - Initializing QARK
+
+INFO - Unpacking /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x1097fc3d0>
+INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/
+INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath
+INFO - AndroidManifest.xml found
+INFO - <?xml version="1.0" ?><manifest android:versionCode="8" android:versionName="2.1" package="com.mathopen.androidmath" xmlns:android="http://schemas.android.com/apk/res/android">
+<supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true">
+</supports-screens>
+<uses-permission android:name="android.permission.INTERNET">
+</uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+</uses-permission>
+<uses-permission android:name="android.permission.WAKE_LOCK">
+</uses-permission>
+<uses-sdk android:minSdkVersion="8">
+</uses-sdk>
+<application android:icon="@7F020001" android:label="@7F050001" android:theme="@android:01030007">
+<activity android:configChanges="0x000000A0" android:label="@7F050001" android:name=".App" android:screenOrientation="0">
+<intent-filter>
+<action android:name="android.intent.action.MAIN">
+</action>
+<category android:name="android.intent.category.LAUNCHER">
+</category>
+</intent-filter>
+</activity>
+<activity android:configChanges="0x000000A0" android:label="@7F050001" android:name="com.mathopen.androidmath" android:screenOrientation="0">
+<intent-filter>
+</intent-filter>
+</activity>
+</application>
+</manifest>
+INFO - Determined minimum SDK version to be:8
+WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sensitive data from the logs.
+ISSUES - APP COMPONENT ATTACK SURFACE
+WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+INFO - Checking provider
+INFO - Checking activity
+WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
+.App
+INFO - Checking activity-alias
+INFO - Checking services
+INFO - Checking receivers
+INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
+
+
+
+
+
+
+
+
+
+
+
+
+JD CORE   0%|                                                                 |
+Procyon   0%|                                                                 |
+CFR   0%|                                                                     |
+CFR   2%|#                                                                    |
+JD CORE   2%|#                                                                |
+CFR   4%|##                                                                   |
+JD CORE   4%|##                                                               |
+CFR   6%|####                                                                 |
+JD CORE   6%|###                                                              |
+CFR   8%|#####                                                                |
+JD CORE   8%|#####                                                            |
+CFR  10%|######                                                               |
+JD CORE  10%|######                                                           |
+CFR  12%|########                                                             |
+JD CORE  12%|#######                                                          |
+CFR  14%|#########                                                            |
+JD CORE  14%|#########                                                        |
+CFR  16%|###########                                                          |
+JD CORE  16%|##########                                                       |
+CFR  18%|############                                                         |
+JD CORE  18%|###########                                                      |
+CFR  20%|#############                                                        |
+JD CORE  20%|#############                                                    |
+CFR  22%|###############                                                      |
+JD CORE  22%|##############                                                   |
+CFR  24%|################                                                     |
+JD CORE  24%|###############                                                  |
+CFR  26%|#################                                                    |
+JD CORE  26%|################                                                 |
+CFR  28%|###################                                                  |
+JD CORE  28%|##################                                               |
+CFR  30%|####################                                                 |
+JD CORE  30%|###################                                              |
+CFR  32%|######################                                               |
+JD CORE  32%|####################                                             |
+CFR  34%|#######################                                              |
+JD CORE  34%|######################                                           |
+CFR  36%|########################                                             |
+JD CORE  36%|#######################                                          |
+CFR  38%|##########################                                           |
+JD CORE  38%|########################                                         |
+CFR  40%|###########################                                          |
+JD CORE  40%|##########################                                       |
+CFR  42%|############################                                         |
+JD CORE  42%|###########################                                      |
+CFR  44%|##############################                                       |
+JD CORE  44%|############################                                     |
+CFR  46%|###############################                                      |
+JD CORE  46%|#############################                                    |
+CFR  48%|#################################                                    |
+JD CORE  48%|###############################                                  |
+CFR  50%|##################################                                   |
+JD CORE  50%|################################                                 |
+CFR  52%|###################################                                  |
+JD CORE  52%|#################################                                |
+CFR  54%|#####################################                                |
+JD CORE  54%|###################################                              |
+CFR  56%|######################################                               |
+JD CORE  56%|####################################                             |
+CFR  58%|########################################                             |
+JD CORE  58%|#####################################                            |
+CFR  60%|#########################################                            |
+JD CORE  60%|#######################################                          |
+CFR  62%|##########################################                           |
+JD CORE  62%|########################################                         |
+CFR  64%|############################################                         |
+JD CORE  64%|#########################################                        |
+CFR  66%|#############################################                        |
+JD CORE  66%|##########################################                       |
+CFR  68%|##############################################                       |
+JD CORE  68%|############################################                     |
+CFR  70%|################################################                     |
+JD CORE  70%|#############################################                    |
+CFR  72%|#################################################                    |
+JD CORE  72%|##############################################                   |
+CFR  74%|###################################################                  |
+JD CORE  74%|################################################                 |
+CFR  76%|####################################################                 |
+JD CORE  76%|#################################################                |
+CFR  78%|#####################################################                |
+JD CORE  78%|##################################################               |
+CFR  80%|#######################################################              |
+JD CORE  80%|####################################################             |
+CFR  82%|########################################################             |
+JD CORE  82%|#####################################################            |
+CFR  84%|#########################################################            |
+JD CORE  84%|######################################################           |
+CFR  86%|###########################################################          |
+JD CORE  86%|#######################################################          |
+CFR  88%|############################################################         |
+JD CORE  88%|#########################################################        |
+CFR  90%|##############################################################       |
+JD CORE  90%|##########################################################       |
+CFR  92%|###############################################################      |
+JD CORE  92%|###########################################################      |
+CFR  94%|################################################################     |
+JD CORE  94%|#############################################################    |
+CFR  96%|##################################################################   |
+JD CORE  96%|##############################################################   |
+CFR  98%|###################################################################  |
+JD CORE  98%|###############################################################  |
+CFR 100%|#####################################################################|
+JD CORE 100%|#################################################################|
+Procyon   2%|#                                                                |
+Procyon   4%|##                                                               |
+Procyon   6%|###                                                              |
+Procyon   8%|#####                                                            |
+Procyon  10%|######                                                           |
+Procyon  12%|#######                                                          |
+Procyon  14%|#########                                                        |
+Procyon  16%|##########                                                       |
+Procyon  18%|###########                                                      |
+Procyon  20%|#############                                                    |
+Procyon  22%|##############                                                   |
+Procyon  24%|###############                                                  |
+Procyon  26%|################                                                 |
+Procyon  28%|##################                                               |
+Procyon  30%|###################                                              |
+Procyon  32%|####################                                             |
+Procyon  34%|######################                                           |
+Procyon  36%|#######################                                          |
+Procyon  38%|########################                                         |
+Procyon  40%|##########################                                       |
+Procyon  42%|###########################                                      |
+Procyon  44%|############################                                     |
+Procyon  46%|#############################                                    |
+Procyon  48%|###############################                                  |
+Procyon  50%|################################                                 |
+Procyon  52%|#################################                                |
+Procyon  54%|###################################                              |
+Procyon  56%|####################################                             |
+Procyon  58%|#####################################                            |
+Procyon  60%|#######################################                          |
+Procyon  62%|########################################                         |
+Procyon  64%|#########################################                        |
+Procyon  66%|##########################################                       |
+Procyon  68%|############################################                     |
+Procyon  70%|#############################################                    |
+Procyon  72%|##############################################                   |
+Procyon  74%|################################################                 |
+Procyon  76%|#################################################                |
+Procyon  78%|##################################################               |
+Procyon  80%|####################################################             |
+Procyon  82%|#####################################################            |
+Procyon  84%|######################################################           |
+Procyon  86%|#######################################################          |
+Procyon  88%|#########################################################        |
+Procyon  90%|##########################################################       |
+Procyon  92%|###########################################################      |
+Procyon  94%|#############################################################    |
+Procyon  96%|##############################################################   |
+Procyon  98%|###############################################################  |
+Procyon 100%|#################################################################|
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+
+INFO - Trying to improve accuracy of the decompiled files
+INFO - Restored 2 file(s) out of 3 corrupt file(s)
+INFO - Decompiled code found at:/Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/
+INFO - Finding all java files
+INFO - Running Static Code Analysis...
+INFO - Looking for private key files in project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+X.509 Validation   0%|                                                        |
+Pending Intents   0%|                                                         |
+File Permissions (check 1)   0%|                                              |
+File Permissions (check 2)   0%|                                              |
+Webview checks   0%|                                                          |
+Broadcast issues   0%|                                                        |
+Crypto issues   0%|                                                           |
+X.509 Validation   2%|#                                                       |
+Pending Intents   2%|#                                                        |
+File Permissions (check 1)   2%|                                              |
+Webview checks   2%|#                                                         |
+Broadcast issues   2%|#                                                       |
+X.509 Validation   4%|##                                                      |
+Crypto issues   2%|#                                                          |
+File Permissions (check 1)   4%|#                                             |
+File Permissions (check 1)   6%|##                                            |
+Pending Intents   4%|##                                                       |
+Webview checks   4%|##                                                        |
+Crypto issues   4%|##                                                         |
+Broadcast issues   4%|##                                                      |
+File Permissions (check 1)   8%|###                                           |
+X.509 Validation   6%|###                                                     |
+Webview checks   6%|###                                                       |
+File Permissions (check 1)  10%|####                                          |
+Webview checks   8%|####                                                      |
+File Permissions (check 1)  12%|#####                                         |
+Pending Intents   6%|###                                                      |
+Webview checks  10%|#####                                                     |
+Crypto issues   6%|###                                                        |
+Pending Intents   8%|####                                                     |
+File Permissions (check 1)  14%|######                                        |
+Broadcast issues   6%|###                                                     |
+X.509 Validation   8%|####                                                    |
+Webview checks  12%|######                                                    |
+File Permissions (check 1)  16%|#######                                       |
+Crypto issues   8%|####                                                       |
+Pending Intents  10%|#####                                                    |
+Broadcast issues   8%|####                                                    |
+X.509 Validation  10%|#####                                                   |
+Webview checks  14%|########                                                  |
+File Permissions (check 1)  18%|########                                      |
+Crypto issues  10%|#####                                                      |
+X.509 Validation  12%|######                                                  |
+Pending Intents  12%|######                                                   |
+Webview checks  16%|#########                                                 |
+File Permissions (check 1)  20%|#########                                     |
+Crypto issues  12%|#######                                                    |
+Webview checks  18%|##########                                                |
+File Permissions (check 1)  22%|##########                                    |
+Broadcast issues  10%|#####                                                   |
+Webview checks  20%|###########                                               |
+Broadcast issues  12%|######                                                  |
+File Permissions (check 1)  24%|###########                                   |
+Webview checks  22%|############                                              |
+Webview checks  24%|#############                                             |
+File Permissions (check 1)  26%|###########                                   |
+File Permissions (check 1)  28%|############                                  |
+X.509 Validation  14%|#######                                                 |
+Webview checks  26%|###############                                           |
+Crypto issues  14%|########                                                   |
+File Permissions (check 1)  30%|#############                                 |
+Broadcast issues  14%|#######                                                 |
+File Permissions (check 1)  32%|##############                                |
+Crypto issues  16%|#########                                                  |
+Webview checks  28%|################                                          |
+File Permissions (check 1)  34%|###############                               |
+Webview checks  30%|#################                                         |
+File Permissions (check 1)  36%|################                              |
+Webview checks  32%|##################                                        |
+File Permissions (check 1)  38%|#################                             |
+Webview checks  34%|###################                                       |
+File Permissions (check 1)  40%|##################                            |
+File Permissions (check 1)  42%|###################                           |
+File Permissions (check 1)  44%|####################                          |
+Broadcast issues  16%|########                                                |
+File Permissions (check 1)  46%|#####################                         |
+Webview checks  36%|####################                                      |
+File Permissions (check 1)  48%|######################                        |
+Webview checks  38%|######################                                    |
+File Permissions (check 1)  50%|#######################                       |
+Webview checks  40%|#######################                                   |
+File Permissions (check 1)  52%|#######################                       |
+Webview checks  42%|########################                                  |
+File Permissions (check 1)  54%|########################                      |
+Webview checks  44%|#########################                                 |
+Webview checks  46%|##########################                                |
+X.509 Validation  16%|########                                                |
+Webview checks  48%|###########################                               |
+Pending Intents  14%|#######                                                  |
+Webview checks  50%|#############################                             |
+Webview checks  52%|##############################                            |
+Webview checks  54%|###############################                           |
+File Permissions (check 1)  56%|#########################                     |
+File Permissions (check 1)  58%|##########################                    |
+Webview checks  56%|################################                          |
+File Permissions (check 1)  60%|###########################                   |
+File Permissions (check 1)  62%|############################                  |
+Webview checks  58%|#################################                         |
+File Permissions (check 1)  64%|#############################                 |
+Webview checks  60%|##################################                        |
+File Permissions (check 1)  66%|##############################                |
+Webview checks  62%|###################################                       |
+Broadcast issues  18%|##########                                              |
+File Permissions (check 1)  68%|###############################               |
+Webview checks  64%|#####################################                     |
+File Permissions (check 1)  70%|################################              |
+Webview checks  66%|######################################                    |
+File Permissions (check 1)  72%|#################################             |
+Webview checks  68%|#######################################                   |
+File Permissions (check 1)  74%|##################################            |
+File Permissions (check 1)  76%|##################################            |
+X.509 Validation  18%|##########                                              |
+Webview checks  70%|########################################                  |
+Crypto issues  18%|##########                                                 |
+X.509 Validation  20%|###########                                             |
+Webview checks  72%|#########################################                 |
+File Permissions (check 1)  78%|###################################           |
+Broadcast issues  20%|###########                                             |
+File Permissions (check 1)  80%|####################################          |
+File Permissions (check 1)  82%|#####################################         |
+File Permissions (check 1)  84%|######################################        |
+File Permissions (check 1)  86%|#######################################       |
+Webview checks  74%|##########################################                |
+File Permissions (check 1)  88%|########################################      |
+File Permissions (check 1)  90%|#########################################     |
+Webview checks  76%|############################################              |
+File Permissions (check 1)  92%|##########################################    |
+Webview checks  78%|#############################################             |
+Crypto issues  20%|###########                                                |
+X.509 Validation  22%|############                                            |
+Webview checks  80%|##############################################            |
+Pending Intents  16%|#########                                                |
+Crypto issues  22%|############                                               |
+File Permissions (check 1)  94%|###########################################   |
+Broadcast issues  22%|############                                            |
+Webview checks  82%|###############################################           |
+Webview checks  84%|################################################          |
+Webview checks  86%|#################################################         |
+File Permissions (check 1)  96%|############################################  |
+Webview checks  88%|###################################################       |
+File Permissions (check 1)  98%|############################################# |
+File Permissions (check 1) 100%|##############################################|
+Webview checks  90%|####################################################      |
+Webview checks  92%|#####################################################     |
+File Permissions (check 2)   2%|                                              |
+Webview checks  94%|######################################################    |
+Webview checks  96%|#######################################################   |
+File Permissions (check 2)   4%|#                                             |
+File Permissions (check 2)   6%|##                                            |
+Webview checks  98%|########################################################  |
+File Permissions (check 2)   8%|###                                           |
+Webview checks 100%|##########################################################|
+File Permissions (check 2)  10%|####                                          |
+File Permissions (check 2)  12%|#####                                         |
+File Permissions (check 2)  14%|######                                        |
+Crypto issues  24%|##############                                             |
+File Permissions (check 2)  16%|#######                                       |
+Broadcast issues  24%|#############                                           |
+File Permissions (check 2)  18%|########                                      |
+File Permissions (check 2)  20%|#########                                     |
+X.509 Validation  24%|#############                                           |
+File Permissions (check 2)  22%|##########                                    |
+Pending Intents  18%|##########                                               |
+File Permissions (check 2)  24%|###########                                   |
+File Permissions (check 2)  26%|###########                                   |
+Broadcast issues  26%|##############                                          |
+File Permissions (check 2)  28%|############                                  |
+Crypto issues  26%|###############                                            |
+File Permissions (check 2)  30%|#############                                 |
+File Permissions (check 2)  32%|##############                                |
+File Permissions (check 2)  34%|###############                               |
+Pending Intents  20%|###########                                              |
+X.509 Validation  26%|##############                                          |
+Crypto issues  28%|################                                           |
+Pending Intents  22%|############                                             |
+Broadcast issues  28%|###############                                         |
+X.509 Validation  28%|###############                                         |
+Broadcast issues  30%|################                                        |
+File Permissions (check 2)  36%|################                              |
+Pending Intents  24%|#############                                            |
+Crypto issues  30%|#################                                          |
+File Permissions (check 2)  38%|#################                             |
+X.509 Validation  30%|################                                        |
+File Permissions (check 2)  40%|##################                            |
+Pending Intents  26%|##############                                           |
+File Permissions (check 2)  42%|###################                           |
+File Permissions (check 2)  44%|####################                          |
+File Permissions (check 2)  46%|#####################                         |
+File Permissions (check 2)  48%|######################                        |
+File Permissions (check 2)  50%|#######################                       |
+File Permissions (check 2)  52%|#######################                       |
+File Permissions (check 2)  54%|########################                      |
+File Permissions (check 2)  56%|#########################                     |
+File Permissions (check 2)  58%|##########################                    |
+File Permissions (check 2)  60%|###########################                   |
+File Permissions (check 2)  62%|############################                  |
+Pending Intents  28%|###############                                          |
+File Permissions (check 2)  64%|#############################                 |
+File Permissions (check 2)  66%|##############################                |
+File Permissions (check 2)  68%|###############################               |
+File Permissions (check 2)  70%|################################              |
+File Permissions (check 2)  72%|#################################             |
+File Permissions (check 2)  74%|##################################            |
+X.509 Validation  32%|#################                                       |
+File Permissions (check 2)  76%|##################################            |
+X.509 Validation  34%|###################                                     |
+File Permissions (check 2)  78%|###################################           |
+Pending Intents  30%|#################                                        |
+File Permissions (check 2)  80%|####################################          |
+File Permissions (check 2)  82%|#####################################         |
+File Permissions (check 2)  84%|######################################        |
+File Permissions (check 2)  86%|#######################################       |
+File Permissions (check 2)  88%|########################################      |
+File Permissions (check 2)  90%|#########################################     |
+File Permissions (check 2)  92%|##########################################    |
+Broadcast issues  32%|#################                                       |
+Crypto issues  32%|##################                                         |
+File Permissions (check 2)  94%|###########################################   |
+File Permissions (check 2)  96%|############################################  |
+File Permissions (check 2)  98%|############################################# |
+File Permissions (check 2) 100%|##############################################|
+Broadcast issues  34%|###################                                     |
+Crypto issues  34%|####################                                       |
+X.509 Validation  36%|####################                                    |
+X.509 Validation  38%|#####################                                   |
+X.509 Validation  40%|######################                                  |
+Broadcast issues  36%|####################                                    |
+Crypto issues  36%|#####################                                      |
+X.509 Validation  42%|#######################                                 |
+X.509 Validation  44%|########################                                |
+Pending Intents  32%|##################                                       |
+Broadcast issues  38%|#####################                                   |
+Crypto issues  38%|######################                                     |
+Crypto issues  40%|#######################                                    |
+X.509 Validation  46%|#########################                               |
+Broadcast issues  40%|######################                                  |
+X.509 Validation  48%|##########################                              |
+Crypto issues  42%|########################                                   |
+Pending Intents  34%|###################                                      |
+Crypto issues  44%|#########################                                  |
+X.509 Validation  50%|############################                            |
+Broadcast issues  42%|#######################                                 |
+Crypto issues  46%|###########################                                |
+X.509 Validation  52%|#############################                           |
+Broadcast issues  44%|########################                                |
+Crypto issues  48%|############################                               |
+Crypto issues  50%|#############################                              |
+X.509 Validation  54%|##############################                          |
+Broadcast issues  46%|#########################                               |
+Crypto issues  52%|##############################                             |
+Crypto issues  54%|###############################                            |
+Broadcast issues  48%|##########################                              |
+Pending Intents  36%|####################                                     |
+Broadcast issues  50%|############################                            |
+Broadcast issues  52%|#############################                           |
+Broadcast issues  54%|##############################                          |
+Pending Intents  38%|#####################                                    |
+X.509 Validation  56%|###############################                         |
+Pending Intents  40%|######################                                   |
+X.509 Validation  58%|################################                        |
+Pending Intents  42%|#######################                                  |
+Crypto issues  56%|#################################                          |
+Pending Intents  44%|#########################                                |
+X.509 Validation  60%|#################################                       |
+Pending Intents  46%|##########################                               |
+X.509 Validation  62%|##################################                      |
+Pending Intents  48%|###########################                              |
+Crypto issues  58%|##################################                         |
+X.509 Validation  64%|###################################                     |
+Pending Intents  50%|############################                             |
+Broadcast issues  56%|###############################                         |
+Pending Intents  52%|#############################                            |
+X.509 Validation  66%|####################################                    |
+Pending Intents  54%|##############################                           |
+Crypto issues  60%|###################################                        |
+Broadcast issues  58%|################################                        |
+X.509 Validation  68%|######################################                  |
+Broadcast issues  60%|#################################                       |
+Crypto issues  62%|####################################                       |
+X.509 Validation  70%|#######################################                 |
+Crypto issues  64%|#####################################                      |
+Broadcast issues  62%|##################################                      |
+Crypto issues  66%|######################################                     |
+X.509 Validation  72%|########################################                |
+Broadcast issues  64%|###################################                     |
+X.509 Validation  74%|#########################################               |
+Crypto issues  68%|########################################                   |
+Broadcast issues  66%|####################################                    |
+Crypto issues  70%|#########################################                  |
+Crypto issues  72%|##########################################                 |
+X.509 Validation  76%|##########################################              |
+Broadcast issues  68%|######################################                  |
+Crypto issues  74%|###########################################                |
+Crypto issues  76%|############################################               |
+X.509 Validation  78%|###########################################             |
+Pending Intents  56%|###############################                          |
+Broadcast issues  70%|#######################################                 |
+X.509 Validation  80%|############################################            |
+Crypto issues  78%|##############################################             |
+Crypto issues  80%|###############################################            |
+Broadcast issues  72%|########################################                |
+Crypto issues  82%|################################################           |
+Pending Intents  58%|#################################                        |
+X.509 Validation  82%|#############################################           |
+Crypto issues  84%|#################################################          |
+Broadcast issues  74%|#########################################               |
+X.509 Validation  84%|###############################################         |
+Crypto issues  86%|##################################################         |
+X.509 Validation  86%|################################################        |
+Broadcast issues  76%|##########################################              |
+Crypto issues  88%|###################################################        |
+X.509 Validation  88%|#################################################       |
+Broadcast issues  78%|###########################################             |
+Pending Intents  60%|##################################                       |
+Crypto issues  90%|#####################################################      |
+Broadcast issues  80%|############################################            |
+Broadcast issues  82%|#############################################           |
+X.509 Validation  90%|##################################################      |
+Broadcast issues  84%|###############################################         |
+Crypto issues  92%|######################################################     |
+Pending Intents  62%|###################################                      |
+Broadcast issues  86%|################################################        |
+X.509 Validation  92%|###################################################     |
+Broadcast issues  88%|#################################################       |
+Crypto issues  94%|#######################################################    |
+Pending Intents  64%|####################################                     |
+Crypto issues  96%|########################################################   |
+Pending Intents  66%|#####################################                    |
+Broadcast issues  90%|##################################################      |
+Broadcast issues  92%|###################################################     |
+Pending Intents  68%|######################################                   |
+X.509 Validation  94%|####################################################    |
+Pending Intents  70%|#######################################                  |
+Crypto issues  98%|#########################################################  |
+Broadcast issues  94%|####################################################    |
+Pending Intents  72%|#########################################                |
+X.509 Validation  96%|#####################################################   |
+Crypto issues 100%|###########################################################|
+X.509 Validation  98%|######################################################  |
+Broadcast issues  96%|#####################################################   |
+X.509 Validation 100%|########################################################|
+Pending Intents  74%|##########################################               |
+Broadcast issues  98%|######################################################  |
+Broadcast issues 100%|########################################################|
+Pending Intents  76%|###########################################              |
+Pending Intents  78%|############################################             |
+Pending Intents  80%|#############################################            |
+Pending Intents  82%|##############################################           |
+Pending Intents  84%|###############################################          |
+Pending Intents  86%|#################################################        |
+Pending Intents  88%|##################################################       |
+Pending Intents  90%|###################################################      |
+Pending Intents  92%|####################################################     |
+Pending Intents  94%|#####################################################    |
+Pending Intents  96%|######################################################   |
+Pending Intents  98%|#######################################################  |
+Pending Intents 100%|#########################################################|
+
+
+
+
+
+
+====================================================================================================
+INFO - This class is exported from a manifest item: App
+INFO - Checking this file for vulns: /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/mathopen/androidmath/App.java
+entries: 
+onCreate
+====================================================================================================
+INFO - This class is exported from a manifest item: App
+INFO - Checking this file for vulns: /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/App.java
+entries: 
+ISSUES - CRYPTO ISSUES
+INFO -  No issues to report
+ISSUES - BROADCAST ISSUES
+INFO -  No issues to report
+ISSUES - CERTIFICATE VALIDATION ISSUES
+INFO -  No issues to report
+ISSUES - PENDING INTENT ISSUES
+INFO -  No issues to report
+ISSUES - FILE PERMISSION ISSUES
+INFO -  No issues to report
+ISSUES - WEB-VIEW ISSUES
+INFO - FOUND 5 WEBVIEWS:
+INFO - ['WebView app', '/Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/api/PluginManager.java']
+INFO - ['WebView webView', '/Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/api/Plugin.java']
+INFO - ['appView', '/Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/DroidGap.java']
+INFO - ['mView', '/Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/ContactAccessor.java']
+INFO - ['this.appView', '/Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/DroidGap.java']
+INFO - WebView: WebView app
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/api/PluginManager.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/UNIV_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowFileAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FURL_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/qark/poc/html/FURL_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FURL_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FURL_FILE_WARNING.html
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: WebView webView
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/api/Plugin.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/UNIV_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowFileAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FURL_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/qark/poc/html/FURL_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FURL_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FURL_FILE_WARNING.html
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: appView
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/DroidGap.java
+
+INFO - JS not enabled on this webView. appView/Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/DroidGap.java
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.appView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.appViewTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions.appView To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+
+INFO - addJavascriptInterface not used in this WebView.appView
+INFO - DOM Storage not enabled for this WebView.appView
+INFO - WebView: mView
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/ContactAccessor.java
+
+INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
+WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
+INFO - JS not enabled on this webView.
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/UNIV_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowFileAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FURL_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/qark/poc/html/FURL_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FURL_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FURL_FILE_WARNING.html
+INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
+INFO - addJavascriptInterface not used in this WebView.
+INFO - DOM Storage not enabled for this WebView.
+INFO - WebView: this.appView
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/DroidGap.java
+
+INFO - JS not enabled on this webView. this.appView/Users/Johnny/Desktop/casa/apks/com.mathopen.androidmath/classes_dex2jar/com/phonegap/DroidGap.java
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.this.appView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.this.appViewTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions.this.appView To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+
+INFO - addJavascriptInterface not used in this WebView.this.appView
+INFO - DOM Storage not enabled for this WebView.this.appView
+WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to complete this module. The impact should be verified manually anyway, so have fun...
+INFO - Content Providers appear to be in use, locating...
+INFO - FOUND 0 CONTENTPROVIDERS:
+ISSUES - ADB EXPLOIT COMMANDS
+INFO - Until we perfect this, for manually testing, run the following command to see all the options and their meanings: adb shell am. Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here: http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
+==>EXPORTED ACTIVITIES: 
+1.App
+adb shell am start -a "android.intent.action.MAIN" -n "com.mathopen.androidmath/com.mathopen.androidmath.App" --es 1
+ "EXTRA_VALUE_IN_QUOTES"
+adb shell am start -a "android.intent.action.MAIN" -n "com.mathopen.androidmath/com.mathopen.androidmath.App" --es j
+ "EXTRA_VALUE_IN_QUOTES"
+
+To view any sticky broadcasts on the device:
+adb shell dumpsys activity| grep sticky
+
+INFO - Support for other component types and dynamically adding extras is in the works, please check for updates
+An html report of the findings is located in : /Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/report/report.html
+Goodbye!

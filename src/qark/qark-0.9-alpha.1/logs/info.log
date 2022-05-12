@@ -2,51 +2,59 @@ INFO - Initializing...
 INFO - Identified Android SDK installation from a previous run.
 INFO - Initializing QARK
 
-INFO - Unpacking /Users/Johnny/Desktop/casa/apks/air.pokemonquiz.apk
-INFO - Zipfile: <zipfile.ZipFile object at 0x10438d7d0>
-INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/
-INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/air.pokemonquiz
+INFO - Unpacking /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x1031213d0>
+INFO - Extracted APK to /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/
+INFO - Finding AndroidManifest.xml in /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2
 INFO - AndroidManifest.xml found
-INFO - <?xml version="1.0" ?><manifest android:versionCode="1002000" android:versionName="1.2.0" package="air.pokemonquiz" xmlns:android="http://schemas.android.com/apk/res/android">
-<application android:hardwareAccelerated="false" android:icon="@7F020000" android:label="@7F040000">
-<activity android:configChanges="0x000004A0" android:label="@7F040000" android:launchMode="2" android:name=".AppEntry" android:screenOrientation="2" android:theme="@7F050000" android:windowSoftInputMode="0x00000012">
+INFO - <?xml version="1.0" ?><manifest android:installLocation="0" android:versionCode="7" android:versionName="1.53" package="com.distinctdev.tmtlite2" xmlns:android="http://schemas.android.com/apk/res/android">
+<application android:allowBackup="true" android:icon="@7F02005D" android:label="@7F070000" android:name=".application.MoronTestApplication" android:theme="@android:01030007">
+<activity android:label="@7F070000" android:name=".presentation.LoadingActivity" android:screenOrientation="0">
 <intent-filter>
 <action android:name="android.intent.action.MAIN">
 </action>
 <category android:name="android.intent.category.LAUNCHER">
 </category>
 </intent-filter>
-<meta-data android:name="namespaceVersion" android:value="3.500000">
-</meta-data>
-<meta-data android:name="aspectRatio" android:value="portrait">
-</meta-data>
-<meta-data android:name="autoOrients" android:value="false">
-</meta-data>
-<meta-data android:name="fullScreen" android:value="true">
-</meta-data>
-<meta-data android:name="uniqueappversionid" android:value="f4d4e0d9-7a40-40e1-b4fa-aa751aaa6223">
-</meta-data>
-<meta-data android:name="initialcontent" android:value="gamemania.swf">
-</meta-data>
-<meta-data android:name="containsVideo" android:value="false">
-</meta-data>
 </activity>
-<activity android:configChanges="0x00000FB0" android:name="com.google.ads.AdActivity">
+<activity android:configChanges="0x000000B0" android:label="@7F070000" android:name=".presentation.MainMenuActivity" android:screenOrientation="0">
+</activity>
+<activity android:configChanges="0x000000B0" android:label="@7F070000" android:name=".presentation.GameActivity" android:screenOrientation="0">
+</activity>
+<activity android:configChanges="0x000000B0" android:label="@7F070000" android:name=".presentation.OptionsActivity" android:screenOrientation="0">
+</activity>
+<activity android:configChanges="0x000000B0" android:label="@7F070000" android:name=".presentation.PreTestActivity" android:screenOrientation="0">
+</activity>
+<meta-data android:name="ADMOB_PUBLISHER_ID" android:value="a14e55401fbc578">
+</meta-data>
+<activity android:configChanges="0x000000B0" android:name="com.google.ads.AdActivity">
+</activity>
+<activity android:configChanges="0x000000B0" android:name="com.appssavvy.sdk.webview.ASVFSWebView">
+</activity>
+<activity android:configChanges="0x000000B0" android:name="com.appssavvy.sdk.videoview.ASVFSVideoView">
+</activity>
+<activity android:configChanges="0x000000B0" android:name="com.appssavvy.sdk.webview.ASVCustomVideoPlayer">
 </activity>
 </application>
-<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="14">
-</uses-sdk>
 <uses-permission android:name="android.permission.INTERNET">
 </uses-permission>
 <uses-permission android:name="android.permission.READ_PHONE_STATE">
 </uses-permission>
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
 </uses-permission>
+<uses-permission android:name="android.permission.GET_TASKS">
+</uses-permission>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+</uses-permission>
+<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="8">
+</uses-sdk>
+<supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true">
+</supports-screens>
 </manifest>
-INFO - Determined minimum SDK version to be:8
+INFO - Determined minimum SDK version to be:4
 WARNING - Logs are world readable on pre-4.1 devices. A malicious app could potentially retrieve sensitive data from the logs.
 ISSUES - APP COMPONENT ATTACK SURFACE
-WARNING - The backup element is not specified in the manifest, which therefore defaults to true. Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+WARNING - Backups enabled: Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
 INFO - Checking provider
 INFO - Checking activity
 WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
@@ -55,18 +63,18 @@ INFO - Checking services
 INFO - Checking receivers
 INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
 INFO - Trying to improve accuracy of the decompiled files
-INFO - Restored 4 file(s) out of 5 corrupt file(s)
-INFO - Decompiled code found at:/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/
+INFO - Restored 6 file(s) out of 11 corrupt file(s)
+INFO - Decompiled code found at:/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/
 INFO - Finding all java files
 INFO - Running Static Code Analysis...
 INFO - Looking for private key files in project
-INFO - This class is exported from a manifest item: AppEntry
-ERROR - Unable to create tree for parsing
-ERROR - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/air/pokemonquiz/AppEntry.java could not be parsed properly, which will negatively impact results
+INFO - This class is exported from a manifest item: LoadingActivity
+INFO - Checking this file for vulns: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/distinctdev/tmtlite2/presentation/LoadingActivity.java
 ISSUES - CRYPTO ISSUES
 INFO -  No issues to report
 ISSUES - BROADCAST ISSUES
-INFO -  No issues to report
+WARNING - A broadcast is sent from this class: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/distinctdev/tmtlite2/presentation/j.java, which does not specify the receiverPermission. This means any application on the device can receive this broadcast. You should investigate this for potential data leakage.
+WARNING - A broadcast is sent from this class: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/distinctdev/tmtlite2/presentation/g.java, which does not specify the receiverPermission. This means any application on the device can receive this broadcast. You should investigate this for potential data leakage.
 ISSUES - CERTIFICATE VALIDATION ISSUES
 INFO -  No issues to report
 ISSUES - PENDING INTENT ISSUES
@@ -74,47 +82,35 @@ INFO -  No issues to report
 ISSUES - FILE PERMISSION ISSUES
 INFO -  No issues to report
 ISSUES - WEB-VIEW ISSUES
-INFO - FOUND 10 WEBVIEWS:
-INFO - ['AdWebView d', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/AdVideoView.java']
-INFO - ['WebView b', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
-INFO - ['WebView c', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
-INFO - ['WebView d', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
-INFO - ['adWebView', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java']
-INFO - ['f', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java']
-INFO - ['h', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java']
-INFO - ['i', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java']
-INFO - ['localAdWebView', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java']
-INFO - ['localAdWebView', '/Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/ac.java']
-INFO - WebView: AdWebView d
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/AdVideoView.java
+INFO - FOUND 12 WEBVIEWS:
+INFO - ['U', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ASVFSWebView.java']
+INFO - ['WebView c', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/d.java']
+INFO - ['WebView d', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/f.java']
+INFO - ['a', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ab.java']
+INFO - ['f', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/c.java']
+INFO - ['f', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ASVFSWebView.java']
+INFO - ['g', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/distinctdev/tmtlite2/presentation/MainMenuActivity.java']
+INFO - ['g', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/facebook/android/i.java']
+INFO - ['localWebView', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ASVFSWebView.java']
+INFO - ['str1', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/google/ads/util/AdUtil.java']
+INFO - ['this.U', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ASVFSWebView.java']
+INFO - ['this.g', '/Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/facebook/android/i.java']
+INFO - WebView: U
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ASVFSWebView.java
 
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/UNIV_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
-WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowFileAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FURL_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/qark/poc/html/FURL_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FURL_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FURL_FILE_WARNING.html
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: WebView b
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
+WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this WebView: U If this is not expressly necessary, you should disable it, to prevent the possibility of XSS (cross-site scripting) attacks. More info: http://developer.android.com/guide/practices/security.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/JS_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/JS_WARNING.html
 
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
 INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/UNIV_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
-WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowFileAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FURL_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/qark/poc/html/FURL_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FURL_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FURL_FILE_WARNING.html
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
+WARNING - File system access is enabled in this WebView.U If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.UTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions.U To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+
+INFO - addJavascriptInterface not used in this WebView.U
+INFO - DOM Storage not enabled for this WebView.U
 INFO - WebView: WebView c
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/d.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -128,7 +124,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: WebView d
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/f.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -141,8 +137,8 @@ WARNING - JavaScript running in a file scheme context can access content from an
 INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: adWebView
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java
+INFO - WebView: a
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ab.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -156,7 +152,7 @@ INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. Y
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
 INFO - WebView: f
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/d.java
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/c.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -169,8 +165,50 @@ WARNING - JavaScript running in a file scheme context can access content from an
 INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: h
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java
+INFO - WebView: f
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ASVFSWebView.java
+
+WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this WebView: f If this is not expressly necessary, you should disable it, to prevent the possibility of XSS (cross-site scripting) attacks. More info: http://developer.android.com/guide/practices/security.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/JS_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/JS_WARNING.html
+
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.f If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.fTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions.f To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+
+INFO - addJavascriptInterface not used in this WebView.f
+INFO - DOM Storage not enabled for this WebView.f
+INFO - WebView: g
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/distinctdev/tmtlite2/presentation/MainMenuActivity.java
+
+WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this WebView: g If this is not expressly necessary, you should disable it, to prevent the possibility of XSS (cross-site scripting) attacks. More info: http://developer.android.com/guide/practices/security.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/JS_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/JS_WARNING.html
+
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.g If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.gTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions.g To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+
+INFO - addJavascriptInterface not used in this WebView.g
+INFO - DOM Storage not enabled for this WebView.g
+INFO - WebView: g
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/facebook/android/i.java
+
+WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this WebView: g If this is not expressly necessary, you should disable it, to prevent the possibility of XSS (cross-site scripting) attacks. More info: http://developer.android.com/guide/practices/security.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/JS_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/JS_WARNING.html
+
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.g If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.gTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions.g To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+
+INFO - addJavascriptInterface not used in this WebView.g
+INFO - DOM Storage not enabled for this WebView.g
+INFO - WebView: localWebView
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ASVFSWebView.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -183,8 +221,8 @@ WARNING - JavaScript running in a file scheme context can access content from an
 INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: i
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/internal/c.java
+INFO - WebView: str1
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/google/ads/util/AdUtil.java
 
 INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
 WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
@@ -197,34 +235,34 @@ WARNING - JavaScript running in a file scheme context can access content from an
 INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
 INFO - addJavascriptInterface not used in this WebView.
 INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: localAdWebView
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/AdActivity.java
+INFO - WebView: this.U
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/appssavvy/sdk/webview/ASVFSWebView.java
 
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
-INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/UNIV_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
-WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowFileAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FURL_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/qark/poc/html/FURL_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FURL_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FURL_FILE_WARNING.html
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
-INFO - WebView: localAdWebView
-INFO - File: /Users/Johnny/Desktop/casa/apks/air.pokemonquiz/classes_dex2jar/com/google/ads/ac.java
+WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this WebView: this.U If this is not expressly necessary, you should disable it, to prevent the possibility of XSS (cross-site scripting) attacks. More info: http://developer.android.com/guide/practices/security.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/JS_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/JS_WARNING.html
 
-INFO - WEBVIEW DEFAULTS DO NOT APPEAR TO BE OVERRIDDEN-DISPLAYING DEFAULTS:
-WARNING - All Webviews in JellyBean (4.3 - API <= 18) have catastrophic Same Origin Policy Flaws. You should not support these versions, unless your WebView never loads content from external domains. Google no longer supports patching the browser used in these WebViews: http://stanford.edu/~pcm2d/blog/webview_sop.html.
-INFO - JS not enabled on this webView.
 INFO - BaseURL not redefined in this WebView.
-WARNING - File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.htmlIf untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html.Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
-WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
-WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/UNIV_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
-WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowFileAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FURL_FILE_WARNING.html. Note: A local copy of this html file can also be found at <install_dir>/qark/poc/html/FURL_FILE_WARNING.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FURL_FILE_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FURL_FILE_WARNING.html
-INFO - setPluginsEnabled has been deprecated since API 9 and is removed in 18. You should update this code.
-INFO - addJavascriptInterface not used in this WebView.
-INFO - DOM Storage not enabled for this WebView.
+WARNING - File system access is enabled in this WebView.this.U If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.this.UTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions.this.U To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+
+INFO - addJavascriptInterface not used in this WebView.this.U
+INFO - DOM Storage not enabled for this WebView.this.U
+INFO - WebView: this.g
+INFO - File: /Users/Johnny/Desktop/casa/apks/com.distinctdev.tmtlite2/classes_dex2jar/com/facebook/android/i.java
+
+WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this WebView: this.g If this is not expressly necessary, you should disable it, to prevent the possibility of XSS (cross-site scripting) attacks. More info: http://developer.android.com/guide/practices/security.html To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/JS_WARNING.htmlNote: A local copy of this html file can also be found at <install_dir>/quark/poc/html/JS_WARNING.html
+
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.this.g If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/FILE_SYS_WARN.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.this.gTo validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/WV_CPA_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+WARNING - JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion < 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions.this.g To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/poc/html/UNIV_FILE_WARNING.html Note: A local copy of this html file can also be found at <install_dir>/quark/poc/html/UNIV_FILE_WARNING.html
+
+INFO - addJavascriptInterface not used in this WebView.this.g
+INFO - DOM Storage not enabled for this WebView.this.g
 WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to complete this module. The impact should be verified manually anyway, so have fun...
 ISSUES - ADB EXPLOIT COMMANDS
 INFO - Until we perfect this, for manually testing, run the following command to see all the options and their meanings: adb shell am. Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here: http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb

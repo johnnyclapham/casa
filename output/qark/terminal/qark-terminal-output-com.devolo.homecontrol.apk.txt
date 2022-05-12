@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "src/qark/qark-0.9-alpha.1/qark.py", line 32, in <module>
+    from modules import findMethods
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/modules/findMethods.py", line 8, in <module>
+    import lib.plyj.parser as plyj
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/plyj/parser.py", line 3, in <module>
+    import ply.lex as lex
+  File "/Users/Johnny/Desktop/casa/src/qark/qark-0.9-alpha.1/lib/ply/lex.py", line 53, in <module>
+    _is_identifier = re.compile(r'^[a-zA-Z0-9_]+$')
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 194, in compile
+    return _compile(pattern, flags)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py", line 249, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sre_compile.py", line 572, in compile
+    p = sre_parse.parse(p, flags)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sre_parse.py", line 731, in parse
+    pattern = Pattern()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sre_parse.py", line 72, in __init__
+    self.groupdict = {}
+KeyboardInterrupt
