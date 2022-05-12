@@ -291,7 +291,7 @@ def parse_reports(casa_output_file):
 
                 success_count += 1
             except:
-                print("failed to parse APK: " + apk_name)
+                print("*********failed to parse APK: " + apk_name)
                 parse_failed(casa_output_file)
                 fail_count += 1
     print("APK CASA reports successfully generated:  " + str(success_count))
@@ -311,7 +311,7 @@ def main():
 
     # Note: Execute our runner script to automatically evaluate our APK
     #       using all tools
-    # execute_tools(args)  # TODO: Comment/ Uncomment as needed for testing
+    execute_tools(args)  # TODO: Comment/ Uncomment as desird
 
     # Note: Specify which output text file to write casa report to
     casa_output_file = 'casa_output.txt'

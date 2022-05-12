@@ -18,10 +18,13 @@ Input APK: com.commandfusion.droidviewer.apk
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '32', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -38,11 +41,13 @@ Input APK: com.commandfusion.droidviewer.apk
 Input APK: com.energeek.cytechaphone.apk
 ------------------------
 -> Tool: CryptoGuard
+    UNIQUE COUNT: 0
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 5 leaks
 
 ------------------------
@@ -62,12 +67,14 @@ Input APK: com.seoby.smarthome.thermostat.apk
     -> {'count': '1', 'group': 'Found broken crypto schemes', 'code': '1', 'bytes': '0'}
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 2
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -87,10 +94,13 @@ Input APK: com.ga.anyemulatorgame.apk
     -> {'count': '2', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '16', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
     -> {'count': '6', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -112,12 +122,14 @@ Input APK: com.sixwaves.crosswordpop.apk
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '14', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '17', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - The following receiver are exported and protected by a permission, but the
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 2
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -137,10 +149,13 @@ Input APK: com.aceviral.speedboat.apk
     -> {'count': '6', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '4', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '15', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -161,11 +176,13 @@ Input APK: com.navyduck.creeperdefense.apk
     -> {'count': '16', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
     -> {'count': '15', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '6', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 4 leaks
 
 ------------------------
@@ -190,6 +207,7 @@ Input APK: co.kr.medialog.swatandzombie.apk
     -> {'count': '20', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
     -> {'count': '50', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 8
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
@@ -200,8 +218,9 @@ Input APK: co.kr.medialog.swatandzombie.apk
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
 
 ------------------------
@@ -221,10 +240,13 @@ Input APK: com.mathopen.androidmath.apk
     -> {'count': '2', 'group': 'Found broken crypto schemes', 'code': '1', 'bytes': '0'}
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used untrusted HostNameVerifier', 'code': '6', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -246,11 +268,13 @@ Input APK: com.voldaran.puzzle.graBLOX.apk
     -> {'count': '4', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '6', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '11', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 12 leaks
 
 ------------------------
@@ -273,14 +297,16 @@ Input APK: com.orvibo.rf.activitys.apk
     -> {'count': '2', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
     -> {'count': '7', 'group': 'Used Predictable KeyStore Password', 'code': '14', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 2
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 17 leaks
 
 ------------------------
@@ -301,14 +327,16 @@ Input APK: com.nokia.dhbu.smartHome.apk
     -> {'count': '6', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used untrusted HostNameVerifier', 'code': '6', 'bytes': '0'}
     -> {'count': '5', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent2 used to create instance of PendingIntent. A 
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 2
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -342,6 +370,7 @@ Input APK: com.iot.engine.apk
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used untrusted HostNameVerifier', 'code': '6', 'bytes': '0'}
     -> {'count': '6', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - The following receiver are exported and protected by a permission, but the
@@ -351,8 +380,9 @@ Input APK: com.iot.engine.apk
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 2
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 9 leaks
 
 ------------------------
@@ -376,11 +406,13 @@ Input APK: com.glu.android.zombsniper.apk
     -> {'count': '20', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
     -> {'count': '68', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '6', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 7
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - The following receiver are exported and protected by a permission, but the
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -402,10 +434,13 @@ Input APK: com.rubicon.dev.yachty.apk
     -> {'count': '1', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used < 1000 iteration for PBE', 'code': '8', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -430,11 +465,13 @@ Input APK: com.mediola.spro.apk
     -> {'count': '1', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '1', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
     -> {'count': '6', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 8
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -456,12 +493,14 @@ Input APK: au.com.mobelisk.iotcommander.apk
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '2', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -497,10 +536,13 @@ Input APK: com.oxothuk.worldpuzzle.apk
     -> {'count': '9', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '18', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '27', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -521,10 +563,13 @@ Input APK: com.keeproduct.smartHome.apk
     -> {'count': '9', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '12', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -544,11 +589,13 @@ Input APK: com.cometa.iot.apk
     -> {'count': '11', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -570,10 +617,13 @@ Input APK: com.mysmartblinds2.android.apk
     -> {'count': '4', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '4', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used Predictable KeyStore Password', 'code': '14', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -593,10 +643,13 @@ Input APK: com.ezjoynetwork.jewelsmaze.apk
     -> {'count': '5', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '9', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 4 leaks
 
 ------------------------
@@ -617,10 +670,13 @@ Input APK: newmatching.mickey.mouse.fun.play.apk
     -> {'count': '16', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
     -> {'count': '4', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -641,10 +697,13 @@ Input APK: com.iotwear.wear.apk
     -> {'count': '6', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '8', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used Predictable KeyStore Password', 'code': '14', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> N/A FlowDroid failed
 ------------------------
 
@@ -667,10 +726,13 @@ Input APK: com.devolo.homecontrol.apk
     -> {'count': '3', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '1', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '12', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 7
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -696,10 +758,13 @@ Input APK: com.candy.givemespirit.apk
     -> {'count': '1', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
     -> {'count': '9', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used Predictable KeyStore Password', 'code': '14', 'bytes': '0'}
+    UNIQUE COUNT: 9
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -722,10 +787,13 @@ Input APK: com.sibforce.bubbleblast.apk
     -> {'count': '4', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '3', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '10', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -745,10 +813,13 @@ Input APK: com.kristanix.android.dominosolitaire.apk
     -> {'count': '11', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '8', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '7', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 6 leaks
 
 ------------------------
@@ -765,10 +836,13 @@ Input APK: com.kristanix.android.dominosolitaire.apk
 Input APK: com.abb.domustech.apk
 ------------------------
 -> Tool: CryptoGuard
+    UNIQUE COUNT: 0
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -790,10 +864,13 @@ Input APK: com.philips.hueswitcher.quickstart.apk
     -> {'count': '4', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
     -> {'count': '11', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '20', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 1 leaks
 
 ------------------------
@@ -815,10 +892,13 @@ Input APK: air.com.metagu.RewardHunterA800.apk
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '4', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -842,10 +922,13 @@ Input APK: com.kaonmedia.iotmobileclient.apk
     -> {'count': '1', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '1', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 7
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -862,10 +945,13 @@ Input APK: com.kaonmedia.iotmobileclient.apk
 Input APK: com.advancedquonsettechnology.hcaapp.apk
 ------------------------
 -> Tool: CryptoGuard
+    UNIQUE COUNT: 0
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> N/A FlowDroid failed
 ------------------------
 
@@ -886,10 +972,13 @@ Input APK: com.devicecortex.zcastle.apk
     -> {'count': '1', 'group': 'Used untrusted HostNameVerifier', 'code': '6', 'bytes': '0'}
     -> {'count': '15', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '8', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -913,10 +1002,13 @@ Input APK: com.cognitial.directvremote.apk
     -> {'count': '23', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '2', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 7
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -937,10 +1029,13 @@ Input APK: whats.the.saying.quiz.apk
     -> {'count': '9', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '4', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '8', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 5 leaks
 
 ------------------------
@@ -960,10 +1055,13 @@ Input APK: com.lightwaverf.linkplus.apk
     -> {'count': '16', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '7', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -984,10 +1082,13 @@ Input APK: me.zed_0xff.android.alchemy.apk
     -> {'count': '16', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '10', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 9 leaks
 
 ------------------------
@@ -1007,10 +1108,13 @@ Input APK: com.alonsoruibal.chessdroid.lite.apk
     -> {'count': '4', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '5', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '5', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 1 leaks
 
 ------------------------
@@ -1032,10 +1136,13 @@ Input APK: com.ensenasoft.mahjongdlxf.apk
     -> {'count': '6', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '14', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1057,10 +1164,13 @@ Input APK: com.angryheroesgame.halloween.apk
     -> {'count': '1', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
     -> {'count': '17', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1081,10 +1191,13 @@ Input APK: com.memory.activity.apk
     -> {'count': '1', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
     -> {'count': '7', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
 
 ------------------------
@@ -1107,10 +1220,13 @@ Input APK: com.fgol.shark3.apk
     -> {'count': '6', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used Predictable KeyStore Password', 'code': '14', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 4 leaks
 
 ------------------------
@@ -1130,13 +1246,15 @@ Input APK: sts.dl.apk
     -> {'count': '5', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '12', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - The following receiver are exported and protected by a permission, but the
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 2
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
 
 ------------------------
@@ -1156,10 +1274,13 @@ Input APK: com.bpl.homecenter.ui.apk
     -> {'count': '1', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '1', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 28 leaks
 
 ------------------------
@@ -1181,10 +1302,13 @@ Input APK: com.gamesforfriends.icomania.apk
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '8', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '4', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 6 leaks
 
 ------------------------
@@ -1203,11 +1327,13 @@ Input APK: appinventor.ai_digitalartsmind.SmartHome.apk
 -> Tool: CryptoGuard
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 2
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1224,10 +1350,13 @@ Input APK: appinventor.ai_digitalartsmind.SmartHome.apk
 Input APK: com.comfortclick.cmclient.apk
 ------------------------
 -> Tool: CryptoGuard
+    UNIQUE COUNT: 0
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1250,11 +1379,13 @@ Input APK: com.synapse.android.burn.apk
     -> {'count': '8', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '1', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
     -> {'count': '23', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> N/A FlowDroid failed
 ------------------------
 
@@ -1280,14 +1411,16 @@ Input APK: com.madfingergames.deadzone.apk
     -> {'count': '16', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '2', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
     -> {'count': '7', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 10
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - getInstance should not be called with ECB as the cipher mode, as it is ins
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 2
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 9 leaks
 
 ------------------------
@@ -1310,11 +1443,13 @@ Input APK: allterco.bg.shelly.apk
     -> {'count': '3', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '2', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '14', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - The following receiver are exported and protected by a permission, but the
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> N/A FlowDroid failed
 ------------------------
 
@@ -1333,11 +1468,13 @@ Input APK: com.gemicates.hagway.apk
     -> {'count': '2', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 3
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> N/A FlowDroid failed
 ------------------------
 
@@ -1359,13 +1496,15 @@ Input APK: com.bgames.android.bikerun.apk
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '9', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '9', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - The following receiver are exported and protected by a permission, but the
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 2
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 11 leaks
 
 ------------------------
@@ -1382,11 +1521,13 @@ Input APK: com.bgames.android.bikerun.apk
 Input APK: com.activehomevista.apk
 ------------------------
 -> Tool: CryptoGuard
+    UNIQUE COUNT: 0
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1405,12 +1546,14 @@ Input APK: com.kaon.android.lepton.hitachi.apk
 -> Tool: CryptoGuard
     -> {'count': '2', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '2', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 2
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
 
 ------------------------
@@ -1429,10 +1572,13 @@ Input APK: com.hackajoelabs.hook.apk
 -> Tool: CryptoGuard
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used untrusted HostNameVerifier', 'code': '6', 'bytes': '0'}
+    UNIQUE COUNT: 2
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1453,10 +1599,13 @@ Input APK: com.yourislandcraft.demo.lifeincproduction.apk
     -> {'count': '1', 'group': 'Used < 1000 iteration for PBE', 'code': '8', 'bytes': '0'}
     -> {'count': '20', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
     -> {'count': '35', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1479,10 +1628,13 @@ Input APK: de.habanero.quizoid.apk
     -> {'count': '2', 'group': 'Used < 1000 iteration for PBE', 'code': '8', 'bytes': '0'}
     -> {'count': '8', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
     -> {'count': '1', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1517,13 +1669,15 @@ Input APK: com.icontrol.centurylink.apk
     -> {'count': '1', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '1', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
     -> {'count': '15', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 2 leaks
 
 ------------------------
@@ -1545,11 +1699,13 @@ Input APK: com.kabam.fortress.apk
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '2', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '6', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 5
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - Implicit Intent: localIntent used to create instance of PendingIntent. A m
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1572,10 +1728,13 @@ Input APK: com.innovativeGames.archery.apk
     -> {'count': '7', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '3', 'group': 'Found constant IV in code', 'code': '10', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1598,10 +1757,13 @@ Input APK: com.mindgames.ak.aj.iqtestwithanswers.apk
     -> {'count': '10', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '1', 'group': 'Found constant salts in code', 'code': '9', 'bytes': '0'}
     -> {'count': '8', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1620,11 +1782,13 @@ Input APK: com.eezy.app.apk
 -> Tool: CryptoGuard
     -> {'count': '3', 'group': 'Found broken hash functions', 'code': '2', 'bytes': '0'}
     -> {'count': '8', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 2
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - The following receiver are exported and protected by a permission, but the
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 6 leaks
 
 ------------------------
@@ -1650,11 +1814,13 @@ Input APK: com.google.android.tv.remote.apk
     -> {'count': '1', 'group': 'Should check HostnameVerification manually', 'code': '12', 'bytes': '0'}
     -> {'count': '14', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
     -> {'count': '13', 'group': 'Used Predictable KeyStore Password', 'code': '14', 'bytes': '0'}
+    UNIQUE COUNT: 9
 ------------------------
 -> Tool: QARK
     -> POTENTIAL VULNERABILITY - The following provider are exported and protected by a permission, but the
+    UNIQUE COUNT: 1
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1677,10 +1843,13 @@ Input APK: com.baringsprod.numbersAddict.free.gp.apk
     -> {'count': '2', 'group': 'Uses untrusted TrustManager', 'code': '4', 'bytes': '0'}
     -> {'count': '5', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '6', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 6
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
 
 ------------------------
@@ -1701,10 +1870,13 @@ Input APK: uk.co.aifactory.gofree.apk
     -> {'count': '16', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
     -> {'count': '5', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> [main] INFO soot.jimple.infoflow.android.SetupApplication - Found 3 leaks
 
 ------------------------
@@ -1725,9 +1897,12 @@ Input APK: com.distinctdev.tmtlite2.apk
     -> {'count': '16', 'group': 'Used constant keys in code', 'code': '3', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used HTTP Protocol', 'code': '7', 'bytes': '0'}
     -> {'count': '3', 'group': 'Used untrusted PRNG', 'code': '13', 'bytes': '0'}
+    UNIQUE COUNT: 4
 ------------------------
 -> Tool: QARK
+    -> N/A: QARK cannot find vulnerabilities
+    UNIQUE COUNT: 0
 ------------------------
--> Tool: QARK
+-> Tool: FlowDroid
     -> N/A FlowDroid failed
 ------------------------
